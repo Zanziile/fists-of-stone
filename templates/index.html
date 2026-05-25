@@ -368,6 +368,14 @@
     .sp-es   { color: var(--poe-blue); font-weight: 600; }
     .sp-more { color: var(--poe-gold); font-weight: 600; }
     .sp-note { color: var(--poe-text-dim); font-size: 0.74rem; }
+    .sp-controls { display: flex; gap: 0.35rem; flex-wrap: wrap; margin-bottom: 0.4rem; }
+    .sp-btn {
+      background: #1a1510; border: 1px solid var(--poe-border);
+      color: var(--poe-text-dim); font-size: 0.71rem; padding: 0.18rem 0.55rem;
+      border-radius: 3px; cursor: pointer; transition: all 0.15s; line-height: 1.4;
+    }
+    .sp-btn:hover { border-color: var(--poe-gold-dim); color: var(--poe-text); }
+    .sp-btn.active { background: rgba(200,160,69,0.12); border-color: var(--poe-gold-dim); color: var(--poe-gold); }
 
     .empty-state {
       text-align: center;
@@ -526,6 +534,17 @@ let rawPrefixes = [];     // all mods from API (unfiltered)
 let rawSuffixes = [];
 let availablePrefixes = [];  // filtered to ilvl, one per family
 let availableSuffixes = [];
+let qualityEnabled = false;  // +20% quality toggle
+let runeCount = 0;           // 0 / 1 / 2 runes at +18% each
+
+function toggleQuality() {
+  qualityEnabled = !qualityEnabled;
+  if (lastConvertData) renderResult(lastConvertData);
+}
+function setRunes(n) {
+  runeCount = n;
+  if (lastConvertData) renderResult(lastConvertData);
+}
 let prefixSlots = [];   // list of selected mod objects (or null)
 let suffixSlots = [];
 let lastConvertData = null;  // last API result for live char-level updates
@@ -977,20 +996,50 @@ function renderResult(data) {
   {
     const charLevel = getCharLevel();
     const stats = computeStatsPreview(results, charLevel);
+
+    // Quality + rune multiplier
+    const baseMult = 1 + (qualityEnabled ? 0.20 : 0) + runeCount * 0.18;
+    const baseMultParts = [];
+    if (qualityEnabled) baseMultParts.push("качество +20%");
+    if (runeCount === 1) baseMultParts.push("1 руна +18%");
+    if (runeCount === 2) baseMultParts.push("2 руны +36%");
+    const baseMultRow = baseMultParts.length > 0 ? `
+      <div class="sp-row">
+        <span class="sp-more">×${baseMult.toFixed(2)}</span>
+        <span>к базовым характеристикам предмета</span>
+        <span class="sp-note">(${baseMultParts.join(" + ")})</span>
+      </div>` : "";
+
+    // Итоговые значения от перчаток
+    const totalEva = Math.round(stats.extraEva * baseMult);
+    const totalEs  = Math.round(stats.extraEs  * baseMult);
+
     html += `
       <hr class="item-separator">
       <div class="stats-preview">
-        <div class="sp-title">Примерные характеристики при уровне ${charLevel} <span style="font-weight:normal;opacity:0.6;">· без качества</span></div>
+        <div class="sp-controls">
+          <button class="sp-btn${qualityEnabled ? " active" : ""}" onclick="toggleQuality()">Качество +20%</button>
+          <button class="sp-btn${runeCount===0 ? " active" : ""}" onclick="setRunes(0)">Без рун</button>
+          <button class="sp-btn${runeCount===1 ? " active" : ""}" onclick="setRunes(1)">1 руна +18%</button>
+          <button class="sp-btn${runeCount===2 ? " active" : ""}" onclick="setRunes(2)">2 руны +36%</button>
+        </div>
+        <div class="sp-title">Примерные характеристики при уровне ${charLevel}</div>
         <div class="sp-row">
           <span class="sp-eva">+${stats.extraEva}</span><span>к Evasion</span>
           <span class="sp-es">+${stats.extraEs}</span><span>к Energy Shield</span>
-          <span class="sp-note">(имплисит +3/ур · +1/ур${stats.perLevelShowcase ? " + конвертированные showcase" : ""})</span>
+          <span class="sp-note">(имплисит +3/ур · +1/ур${stats.perLevelShowcase ? " + showcase" : ""})</span>
+        </div>
+        ${baseMultRow}
+        <div class="sp-row" style="margin-top:0.3rem;padding-top:0.35rem;border-top:1px solid rgba(58,46,30,0.35);">
+          <span style="font-size:0.7rem;color:var(--poe-text-dim);text-transform:uppercase;letter-spacing:0.05em;flex-basis:100%;">Итого от перчаток${stats.perLevelShowcase ? " (showcase)" : ""}</span>
+          <span class="sp-eva">≈${totalEva}</span><span>EVA</span>
+          <span class="sp-es">≈${totalEs}</span><span>ES</span>
         </div>
         ${stats.moreMods.map(m => `
         <div class="sp-row">
           <span class="sp-more">${m.approx ? "~" : ""}${m.pct}%</span>
           <span>more Global EVA+ES</span>
-          <span class="sp-note">(×${(1 + m.pct / 100).toFixed(2)} к общему рейтингу — из: ${escHtml(m.label)})</span>
+          <span class="sp-note">(×${(1 + m.pct / 100).toFixed(2)} к общему — из: ${escHtml(m.label)})</span>
         </div>
         `).join("")}
       </div>
