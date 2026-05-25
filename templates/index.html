@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stone of Fist — PoE2 Glove Converter</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    :root {
+      --poe-gold: #c8a045;
+      --poe-gold-dim: #a07828;
+      --poe-bg: #0d0d0d;
+      --poe-panel: #1a1510;
+      --poe-border: #3a2e1e;
+      --poe-text: #d0c8b0;
+      --poe-text-dim: #8a8070;
+      --poe-green: #4caf50;
+      --poe-orange: #e07020;
+      --poe-red: #c04040;
+      --poe-blue: #4a90d9;
+      --poe-implicit: #7fa0c0;
+    }
+
+    body {
+      background: var(--poe-bg);
+      color: var(--poe-text);
+      font-family: "Segoe UI", system-ui, sans-serif;
+      min-height: 100vh;
+    }
+
+    h1 {
+      color: var(--poe-gold);
+      font-size: 1.6rem;
+      letter-spacing: 0.05em;
+      text-shadow: 0 0 12px rgba(200,160,69,0.4);
+    }
+
+    .subtitle {
+      color: var(--poe-text-dim);
+      font-size: 0.85rem;
+    }
+
+    .panel {
+      background: var(--poe-panel);
+      border: 1px solid var(--poe-border);
+      border-radius: 6px;
+      padding: 1.2rem;
+    }
+
+    .panel-title {
+      color: var(--poe-gold);
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.8rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--poe-border);
+    }
+
+    /* Selects */
+    select, .form-select {
+      background: #120f0a;
+      border: 1px solid var(--poe-border);
+      color: var(--poe-text);
+      font-size: 0.85rem;
+    }
+    select:focus, .form-select:focus {
+      background: #1a1510;
+      border-color: var(--poe-gold-dim);
+      color: var(--poe-text);
+      box-shadow: 0 0 0 2px rgba(200,160,69,0.2);
+    }
+    select option {
+      background: #1a1510;
+    }
+
+    /* Mod row */
+    .mod-row {
+      display: flex;
+      gap: 0.4rem;
+      margin-bottom: 0.4rem;
+      align-items: center;
+    }
+    .mod-row select {
+      flex: 1;
+    }
+    .btn-remove {
+      background: none;
+      border: 1px solid var(--poe-border);
+      color: var(--poe-text-dim);
+      border-radius: 4px;
+      padding: 0 0.5rem;
+      font-size: 1rem;
+      line-height: 1.8;
+      cursor: pointer;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .btn-remove:hover {
+      color: var(--poe-red);
+      border-color: var(--poe-red);
+    }
+
+    .btn-add {
+      background: none;
+      border: 1px dashed var(--poe-border);
+      color: var(--poe-text-dim);
+      border-radius: 4px;
+      width: 100%;
+      padding: 0.3rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: color 0.15s, border-color 0.15s;
+      margin-top: 0.2rem;
+    }
+    .btn-add:hover:not(:disabled) {
+      color: var(--poe-gold);
+      border-color: var(--poe-gold-dim);
+    }
+    .btn-add:disabled {
+      opacity: 0.35;
+      cursor: default;
+    }
+
+    .section-label {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--poe-text-dim);
+      margin: 0.8rem 0 0.3rem;
+    }
+    .section-label span {
+      font-size: 0.7rem;
+      background: #2a2018;
+      padding: 0.1rem 0.4rem;
+      border-radius: 3px;
+      margin-left: 0.3rem;
+    }
+
+    /* Convert button */
+    .btn-convert {
+      background: linear-gradient(135deg, #7a4a10, #5a3008);
+      border: 1px solid var(--poe-gold-dim);
+      color: var(--poe-gold);
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      padding: 0.5rem 1.5rem;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 1rem;
+      font-size: 0.95rem;
+      transition: background 0.2s, box-shadow 0.2s;
+    }
+    .btn-convert:hover {
+      background: linear-gradient(135deg, #9a5a18, #7a4010);
+      box-shadow: 0 0 10px rgba(200,160,69,0.3);
+    }
+
+    /* Item frame (result) */
+    .item-frame {
+      background: #0f0d08;
+      border: 1px solid var(--poe-border);
+      border-radius: 6px;
+      padding: 1rem 1.2rem;
+    }
+
+    .item-name {
+      color: var(--poe-gold);
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 0.2rem;
+    }
+    .item-base {
+      color: var(--poe-text-dim);
+      font-size: 0.8rem;
+      text-align: center;
+      margin-bottom: 0.6rem;
+    }
+
+    .item-separator {
+      border: none;
+      border-top: 1px solid var(--poe-border);
+      margin: 0.5rem 0;
+    }
+
+    .mod-implicit {
+      color: var(--poe-implicit);
+      font-size: 0.82rem;
+      padding: 0.1rem 0;
+    }
+
+    /* Conversion rows */
+    .conv-row {
+      display: grid;
+      grid-template-columns: 1fr 30px 1fr;
+      gap: 0.3rem;
+      align-items: start;
+      padding: 0.3rem 0;
+      border-bottom: 1px solid rgba(58,46,30,0.4);
+      font-size: 0.82rem;
+    }
+    .conv-row:last-child {
+      border-bottom: none;
+    }
+
+    .conv-original {
+      color: var(--poe-text-dim);
+    }
+
+    .conv-arrow {
+      text-align: center;
+      color: var(--poe-border);
+      font-size: 0.9rem;
+      padding-top: 0.05rem;
+    }
+
+    .conv-result {
+      font-weight: 500;
+    }
+    .conv-result.known {
+      color: var(--poe-green);
+    }
+    .conv-result.predicted {
+      color: var(--poe-gold);
+    }
+    .conv-result.partial {
+      color: var(--poe-orange);
+    }
+    .conv-result.unknown {
+      color: var(--poe-red);
+    }
+
+    .badge-prefix {
+      font-size: 0.65rem;
+      background: #1a2a3a;
+      color: #6090c0;
+      border-radius: 3px;
+      padding: 0.1rem 0.3rem;
+      vertical-align: middle;
+      margin-right: 0.2rem;
+    }
+    .badge-suffix {
+      font-size: 0.65rem;
+      background: #2a1a2a;
+      color: #9060a0;
+      border-radius: 3px;
+      padding: 0.1rem 0.3rem;
+      vertical-align: middle;
+      margin-right: 0.2rem;
+    }
+
+    .legend {
+      font-size: 0.72rem;
+      color: var(--poe-text-dim);
+      margin-top: 0.6rem;
+      display: flex;
+      gap: 0.8rem;
+      flex-wrap: wrap;
+    }
+    .legend-item::before {
+      content: "●";
+      margin-right: 0.2rem;
+    }
+    .legend-item.known { color: var(--poe-green); }
+    .legend-item.predicted { color: var(--poe-gold); }
+    .legend-item.partial { color: var(--poe-orange); }
+    .legend-item.unknown { color: var(--poe-red); }
+
+    .search-input {
+      background: #100d08;
+      border: 1px solid var(--poe-border);
+      color: var(--poe-text);
+      font-size: 0.8rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      width: 100%;
+      margin-bottom: 0.35rem;
+    }
+    .search-input:focus {
+      outline: none;
+      border-color: var(--poe-gold-dim);
+      box-shadow: 0 0 0 2px rgba(200,160,69,0.15);
+    }
+    .search-input::placeholder {
+      color: var(--poe-text-dim);
+      opacity: 0.7;
+    }
+
+    .empty-state {
+      text-align: center;
+      color: var(--poe-text-dim);
+      font-size: 0.85rem;
+      padding: 2rem;
+    }
+
+    .no-data-banner {
+      background: #2a1a0a;
+      border: 1px solid #6a3a10;
+      border-radius: 5px;
+      padding: 0.6rem 1rem;
+      font-size: 0.82rem;
+      color: var(--poe-orange);
+      margin-bottom: 1rem;
+    }
+
+    .header-bar {
+      background: #100c08;
+      border-bottom: 1px solid var(--poe-border);
+      padding: 0.8rem 0;
+      margin-bottom: 1.2rem;
+    }
+
+    .btn-quit {
+      background: none;
+      border: 1px solid #5a2a2a;
+      color: #804040;
+      border-radius: 4px;
+      padding: 0.2rem 0.7rem;
+      font-size: 0.75rem;
+      cursor: pointer;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .btn-quit:hover {
+      color: var(--poe-red);
+      border-color: var(--poe-red);
+    }
+  </style>
+</head>
+<body>
+
+<div class="header-bar">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;">
+    <div>
+      <h1 style="margin:0;">⚔ Stone of Fist</h1>
+      <div class="subtitle">Path of Exile 2 — Way of the Stonefist glove converter</div>
+    </div>
+    {% if local_mode %}<button class="btn-quit" onclick="quitApp()" title="Остановить сервер и закрыть">✕ Закрыть</button>{% endif %}
+  </div>
+</div>
+
+<div class="container pb-4">
+
+  {% if not data_loaded %}
+  <div class="no-data-banner">
+    ⚠ No glove data found. Run <code>python scrape_data.py</code> first to populate the database.
+  </div>
+  {% endif %}
+
+  <div class="row g-3">
+    <!-- ===== LEFT: Selector ===== -->
+    <div class="col-12 col-lg-5">
+      <div class="panel">
+        <div class="panel-title">Build Your Gloves</div>
+
+        <!-- Base Type -->
+        <div class="section-label">Base Type</div>
+        <div style="display:flex;gap:0.6rem;align-items:center;">
+          <select id="base-select" class="form-select form-select-sm" style="flex:1" onchange="onBaseChange()">
+            <option value="">— Select base type —</option>
+            {% for type_key, type_label, gloves in glove_groups %}
+            <optgroup label="{{ type_label }}">
+              {% for g in gloves %}
+              <option value="{{ g.name }}" data-type="{{ g.type }}">{{ g.name }}</option>
+              {% endfor %}
+            </optgroup>
+            {% endfor %}
+          </select>
+          <div id="base-thumb" style="width:40px;height:40px;flex-shrink:0;display:flex;align-items:center;justify-content:center;">
+            <img id="base-thumb-img" src="" alt="" style="max-width:40px;max-height:40px;display:none;image-rendering:pixelated;" />
+          </div>
+        </div>
+
+        <!-- Item Level -->
+        <div class="section-label">Item Level</div>
+        <div style="display:flex;gap:0.5rem;align-items:center;">
+          <input id="item-level-input" type="number" min="1" max="100" value="75"
+            class="form-control form-control-sm" style="width:80px;"
+            oninput="onItemLevelChange()" />
+          <span id="ilvl-hint" style="font-size:0.75rem;color:var(--poe-text-dim);"></span>
+        </div>
+
+        <!-- Prefixes -->
+        <div class="section-label">
+          Prefixes
+          <span id="prefix-count">0 / 3</span>
+        </div>
+        <input id="prefix-search" type="text" class="search-input"
+          placeholder="Фильтр префиксов..." style="display:none;"
+          oninput="onSearchChange('prefix', this.value)" />
+        <div id="prefix-slots"></div>
+        <button class="btn-add" id="btn-add-prefix" onclick="addModSlot('prefix')" disabled>
+          + Add Prefix
+        </button>
+
+        <!-- Suffixes -->
+        <div class="section-label">
+          Suffixes
+          <span id="suffix-count">0 / 3</span>
+        </div>
+        <input id="suffix-search" type="text" class="search-input"
+          placeholder="Фильтр суффиксов..." style="display:none;"
+          oninput="onSearchChange('suffix', this.value)" />
+        <div id="suffix-slots"></div>
+        <button class="btn-add" id="btn-add-suffix" onclick="addModSlot('suffix')" disabled>
+          + Add Suffix
+        </button>
+
+        <button class="btn-convert" onclick="runConvert()">
+          Convert → Fists of Stone
+        </button>
+      </div>
+    </div>
+
+    <!-- ===== RIGHT: Result ===== -->
+    <div class="col-12 col-lg-7">
+      <div class="panel">
+        <div class="panel-title">Conversion Result</div>
+
+        <div id="result-area">
+          <div class="empty-state">
+            Select a base type and modifiers, then click Convert.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// =============================================
+// Glove image map (injected from Flask)
+// =============================================
+const GLOVE_IMAGES = {{ glove_images | tojson }};
+
+// =============================================
+// State
+// =============================================
+let rawPrefixes = [];     // all mods from API (unfiltered)
+let rawSuffixes = [];
+let availablePrefixes = [];  // filtered to ilvl, one per family
+let availableSuffixes = [];
+let prefixSlots = [];   // list of selected mod objects (or null)
+let suffixSlots = [];
+let prefixSearch = "";   // current search term for prefix filter
+let suffixSearch = "";   // current search term for suffix filter
+
+// =============================================
+// Helpers: item level + ilvl filter
+// =============================================
+function getItemLevel() {
+  return parseInt(document.getElementById("item-level-input").value) || 100;
+}
+
+function filterModsByIlvl(mods, ilvl) {
+  // For each unique stat type (normalized_key), keep only the HIGHEST-level
+  // tier whose ilvl requirement is <= the given ilvl
+  const byKey = {};
+  for (const m of mods) {
+    const key = modFamilyKey(m);
+    const modLvl = parseInt(m.level) || 0;
+    if (modLvl > ilvl) continue;
+    const prevLvl = parseInt((byKey[key] || {}).level) || 0;
+    if (!byKey[key] || modLvl >= prevLvl) {
+      byKey[key] = m;
+    }
+  }
+  return Object.values(byKey);
+}
+
+function applyItemLevelFilter() {
+  const ilvl = getItemLevel();
+  availablePrefixes = filterModsByIlvl(rawPrefixes, ilvl);
+  availableSuffixes = filterModsByIlvl(rawSuffixes, ilvl);
+
+  // Update slots: if a previously selected family is still available, point to
+  // the new best tier; if no longer available at this ilvl, clear the slot.
+  prefixSlots = prefixSlots.map(m => {
+    if (!m) return null;
+    const fk = modFamilyKey(m);
+    return availablePrefixes.find(a => modFamilyKey(a) === fk) || null;
+  });
+  suffixSlots = suffixSlots.map(m => {
+    if (!m) return null;
+    const fk = modFamilyKey(m);
+    return availableSuffixes.find(a => modFamilyKey(a) === fk) || null;
+  });
+
+  // Update hint
+  const total = availablePrefixes.length + availableSuffixes.length;
+  document.getElementById("ilvl-hint").textContent =
+    total ? `${availablePrefixes.length}P / ${availableSuffixes.length}S доступно` : "";
+
+  renderSlots();
+  setAddButtons(availablePrefixes.length > 0, availableSuffixes.length > 0);
+  setSearchVisibility(availablePrefixes.length > 0, availableSuffixes.length > 0);
+}
+
+function onItemLevelChange() {
+  applyItemLevelFilter();
+}
+
+function onSearchChange(kind, value) {
+  if (kind === "prefix") prefixSearch = value.toLowerCase().trim();
+  else suffixSearch = value.toLowerCase().trim();
+  renderSlots();
+}
+
+function setSearchVisibility(hasPrefixes, hasSuffixes) {
+  document.getElementById("prefix-search").style.display = hasPrefixes ? "" : "none";
+  document.getElementById("suffix-search").style.display = hasSuffixes ? "" : "none";
+}
+
+// =============================================
+// Base type changed: load available mods
+// =============================================
+async function onBaseChange() {
+  const sel = document.getElementById("base-select");
+  const baseName = sel.value;
+  const baseType = sel.options[sel.selectedIndex]?.dataset?.type || "";
+
+  // Update thumbnail
+  const img = document.getElementById("base-thumb-img");
+  const imgUrl = GLOVE_IMAGES[baseName] || "";
+  if (imgUrl) {
+    img.src = imgUrl;
+    img.style.display = "block";
+  } else {
+    img.style.display = "none";
+  }
+
+  prefixSlots = [];
+  suffixSlots = [];
+  prefixSearch = "";
+  suffixSearch = "";
+  document.getElementById("prefix-search").value = "";
+  document.getElementById("suffix-search").value = "";
+
+  if (!baseName) {
+    rawPrefixes = [];
+    rawSuffixes = [];
+    availablePrefixes = [];
+    availableSuffixes = [];
+    document.getElementById("ilvl-hint").textContent = "";
+    renderSlots();
+    setAddButtons(false, false);
+    setSearchVisibility(false, false);
+    return;
+  }
+
+  const resp = await fetch(`/api/mods?base=${encodeURIComponent(baseName)}&type=${baseType}`);
+  const data = await resp.json();
+
+  rawPrefixes = data.prefix || [];
+  rawSuffixes = data.suffix || [];
+
+  applyItemLevelFilter();
+}
+
+function setAddButtons(prefixEnabled, suffixEnabled) {
+  document.getElementById("btn-add-prefix").disabled = !prefixEnabled || prefixSlots.length >= 3;
+  document.getElementById("btn-add-suffix").disabled = !suffixEnabled || suffixSlots.length >= 3;
+}
+
+// =============================================
+// Mod slots
+// =============================================
+function addModSlot(kind) {
+  if (kind === "prefix" && prefixSlots.length < 3) {
+    prefixSlots.push(null);
+  } else if (kind === "suffix" && suffixSlots.length < 3) {
+    suffixSlots.push(null);
+  }
+  renderSlots();
+  setAddButtons(availablePrefixes.length > 0, availableSuffixes.length > 0);
+}
+
+function removeModSlot(kind, idx) {
+  if (kind === "prefix") prefixSlots.splice(idx, 1);
+  else suffixSlots.splice(idx, 1);
+  renderSlots();
+  setAddButtons(availablePrefixes.length > 0, availableSuffixes.length > 0);
+}
+
+function onModSelect(kind, idx, value) {
+  const mods = kind === "prefix" ? availablePrefixes : availableSuffixes;
+  const mod = mods.find(m => m.stat === value) || null;
+  if (kind === "prefix") prefixSlots[idx] = mod;
+  else suffixSlots[idx] = mod;
+  // Re-render other slots to update their filtered lists
+  renderSlots();
+}
+
+function renderSlots() {
+  renderSlotGroup("prefix", prefixSlots, availablePrefixes);
+  renderSlotGroup("suffix", suffixSlots, availableSuffixes);
+
+  document.getElementById("prefix-count").textContent = `${prefixSlots.length} / 3`;
+  document.getElementById("suffix-count").textContent = `${suffixSlots.length} / 3`;
+}
+
+function modFamilyKey(m) {
+  // Use normalized_key (stat pattern without numbers) so tiers of the same
+  // mod collapse correctly even for desecrated mods with shared family names
+  return m.normalized_key || (m.family && m.family.length > 0 ? m.family.join("/") : m.name);
+}
+
+function renderSlotGroup(kind, slots, available) {
+  const container = document.getElementById(`${kind}-slots`);
+  container.innerHTML = "";
+
+  slots.forEach((selected, idx) => {
+    const row = document.createElement("div");
+    row.className = "mod-row";
+
+    const sel = document.createElement("select");
+    sel.className = "form-select form-select-sm";
+
+    // Blank option
+    const blank = document.createElement("option");
+    blank.value = "";
+    blank.textContent = "— choose mod —";
+    sel.appendChild(blank);
+
+    // Collect families already selected in OTHER slots of this kind
+    const usedFamilies = new Set(
+      slots.filter((m, i) => i !== idx && m).map(m => modFamilyKey(m))
+    );
+
+    // Filter available mods: hide other tiers of already-chosen mod families
+    const excluded = available.filter(m => !usedFamilies.has(modFamilyKey(m)));
+
+    // Apply search filter
+    const searchTerm = kind === "prefix" ? prefixSearch : suffixSearch;
+    const filtered = searchTerm
+      ? excluded.filter(m => m.stat.toLowerCase().includes(searchTerm))
+      : excluded;
+
+    // Group by conversion status (best → unknown)
+    const STATUS_GROUPS = [
+      ["known",     "✓ Подтверждено"],
+      ["predicted", "~ Предположительно"],
+      ["partial",   "· Тип известен, формула нет"],
+      ["unknown",   "? Неизвестно"],
+    ];
+    const byStatus = {};
+    for (const m of filtered) {
+      const s = m.conversion_status || "unknown";
+      (byStatus[s] = byStatus[s] || []).push(m);
+    }
+    for (const [status, label] of STATUS_GROUPS) {
+      const group = byStatus[status] || [];
+      if (!group.length) continue;
+      const grp = document.createElement("optgroup");
+      grp.label = label;
+      group.forEach(m => grp.appendChild(makeModOption(m, selected)));
+      sel.appendChild(grp);
+    }
+
+    sel.addEventListener("change", () => onModSelect(kind, idx, sel.value));
+
+    const btnRemove = document.createElement("button");
+    btnRemove.className = "btn-remove";
+    btnRemove.textContent = "×";
+    btnRemove.title = "Remove";
+    btnRemove.addEventListener("click", () => removeModSlot(kind, idx));
+
+    row.appendChild(sel);
+    row.appendChild(btnRemove);
+    container.appendChild(row);
+  });
+}
+
+function makeModOption(mod, selected) {
+  const opt = document.createElement("option");
+  opt.value = mod.stat;
+  // Show just the stat text; ilvl info as tooltip only
+  opt.textContent = mod.stat;
+  if (mod.level) opt.title = `requires ilvl ${mod.level}`;
+  // Match by family key since tier may have changed after ilvl filter
+  if (selected && modFamilyKey(selected) === modFamilyKey(mod)) opt.selected = true;
+  return opt;
+}
+
+function groupByFamily(mods) {
+  const groups = {};
+  for (const m of mods) {
+    const families = m.family || [];
+    const key = families.length > 0 ? families.join("/") : "_other";
+    if (!groups[key]) groups[key] = [];
+    groups[key].push(m);
+  }
+  return groups;
+}
+
+// =============================================
+// Convert
+// =============================================
+async function runConvert() {
+  const allSelected = [
+    ...prefixSlots.map(m => m ? { ...m, type: "Prefix" } : null),
+    ...suffixSlots.map(m => m ? { ...m, type: "Suffix" } : null),
+  ].filter(Boolean);
+
+  if (allSelected.length === 0) {
+    showEmptyResult("Add at least one modifier before converting.");
+    return;
+  }
+
+  const resp = await fetch("/api/convert", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ mods: allSelected }),
+  });
+  const data = await resp.json();
+
+  renderResult(data);
+}
+
+// =============================================
+// Render result
+// =============================================
+function renderResult(data) {
+  const area = document.getElementById("result-area");
+  const baseName = document.getElementById("base-select").value || "Unknown Gloves";
+  const results = data.results || [];
+  const implicits = data.implicits || [];
+
+  let html = `
+    <div class="item-frame">
+      <div class="item-name">${escHtml(baseName)}</div>
+      <div class="item-base">Fists of Stone</div>
+      <hr class="item-separator">
+  `;
+
+  // Implicits
+  for (const imp of implicits) {
+    html += `<div class="mod-implicit">${escHtml(imp)}</div>`;
+  }
+
+  if (results.length > 0) {
+    html += `<hr class="item-separator">`;
+
+    // Header row
+    html += `
+      <div style="display:grid;grid-template-columns:1fr 30px 1fr;gap:0.3rem;
+                  font-size:0.7rem;color:var(--poe-text-dim);text-transform:uppercase;
+                  letter-spacing:0.06em;padding-bottom:0.3rem;border-bottom:1px solid var(--poe-border);
+                  margin-bottom:0.2rem;">
+        <div>Original</div>
+        <div></div>
+        <div>Fists of Stone</div>
+      </div>
+    `;
+
+    for (const r of results) {
+      const badge = r.mod_type === "Prefix"
+        ? `<span class="badge-prefix">P</span>`
+        : `<span class="badge-suffix">S</span>`;
+
+      let resultClass = "unknown";
+      if (!r.unknown && !r.predicted && r.confirmed) resultClass = "known";
+      else if (r.predicted) resultClass = "predicted";
+      else if (r.converted && r.converted !== "?") resultClass = "partial";
+
+      const title = r.note ? `title="${escHtml(r.note)}"` : "";
+
+      if (r.split && r.split_outputs && r.split_outputs.length > 0) {
+        // Split conversion: 1 original → multiple outputs
+        // Show the original once, then list each output
+        const splitBadge = `<span style="font-size:0.65rem;background:#2a1a0a;color:var(--poe-orange);
+                              border-radius:3px;padding:0.1rem 0.3rem;margin-left:0.3rem;">×${r.split_outputs.length}</span>`;
+        html += `
+          <div class="conv-row" ${title}>
+            <div class="conv-original">${badge}${escHtml(r.original)}${splitBadge}</div>
+            <div class="conv-arrow">→</div>
+            <div class="conv-result ${resultClass}">
+              ${r.split_outputs.map(o => `<div>• ${escHtml(o)}</div>`).join("")}
+            </div>
+          </div>
+        `;
+      } else {
+        const convertedText = r.converted || "?";
+        html += `
+          <div class="conv-row">
+            <div class="conv-original">${badge}${escHtml(r.original)}</div>
+            <div class="conv-arrow">→</div>
+            <div class="conv-result ${resultClass}" ${title}>${escHtml(convertedText)}</div>
+          </div>
+        `;
+      }
+    }
+  }
+
+  html += `</div>`;
+
+  // Legend
+  html += `
+    <div class="legend">
+      <span class="legend-item known">Подтверждено</span>
+      <span class="legend-item predicted">Предположительно (~расчёт)</span>
+      <span class="legend-item partial">Тип известен, формула нет</span>
+      <span class="legend-item unknown">Неизвестно — нужен скриншот!</span>
+    </div>
+  `;
+
+  area.innerHTML = html;
+}
+
+function showEmptyResult(msg) {
+  document.getElementById("result-area").innerHTML =
+    `<div class="empty-state">${escHtml(msg)}</div>`;
+}
+
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+async function quitApp() {
+  if (!confirm("Остановить сервер Stone of Fist?")) return;
+  try {
+    await fetch("/api/shutdown", { method: "POST" });
+  } catch (_) {
+    // Server may close before response arrives — that's fine
+  }
+  document.body.innerHTML =
+    '<div style="display:flex;align-items:center;justify-content:center;height:100vh;' +
+    'color:#8a8070;font-family:sans-serif;">Сервер остановлен. Можно закрыть вкладку.</div>';
+}
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

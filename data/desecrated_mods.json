@@ -1,0 +1,2524 @@
+[
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "2 to 4 Fire Thorns damage per 100 maximum Life amanamu Elemental Fire",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "elemental",
+      "fire"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "(8-16)% increased Curse Magnitudes amanamu Caster Curse",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "caster",
+      "curse"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "Offering Skills have (12-20)% increased Buff effect amanamu",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "Projectiles deal (20-30)% increased Damage with Hits against Enemies within 2m amanamu Damage",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "damage"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "Minions deal (15-25)% increased Damage if you've Hit Recently amanamu Damage Minion",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "damage",
+      "minion"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "(20-30)% increased Magnitude of Ignite if you've consumed an Endurance Charge Recently amanamu Ailment",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "(15-25)% increased Global Defences amanamu Defences",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "defences"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "(148-178)% increased Spell Damage with Spells that cost Life amanamu",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "+(35-50) to Spirit amanamu",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "(74-89)% increased Elemental Damage amanamu Damage Elemental",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "damage",
+      "elemental"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "(55-64)% increased Spell DamageMinions deal (55-64)% increased Damage amanamu Caster Minion",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "caster",
+      "minion"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "(74-89)% increased Spell Damage with Spells that cost Life amanamu",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "(41-59)% increased Damage against Enemies with Fully Broken Armour amanamu Damage",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "damage"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "(86-99)% increased Damage against Enemies with Fully Broken Armour amanamu Damage",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "damage"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "(86-99)% increased Fire Damage(14-23)% increased Ignite Magnitude amanamu Elemental Fire Ailment",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "elemental",
+      "fire",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "Grenade Skills have +1 Cooldown Use amanamu",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "(101-121)% increased Grenade Damage(20-30)% increased Grenade Duration amanamu Damage",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "damage"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "Companions deal (40-59)% increased Damage(40-59)% increased Damage while your Companion is in your Presence amanamu",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "(12-23)% increased Area of Effect for Attacks amanamu Attack",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "attack"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Amanamu's",
+    "stat": "Minions deal (60-79)% increased Damage if you've Hit Recently amanamu Damage Minion",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "damage",
+      "minion"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "Gain (6-12)% of Maximum Mana as Armour kurgal Mana Defences",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "mana",
+      "defences"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "Invocated Spells deal (61-79)% increased Damage kurgal Caster",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "caster"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "Spell Skills have (10-20)% increased Area of Effect kurgal",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "Projectiles deal (20-30)% increased Damage with Hits against Enemies further than 6m kurgal",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "(15-25)% increased Spell Damage while on Full Energy Shield kurgal Damage Caster",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "damage",
+      "caster"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "(20-30)% increased Freeze Buildup if you've consumed an Power Charge Recently kurgal Ailment",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "Invocated Spells have (10-20)% chance to consume half as much Energy kurgal Caster",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "caster"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "(4-5)% increased Spell Damage per 100 maximum Mana kurgal Mana Damage Caster",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "mana",
+      "damage",
+      "caster"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "+(1-2) to maximum number of Elemental Infusions kurgal Elemental",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "elemental"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "Invocated Spells deal (75-89)% increased Damage kurgal Caster",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "caster"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "(110-154)% increased Physical Damage15% reduced Attack Speed kurgal Physical Attack Speed",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "physical",
+      "attack",
+      "speed"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "Empowered Attacks deal (41-59)% increased Damage kurgal Damage Attack",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "damage",
+      "attack"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "Empowered Attacks deal (86-99)% increased Damage kurgal Damage Attack",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "damage",
+      "attack"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "(86-99)% increased Cold Damage(14-23)% increased Freeze Buildup kurgal Elemental Cold Ailment",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "elemental",
+      "cold",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "Projectiles deal (85-109)% increased Damage with Hits against Enemies within 2m kurgal Damage",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "damage"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "Projectiles have (25-35)% chance to Chain an additional time from terrain kurgal",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "(30-40)% increased bonuses gained from Equipped Quiver kurgal",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "(60-79)% increased Melee Damage if you've dealt a Projectile Attack Hit in the past eight seconds kurgal",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Kurgal's",
+    "stat": "Warcries Empower an additional Attack kurgal Attack",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "attack"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "Spell Skills have +1 to maximum number of Summoned Totems ulaman Caster",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "caster"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "(61-79)% increased Spell Damage while wielding a Melee Weapon ulaman Caster",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "caster"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "Increases and Reductions to Projectile Speed also apply to Damage with Bows ulaman",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "(15-25)% increased Attack Damage while on Low Life ulaman",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "(20-30)% increased Magnitude of Shock if you've consumed a Frenzy Charge Recently ulaman Ailment",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "(10-20)% increased Deflection Rating ulaman Defences",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "defences"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "(20-30)% chance for Skills to retain 40% of Glory on use ulaman",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "(4-5)% increased Spell Damage per 100 Maximum Life ulaman Life Damage Caster",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "life",
+      "damage",
+      "caster"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "(40-64)% increased Magnitude of Damaging Ailments you inflict ulaman Ailment",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "Gain (21-25)% of Damage as Extra Physical Damage ulaman Damage Physical",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "damage",
+      "physical"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "(27-38)% increased Magnitude of Bleeding you inflict ulaman Damage Physical Attack Ailment",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "damage",
+      "physical",
+      "attack",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "Melee Attack Skills have +1 to maximum number of Summoned Totems ulaman",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "(41-59)% increased Damage while you have a Totem ulaman Damage",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "damage"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "(86-99)% increased Damage while you have a Totem ulaman Damage",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "damage"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "(86-99)% increased Lightning Damage(14-23)% increased Magnitude of Shock you inflict ulaman Elemental Lightning Ailment",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "elemental",
+      "lightning",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "+1 to maximum number of Summoned Ballista Totems ulaman",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "Ulaman's",
+    "stat": "Projectiles deal (60-79)% increased Damage with Hits against Enemies further than 6m ulaman",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "+(13-17)% to Fire and Chaos Resistances amanamu Elemental Fire Chaos Resistance",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "elemental",
+      "fire",
+      "chaos",
+      "resistance"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "+(9-15) to Strength and Intelligence amanamu Attribute",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "attribute"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(4-8)% increased Spirit Reservation Efficiency of Skills amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(10-20)% increased Glory generation amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(25-35)% increased Presence Area of Effect amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(12-20)% increased Area of Effect of Curses amanamu Caster Curse",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "caster",
+      "curse"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(10-20)% chance to Daze on Hit amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(8-15)% of Leech is Instant amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(10-20)% increased Immobilisation buildup amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(20-30)% reduced Ignite Duration on you amanamu Elemental Fire Ailment",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "elemental",
+      "fire",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(12-20)% reduced Slowing Potency of Debuffs on You amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "+(0.1-0.2) metres to Dodge Roll distance amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "+(2-4)% to Thorns Critical Hit Chance amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(10-20)% of Damage taken Recouped as Life amanamu Life",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "life"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(25-35)% reduced effect of Curses on you amanamu Caster Curse",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "caster",
+      "curse"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(6-12)% increased Spirit Reservation Efficiency of Skills amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "Hits with Shield Skills which Heavy Stun enemies break fully Break Armour amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "Your Heavy Stun buildup empties (30-40)% faster amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "+1% to all maximum Resistances amanamu Resistance",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "resistance"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "+(1-2) to Level of all Minion Skills amanamu Minion Gem",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "minion",
+      "gem"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(10-20)% faster Curse Activation amanamu Curse",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "curse"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "Projectiles have (18-26)% increased Critical Damage Bonus against Enemies within 2m amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(8-12)% increased Skill Effect Duration amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(12-20)% increased amount of Life Leeched amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "Equipment and Skill Gems have (10-15)% reduced Attribute Requirements amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "Aura Skills have (8-16)% increased Magnitudes amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(25-35)% of Spell Mana Cost Converted to Life Cost amanamu Life Caster",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "life",
+      "caster"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(25-35)% increased Archon Buff duration amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "+(12-16)% to Block chance amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "Spell Skills have (8-16)% increased Area of Effect amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(5-10)% increased Cost Efficiency(15-25)% of Spell Mana Cost Converted to Life Cost amanamu Life Caster",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "life",
+      "caster"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "Enemies Hindered by you take (4-7)% increased Elemental Damage amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(5-10)% increased Spirit Reservation Efficiency of Skills amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "Break Armour equal to (2-4)% of Physical Damage dealt amanamu Damage Physical",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "damage",
+      "physical"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "Skills which create Fissures have a (15-25)% chance to create an additional Fissure amanamu Attack",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "attack"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(10-16)% chance for Mace Slam Skills you use yourself to cause an additional Aftershock amanamu Attack",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "attack"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "Break Armour equal to (4-7)% of Physical Damage dealt amanamu Damage Physical",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "damage",
+      "physical"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "Skills which create Fissures have a (25-31)% chance to create an additional Fissure amanamu Attack",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "attack"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(16-23)% chance for Mace Slam Skills you use yourself to cause an additional Aftershock amanamu Attack",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod",
+      "attack"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(25-40)% chance to build an additional Combo on Hit amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "Grenades have (15-25)% chance to activate a second time amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(12-18)% increased Attack SpeedCompanions have (12-18)% increased Attack Speed amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(40-60)% chance to Pierce an Enemy amanamu",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "amanamu_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "+(13-17)% to Cold and Chaos Resistances kurgal Elemental Cold Chaos Resistance",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "elemental",
+      "cold",
+      "chaos",
+      "resistance"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "+(9-15) to Dexterity and Intelligence kurgal Attribute",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "attribute"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(6-10)% increased Mana Cost Efficiency kurgal Mana",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "mana"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(20-30)% increased effect of Arcane Surge on you kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(10-15)% chance to Gain Arcane Surge when you deal a Critical Hit kurgal Critical",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "critical"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(8-15)% increased Cast Speed when on Full Life kurgal Caster Speed",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "caster",
+      "speed"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(20-30)% reduced Duration of Bleeding on You kurgal Physical Ailment",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "physical",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(8-12)% increased Mana Cost Efficiency if you have Dodge Rolled Recently kurgal Mana",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "mana"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(40-50)% increased Mana Regeneration Rate while stationary kurgal Mana",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "mana"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(30-40)% increased Mana Regeneration Rate kurgal Mana",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "mana"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(10-20)% of Damage taken Recouped as Mana kurgal Life Mana",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "life",
+      "mana"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(10-20)% of Elemental Damage taken Recouped as Energy Shield kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "+(23-31)% of Armour also applies to Chaos Damage kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(10-20)% of Damage is taken from Mana before Life kurgal Life Mana",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "life",
+      "mana"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(6-12) Mana gained when you Block kurgal Mana",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "mana"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(40-50)% increased Energy Shield Recharge Rate if you've Blocked Recently kurgal Defences",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "defences"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(15-25)% chance when collecting an Elemental Infusion to gain anadditional Elemental Infusion of the same type kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "Projectiles have (18-26)% increased Critical Hit Chance against Enemies further than 6m kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(10-15)% increased Exposure Effect kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(8-12)% increased Cooldown Recovery Rate kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "Recover (2-3)% of maximum Mana on Kill kurgal Mana",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "mana"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(12-20)% increased amount of Mana Leeched kurgal Mana",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "mana"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "Minions have (12-20)% increased Cooldown Recovery Rate kurgal Minion",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "minion"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(8-16)% of Damage is taken from Mana before Life kurgal Life Mana",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "life",
+      "mana"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "+(3-5)% to Quality of all Skills kurgal Gem",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "gem"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "Archon recovery period expires (25-35)% faster kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(26-36)% increased Cast Speed while on Full Mana kurgal Mana Caster Speed",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "mana",
+      "caster",
+      "speed"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(3-5)% increased Cast Speed for each different Non-Instant Spell you've Cast Recently kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "Enemies Hindered by you take (4-7)% increased Chaos Damage kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(8-15)% increased Cost Efficiency of Attacks kurgal Attack",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "attack"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(17-25)% increased Warcry Cooldown Recovery Rate kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(25-31)% increased Warcry Cooldown Recovery Rate kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "Recover (4-6)% of Maximum Mana when you expend at least 10 Combo kurgal Mana",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "mana"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(17-25)% increased Reload Speed kurgal Attack Speed",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "attack",
+      "speed"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(15-20)% chance when you Reload a Crossbow to be immediate kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "Projectiles have (25-34)% increased Critical Hit Chance against Enemies further than 6m kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(25-34)% increased Immobilisation buildup kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(39-51)% increased Critical Hit Chance against Marked Enemies kurgal Critical",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod",
+      "critical"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "+(13-17)% to Lightning and Chaos Resistances ulaman Elemental Lightning Chaos Resistance",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "elemental",
+      "lightning",
+      "chaos",
+      "resistance"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "+(9-15) to Strength and Dexterity ulaman Attribute",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "attribute"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Enemies you Mark take (4-8)% increased Damage ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(13-20)% increased Critical Damage Bonus ulaman Damage Critical",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "damage",
+      "critical"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(8-12)% increased Life Cost Efficiency ulaman Life",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "life"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(10-20)% increased Magnitude of Ailments you inflict ulaman Damage Ailment",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "damage",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(20-30)% increased chance to Poison ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(20-30)% increased chance to inflict Bleeding ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(15-25)% chance for Attack Hits to apply Incision ulaman Damage Physical Ailment",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "damage",
+      "physical",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(8-12)% increased Skill Speed if you've consumed a Frenzy Charge Recently ulaman Speed",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "speed"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(20-30)% reduced Poison Duration on you ulaman Chaos Ailment",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "chaos",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Corrupted Blood cannot be inflicted on you ulaman Physical Ailment",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "physical",
+      "ailment"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(6-10)% reduced Movement Speed Penalty from using Skills while moving ulaman Speed",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "speed"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(17-25)% reduced Slowing Potency of Debuffs on You if you've used a Charm Recently Charm ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "charm",
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Hits have (17-25)% reduced Critical Hit Chance against you ulaman Critical",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "critical"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Prevent +(3-5)% of Damage from Deflected Hits ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(12-18)% increased Reservation Efficiency of Companion Skills ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "+(1-2)% to maximum Block chance ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(20-30)% increased Parried Debuff Magnitude ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(25-35)% increased Parried Debuff Duration ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "You take (8-15)% of damage from Blocked Hits with a raised Shield(30-40)% of Physical Damage taken as Lightning while your Shield is raised ulaman Physical Elemental Lightning",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "physical",
+      "elemental",
+      "lightning"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(10-20)% of Spell Mana Cost Converted to Life Cost ulaman Life Caster",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "life",
+      "caster"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(10-16)% chance for Spell Skills to fire 2 additional Projectiles ulaman Caster",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "caster"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Projectile Attacks have a (8-12)% chance to fire two additional Projectiles while moving ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(10-14)% of Skill Mana Costs Converted to Life Costs ulaman Life",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "life"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(3-6)% increased Skill Speed ulaman Speed",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "speed"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Recover (2-3)% of maximum Life on Kill ulaman Life",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "life"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(10-20)% increased Reservation Efficiency of Herald Skills ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "+1 to Level of all Skills ulaman Gem",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "gem"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(30-40)% increased Cast Speed when on Low Life ulaman Caster Speed",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "caster",
+      "speed"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(25-35)% chance for Spell Skills to fire 2 additional Projectiles ulaman Caster",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "caster"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Break (31-39)% increased Armour ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Break Armour on Critical Hit with Spells equal to (11-18)% of Physical Damage dealt ulaman Caster Critical",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "caster",
+      "critical"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Enemies Hindered by you take (4-7)% increased Physical Damage ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(15-20)% of Skill Mana Costs Converted to Life Costs ulaman Life",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "life"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(17-25)% increased Totem Placement speed ulaman Speed",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "speed"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(25-31)% increased Totem Placement speed ulaman Speed",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "speed"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Recover (6-12)% of Maximum Life when you expend at least 10 Combo ulaman Life",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "life"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Attacks Chain an additional time ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Projectiles have (27-38)% increased Critical Damage Bonus against Enemies within 2m ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Projectile Attacks have a (10-18)% chance to fire two additional Projectiles while moving ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(8-13)% increased Attack Speed(8-13)% increased Attack Speed while your Companion is in your Presence ulaman",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "Gain (3-6) Rage on Melee Hit kurgal",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "kurgal_mod"
+    ],
+    "glove_type": "desecrated"
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(40-50)% increased Life Regeneration Rate while moving ulaman Life",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ulaman_mod",
+      "life"
+    ],
+    "glove_type": "desecrated"
+  }
+]

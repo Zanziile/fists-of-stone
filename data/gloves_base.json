@@ -1,0 +1,1240 @@
+[
+  {
+    "name": "Golden Bracers",
+    "href": "Golden_Bracers",
+    "type": "universal",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/DemigodsTouch.webp",
+    "properties": {},
+    "requirements": {
+      "level": 12
+    }
+  },
+  {
+    "name": "Stocky Mitts",
+    "href": "Stocky_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr01.webp",
+    "properties": {
+      "Armour": "15"
+    },
+    "requirements": {}
+  },
+  {
+    "name": "Riveted Mitts",
+    "href": "Riveted_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr02.webp",
+    "properties": {
+      "Armour": "31"
+    },
+    "requirements": {
+      "level": 11,
+      "str": 16
+    }
+  },
+  {
+    "name": "Tempered Mitts",
+    "href": "Tempered_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr03.webp",
+    "properties": {
+      "Armour": "40"
+    },
+    "requirements": {
+      "level": 16,
+      "str": 22
+    }
+  },
+  {
+    "name": "Bolstered Mitts",
+    "href": "Bolstered_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr04.webp",
+    "properties": {
+      "Armour": "58"
+    },
+    "requirements": {
+      "level": 27,
+      "str": 35
+    }
+  },
+  {
+    "name": "Moulded Mitts",
+    "href": "Moulded_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr05.webp",
+    "properties": {
+      "Armour": "68"
+    },
+    "requirements": {
+      "level": 33,
+      "str": 42
+    }
+  },
+  {
+    "name": "Detailed Mitts",
+    "href": "Detailed_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr06.webp",
+    "properties": {
+      "Armour": "88"
+    },
+    "requirements": {
+      "level": 45,
+      "str": 56
+    }
+  },
+  {
+    "name": "Titan Mitts",
+    "href": "Titan_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr07.webp",
+    "properties": {
+      "Armour": "100"
+    },
+    "requirements": {
+      "level": 52,
+      "str": 64
+    }
+  },
+  {
+    "name": "Grand Mitts",
+    "href": "Grand_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr01.webp",
+    "properties": {
+      "Armour": "122"
+    },
+    "requirements": {
+      "level": 65,
+      "str": 80
+    }
+  },
+  {
+    "name": "Suede Bracers",
+    "href": "Suede_Bracers",
+    "type": "universal",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex01.webp",
+    "properties": {
+      "Evasion Rating": "10"
+    },
+    "requirements": {}
+  },
+  {
+    "name": "Firm Bracers",
+    "href": "Firm_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex02.webp",
+    "properties": {
+      "Evasion Rating": "26"
+    },
+    "requirements": {
+      "level": 11,
+      "dex": 16
+    }
+  },
+  {
+    "name": "Bound Bracers",
+    "href": "Bound_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex03.webp",
+    "properties": {
+      "Evasion Rating": "33"
+    },
+    "requirements": {
+      "level": 16,
+      "dex": 22
+    }
+  },
+  {
+    "name": "Sectioned Bracers",
+    "href": "Sectioned_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex04.webp",
+    "properties": {
+      "Evasion Rating": "52"
+    },
+    "requirements": {
+      "level": 28,
+      "dex": 36
+    }
+  },
+  {
+    "name": "Spined Bracers",
+    "href": "Spined_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex05.webp",
+    "properties": {
+      "Evasion Rating": "60"
+    },
+    "requirements": {
+      "level": 33,
+      "dex": 42
+    }
+  },
+  {
+    "name": "Fine Bracers",
+    "href": "Fine_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex06.webp",
+    "properties": {
+      "Evasion Rating": "79"
+    },
+    "requirements": {
+      "level": 45,
+      "dex": 56
+    }
+  },
+  {
+    "name": "Hardened Bracers",
+    "href": "Hardened_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex07.webp",
+    "properties": {
+      "Evasion Rating": "90"
+    },
+    "requirements": {
+      "level": 52,
+      "dex": 64
+    }
+  },
+  {
+    "name": "Engraved Bracers",
+    "href": "Engraved_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex01.webp",
+    "properties": {
+      "Evasion Rating": "111"
+    },
+    "requirements": {
+      "level": 65,
+      "dex": 80
+    }
+  },
+  {
+    "name": "Torn Gloves",
+    "href": "Torn_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt01.webp",
+    "properties": {
+      "Energy Shield": "9"
+    },
+    "requirements": {}
+  },
+  {
+    "name": "Sombre Gloves",
+    "href": "Sombre_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt02.webp",
+    "properties": {
+      "Energy Shield": "15"
+    },
+    "requirements": {
+      "level": 12,
+      "int": 17
+    }
+  },
+  {
+    "name": "Stitched Gloves",
+    "href": "Stitched_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt03.webp",
+    "properties": {
+      "Energy Shield": "17"
+    },
+    "requirements": {
+      "level": 16,
+      "int": 22
+    }
+  },
+  {
+    "name": "Jewelled Gloves",
+    "href": "Jewelled_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt04.webp",
+    "properties": {
+      "Energy Shield": "22"
+    },
+    "requirements": {
+      "level": 26,
+      "int": 34
+    }
+  },
+  {
+    "name": "Intricate Gloves",
+    "href": "Intricate_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt05.webp",
+    "properties": {
+      "Energy Shield": "26"
+    },
+    "requirements": {
+      "level": 33,
+      "int": 42
+    }
+  },
+  {
+    "name": "Pauascale Gloves",
+    "href": "Pauascale_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt06.webp",
+    "properties": {
+      "Energy Shield": "32"
+    },
+    "requirements": {
+      "level": 45,
+      "int": 56
+    }
+  },
+  {
+    "name": "Embroidered Gloves",
+    "href": "Embroidered_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt07.webp",
+    "properties": {
+      "Energy Shield": "35"
+    },
+    "requirements": {
+      "level": 52,
+      "int": 64
+    }
+  },
+  {
+    "name": "Adorned Gloves",
+    "href": "Adorned_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt01.webp",
+    "properties": {
+      "Energy Shield": "42"
+    },
+    "requirements": {
+      "level": 65,
+      "int": 80
+    }
+  },
+  {
+    "name": "Ringmail Gauntlets",
+    "href": "Ringmail_Gauntlets",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex01.webp",
+    "properties": {
+      "Armour": "13",
+      "Evasion Rating": "10"
+    },
+    "requirements": {
+      "level": 6,
+      "str": 6,
+      "dex": 6
+    }
+  },
+  {
+    "name": "Layered Gauntlets",
+    "href": "Layered_Gauntlets",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex02.webp",
+    "properties": {
+      "Armour": "22",
+      "Evasion Rating": "18"
+    },
+    "requirements": {
+      "level": 16,
+      "str": 13,
+      "dex": 13
+    }
+  },
+  {
+    "name": "Doubled Gauntlets",
+    "href": "Doubled_Gauntlets",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex03.webp",
+    "properties": {
+      "Armour": "37",
+      "Evasion Rating": "33"
+    },
+    "requirements": {
+      "level": 33,
+      "str": 24,
+      "dex": 24
+    }
+  },
+  {
+    "name": "Plate Gauntlets",
+    "href": "Plate_Gauntlets",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex04.webp",
+    "properties": {
+      "Armour": "48",
+      "Evasion Rating": "44"
+    },
+    "requirements": {
+      "level": 45,
+      "str": 32,
+      "dex": 32
+    }
+  },
+  {
+    "name": "Burnished Gauntlets",
+    "href": "Burnished_Gauntlets",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex01.webp",
+    "properties": {
+      "Armour": "55",
+      "Evasion Rating": "50"
+    },
+    "requirements": {
+      "level": 52,
+      "str": 36,
+      "dex": 36
+    }
+  },
+  {
+    "name": "Ornate Gauntlets",
+    "href": "Ornate_Gauntlets",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex01.webp",
+    "properties": {
+      "Armour": "67",
+      "Evasion Rating": "61"
+    },
+    "requirements": {
+      "level": 65,
+      "str": 44,
+      "dex": 44
+    }
+  },
+  {
+    "name": "Rope Cuffs",
+    "href": "Rope_Cuffs",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr01.webp",
+    "properties": {
+      "Armour": "12",
+      "Energy Shield": "6"
+    },
+    "requirements": {
+      "level": 5,
+      "str": 6,
+      "int": 6
+    }
+  },
+  {
+    "name": "Aged Cuffs",
+    "href": "Aged_Cuffs",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr02.webp",
+    "properties": {
+      "Armour": "22",
+      "Energy Shield": "9"
+    },
+    "requirements": {
+      "level": 16,
+      "str": 13,
+      "int": 13
+    }
+  },
+  {
+    "name": "Goldcast Cuffs",
+    "href": "Goldcast_Cuffs",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr03.webp",
+    "properties": {
+      "Armour": "37",
+      "Energy Shield": "14"
+    },
+    "requirements": {
+      "level": 33,
+      "str": 24,
+      "int": 24
+    }
+  },
+  {
+    "name": "Verisium Cuffs",
+    "href": "Verisium_Cuffs",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr04.webp",
+    "properties": {
+      "Armour": "48",
+      "Energy Shield": "17"
+    },
+    "requirements": {
+      "level": 45,
+      "str": 32,
+      "int": 32
+    }
+  },
+  {
+    "name": "Righteous Cuffs",
+    "href": "Righteous_Cuffs",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr05png.webp",
+    "properties": {
+      "Armour": "55",
+      "Energy Shield": "19"
+    },
+    "requirements": {
+      "level": 52,
+      "str": 36,
+      "int": 36
+    }
+  },
+  {
+    "name": "Signet Cuffs",
+    "href": "Signet_Cuffs",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr01.webp",
+    "properties": {
+      "Armour": "67",
+      "Energy Shield": "23"
+    },
+    "requirements": {
+      "level": 65,
+      "str": 44,
+      "int": 44
+    }
+  },
+  {
+    "name": "Gauze Wraps",
+    "href": "Gauze_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp",
+    "properties": {
+      "Evasion Rating": "8",
+      "Energy Shield": "6"
+    },
+    "requirements": {
+      "level": 4,
+      "dex": 6,
+      "int": 6
+    }
+  },
+  {
+    "name": "Linen Wraps",
+    "href": "Linen_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt02.webp",
+    "properties": {
+      "Evasion Rating": "18",
+      "Energy Shield": "9"
+    },
+    "requirements": {
+      "level": 16,
+      "dex": 13,
+      "int": 13
+    }
+  },
+  {
+    "name": "Spiral Wraps",
+    "href": "Spiral_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt03.webp",
+    "properties": {
+      "Evasion Rating": "33",
+      "Energy Shield": "14"
+    },
+    "requirements": {
+      "level": 33,
+      "dex": 24,
+      "int": 24
+    }
+  },
+  {
+    "name": "Buckled Wraps",
+    "href": "Buckled_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt04.webp",
+    "properties": {
+      "Evasion Rating": "44",
+      "Energy Shield": "17"
+    },
+    "requirements": {
+      "level": 45,
+      "dex": 32,
+      "int": 32
+    }
+  },
+  {
+    "name": "Furtive Wraps",
+    "href": "Furtive_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp",
+    "properties": {
+      "Evasion Rating": "50",
+      "Energy Shield": "19"
+    },
+    "requirements": {
+      "level": 52,
+      "dex": 36,
+      "int": 36
+    }
+  },
+  {
+    "name": "Utility Wraps",
+    "href": "Utility_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp",
+    "properties": {
+      "Evasion Rating": "61",
+      "Energy Shield": "23"
+    },
+    "requirements": {
+      "level": 65,
+      "dex": 44,
+      "int": 44
+    }
+  },
+  {
+    "name": "Grand Manchettes",
+    "href": "Grand_Manchettes",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr01.webp",
+    "properties": {
+      "Armour": "44",
+      "Evasion Rating": "40",
+      "Energy Shield": "15"
+    },
+    "requirements": {
+      "level": 65,
+      "str": 32,
+      "dex": 32,
+      "int": 32
+    }
+  },
+  {
+    "name": "Plated Mitts",
+    "href": "Plated_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr02.webp",
+    "properties": {
+      "Armour": "88"
+    },
+    "requirements": {
+      "level": 45,
+      "str": 56
+    }
+  },
+  {
+    "name": "Elegant Mitts",
+    "href": "Elegant_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr03.webp",
+    "properties": {
+      "Armour": "98"
+    },
+    "requirements": {
+      "level": 51,
+      "str": 64
+    }
+  },
+  {
+    "name": "Ancient Mitts",
+    "href": "Ancient_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr04.webp",
+    "properties": {
+      "Armour": "103"
+    },
+    "requirements": {
+      "level": 54,
+      "str": 67
+    }
+  },
+  {
+    "name": "Feathered Mitts",
+    "href": "Feathered_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr05.webp",
+    "properties": {
+      "Armour": "111"
+    },
+    "requirements": {
+      "level": 59,
+      "str": 73
+    }
+  },
+  {
+    "name": "Hunting Bracers",
+    "href": "Hunting_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex02.webp",
+    "properties": {
+      "Evasion Rating": "79"
+    },
+    "requirements": {
+      "level": 45,
+      "dex": 56
+    }
+  },
+  {
+    "name": "Swift Bracers",
+    "href": "Swift_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex03.webp",
+    "properties": {
+      "Evasion Rating": "89"
+    },
+    "requirements": {
+      "level": 51,
+      "dex": 64
+    }
+  },
+  {
+    "name": "Refined Bracers",
+    "href": "Refined_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex04.webp",
+    "properties": {
+      "Evasion Rating": "93"
+    },
+    "requirements": {
+      "level": 54,
+      "dex": 67
+    }
+  },
+  {
+    "name": "Spiked Bracers",
+    "href": "Spiked_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex05.webp",
+    "properties": {
+      "Evasion Rating": "101"
+    },
+    "requirements": {
+      "level": 59,
+      "dex": 73
+    }
+  },
+  {
+    "name": "Ominous Gloves",
+    "href": "Ominous_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt02.webp",
+    "properties": {
+      "Energy Shield": "32"
+    },
+    "requirements": {
+      "level": 45,
+      "int": 56
+    }
+  },
+  {
+    "name": "Embellished Gloves",
+    "href": "Embellished_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt03.webp",
+    "properties": {
+      "Energy Shield": "35"
+    },
+    "requirements": {
+      "level": 51,
+      "int": 64
+    }
+  },
+  {
+    "name": "Baroque Gloves",
+    "href": "Baroque_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt04.webp",
+    "properties": {
+      "Energy Shield": "36"
+    },
+    "requirements": {
+      "level": 54,
+      "int": 67
+    }
+  },
+  {
+    "name": "Gold Gloves",
+    "href": "Gold_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt05.webp",
+    "properties": {
+      "Energy Shield": "39"
+    },
+    "requirements": {
+      "level": 59,
+      "int": 73
+    }
+  },
+  {
+    "name": "Ironmail Gauntlets",
+    "href": "Ironmail_Gauntlets",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex01.webp",
+    "properties": {
+      "Armour": "48",
+      "Evasion Rating": "44"
+    },
+    "requirements": {
+      "level": 45,
+      "str": 32,
+      "dex": 32
+    }
+  },
+  {
+    "name": "Captain Gauntlets",
+    "href": "Captain_Gauntlets",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex02.webp",
+    "properties": {
+      "Armour": "54",
+      "Evasion Rating": "49"
+    },
+    "requirements": {
+      "level": 51,
+      "str": 35,
+      "dex": 35
+    }
+  },
+  {
+    "name": "Zealot Gauntlets",
+    "href": "Zealot_Gauntlets",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex03.webp",
+    "properties": {
+      "Armour": "61",
+      "Evasion Rating": "56"
+    },
+    "requirements": {
+      "level": 59,
+      "str": 41,
+      "dex": 41
+    }
+  },
+  {
+    "name": "Braided Cuffs",
+    "href": "Braided_Cuffs",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr01.webp",
+    "properties": {
+      "Armour": "48",
+      "Energy Shield": "17"
+    },
+    "requirements": {
+      "level": 45,
+      "str": 32,
+      "int": 32
+    }
+  },
+  {
+    "name": "Heirloom Cuffs",
+    "href": "Heirloom_Cuffs",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr02.webp",
+    "properties": {
+      "Armour": "54",
+      "Energy Shield": "19"
+    },
+    "requirements": {
+      "level": 51,
+      "str": 35,
+      "int": 35
+    }
+  },
+  {
+    "name": "Ornate Cuffs",
+    "href": "Ornate_Cuffs",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr03.webp",
+    "properties": {
+      "Armour": "61",
+      "Energy Shield": "21"
+    },
+    "requirements": {
+      "level": 59,
+      "str": 41,
+      "int": 41
+    }
+  },
+  {
+    "name": "Bandage Wraps",
+    "href": "Bandage_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp",
+    "properties": {
+      "Evasion Rating": "44",
+      "Energy Shield": "17"
+    },
+    "requirements": {
+      "level": 45,
+      "dex": 32,
+      "int": 32
+    }
+  },
+  {
+    "name": "Cambric Wraps",
+    "href": "Cambric_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt02.webp",
+    "properties": {
+      "Evasion Rating": "49",
+      "Energy Shield": "19"
+    },
+    "requirements": {
+      "level": 51,
+      "dex": 35,
+      "int": 35
+    }
+  },
+  {
+    "name": "Adorned Wraps",
+    "href": "Adorned_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt03.webp",
+    "properties": {
+      "Evasion Rating": "56",
+      "Energy Shield": "21"
+    },
+    "requirements": {
+      "level": 59,
+      "dex": 41,
+      "int": 41
+    }
+  },
+  {
+    "name": "Knightly Mitts",
+    "href": "Knightly_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr02.webp",
+    "properties": {
+      "Armour": "122"
+    },
+    "requirements": {
+      "level": 65,
+      "str": 80
+    }
+  },
+  {
+    "name": "Ornate Mitts",
+    "href": "Ornate_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr04.webp",
+    "properties": {
+      "Armour": "134"
+    },
+    "requirements": {
+      "level": 70,
+      "str": 87
+    }
+  },
+  {
+    "name": "Vaal Mitts",
+    "href": "Vaal_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr05.webp",
+    "properties": {
+      "Armour": "146"
+    },
+    "requirements": {
+      "level": 75,
+      "str": 94
+    }
+  },
+  {
+    "name": "Massive Mitts",
+    "href": "Massive_Mitts",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr06.webp",
+    "properties": {
+      "Armour": "158"
+    },
+    "requirements": {
+      "level": 80,
+      "str": 101
+    }
+  },
+  {
+    "name": "Stalking Bracers",
+    "href": "Stalking_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex02.webp",
+    "properties": {
+      "Evasion Rating": "111"
+    },
+    "requirements": {
+      "level": 65,
+      "dex": 80
+    }
+  },
+  {
+    "name": "Grand Bracers",
+    "href": "Grand_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex04.webp",
+    "properties": {
+      "Evasion Rating": "122"
+    },
+    "requirements": {
+      "level": 70,
+      "dex": 87
+    }
+  },
+  {
+    "name": "Barbed Bracers",
+    "href": "Barbed_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex05.webp",
+    "properties": {
+      "Evasion Rating": "133"
+    },
+    "requirements": {
+      "level": 75,
+      "dex": 94
+    }
+  },
+  {
+    "name": "Polished Bracers",
+    "href": "Polished_Bracers",
+    "type": "dex",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex06.webp",
+    "properties": {
+      "Evasion Rating": "144"
+    },
+    "requirements": {
+      "level": 80,
+      "dex": 101
+    }
+  },
+  {
+    "name": "Grim Gloves",
+    "href": "Grim_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt02.webp",
+    "properties": {
+      "Energy Shield": "42"
+    },
+    "requirements": {
+      "level": 65,
+      "int": 80
+    }
+  },
+  {
+    "name": "Opulent Gloves",
+    "href": "Opulent_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt04.webp",
+    "properties": {
+      "Energy Shield": "46"
+    },
+    "requirements": {
+      "level": 70,
+      "int": 87
+    }
+  },
+  {
+    "name": "Vaal Gloves",
+    "href": "Vaal_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt05.webp",
+    "properties": {
+      "Energy Shield": "50"
+    },
+    "requirements": {
+      "level": 75,
+      "int": 94
+    }
+  },
+  {
+    "name": "Sirenscale Gloves",
+    "href": "Sirenscale_Gloves",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt06.webp",
+    "properties": {
+      "Energy Shield": "54"
+    },
+    "requirements": {
+      "level": 80,
+      "int": 101
+    }
+  },
+  {
+    "name": "Steelmail Gauntlets",
+    "href": "Steelmail_Gauntlets",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex01.webp",
+    "properties": {
+      "Armour": "67",
+      "Evasion Rating": "61"
+    },
+    "requirements": {
+      "level": 65,
+      "str": 44,
+      "dex": 44
+    }
+  },
+  {
+    "name": "Commander Gauntlets",
+    "href": "Commander_Gauntlets",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex02.webp",
+    "properties": {
+      "Armour": "74",
+      "Evasion Rating": "67"
+    },
+    "requirements": {
+      "level": 70,
+      "str": 48,
+      "dex": 48
+    }
+  },
+  {
+    "name": "Cultist Gauntlets",
+    "href": "Cultist_Gauntlets",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex03.webp",
+    "properties": {
+      "Armour": "80",
+      "Evasion Rating": "73"
+    },
+    "requirements": {
+      "level": 75,
+      "str": 52,
+      "dex": 52
+    }
+  },
+  {
+    "name": "Blacksteel Gauntlets",
+    "href": "Blacksteel_Gauntlets",
+    "type": "str",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex04.webp",
+    "properties": {
+      "Armour": "87",
+      "Evasion Rating": "79"
+    },
+    "requirements": {
+      "level": 80,
+      "str": 55,
+      "dex": 55
+    }
+  },
+  {
+    "name": "Bound Cuffs",
+    "href": "Bound_Cuffs",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr01.webp",
+    "properties": {
+      "Armour": "67",
+      "Energy Shield": "23"
+    },
+    "requirements": {
+      "level": 65,
+      "str": 44,
+      "int": 44
+    }
+  },
+  {
+    "name": "Ancient Cuffs",
+    "href": "Ancient_Cuffs",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr02.webp",
+    "properties": {
+      "Armour": "74",
+      "Energy Shield": "25"
+    },
+    "requirements": {
+      "level": 70,
+      "str": 48,
+      "int": 48
+    }
+  },
+  {
+    "name": "Gleaming Cuffs",
+    "href": "Gleaming_Cuffs",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr03.webp",
+    "properties": {
+      "Armour": "80",
+      "Energy Shield": "28"
+    },
+    "requirements": {
+      "level": 75,
+      "str": 52,
+      "int": 52
+    }
+  },
+  {
+    "name": "Adherent Cuffs",
+    "href": "Adherent_Cuffs",
+    "type": "str_int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr04.webp",
+    "properties": {
+      "Armour": "87",
+      "Energy Shield": "30"
+    },
+    "requirements": {
+      "level": 80,
+      "str": 55,
+      "int": 55
+    }
+  },
+  {
+    "name": "War Wraps",
+    "href": "War_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp",
+    "properties": {
+      "Evasion Rating": "61",
+      "Energy Shield": "23"
+    },
+    "requirements": {
+      "level": 65,
+      "dex": 44,
+      "int": 44
+    }
+  },
+  {
+    "name": "Elegant Wraps",
+    "href": "Elegant_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt02.webp",
+    "properties": {
+      "Evasion Rating": "67",
+      "Energy Shield": "25"
+    },
+    "requirements": {
+      "level": 70,
+      "dex": 48,
+      "int": 48
+    }
+  },
+  {
+    "name": "Vaal Wraps",
+    "href": "Vaal_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt03.webp",
+    "properties": {
+      "Evasion Rating": "73",
+      "Energy Shield": "28"
+    },
+    "requirements": {
+      "level": 75,
+      "dex": 52,
+      "int": 52
+    }
+  },
+  {
+    "name": "Secured Wraps",
+    "href": "Secured_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt04.webp",
+    "properties": {
+      "Evasion Rating": "79",
+      "Energy Shield": "30"
+    },
+    "requirements": {
+      "level": 80,
+      "dex": 55,
+      "int": 55
+    }
+  },
+  {
+    "name": "[DNT-UNUSED] Hand Wraps",
+    "href": "DNT-UNUSED_Hand_Wraps",
+    "type": "int",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt04.webp",
+    "properties": {
+      "Evasion Rating": "7",
+      "Energy Shield": "7"
+    },
+    "requirements": {}
+  }
+]

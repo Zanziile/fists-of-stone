@@ -1,0 +1,2381 @@
+[
+  {
+    "code": "",
+    "name": "of the Mongoose",
+    "stat": "+(5-8) to Dexterity",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Dexterity"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Lynx",
+    "stat": "+(9-12) to Dexterity",
+    "type": "Suffix",
+    "level": 11,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Dexterity"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Fox",
+    "stat": "+(13-16) to Dexterity",
+    "type": "Suffix",
+    "level": 22,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Dexterity"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Falcon",
+    "stat": "+(17-20) to Dexterity",
+    "type": "Suffix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Dexterity"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Panther",
+    "stat": "+(21-24) to Dexterity",
+    "type": "Suffix",
+    "level": 44,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Dexterity"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Leopard",
+    "stat": "+(25-27) to Dexterity",
+    "type": "Suffix",
+    "level": 55,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Dexterity"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Jaguar",
+    "stat": "+(28-30) to Dexterity",
+    "type": "Suffix",
+    "level": 66,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Dexterity"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Phantom",
+    "stat": "+(31-33) to Dexterity",
+    "type": "Suffix",
+    "level": 74,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Dexterity"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Wind",
+    "stat": "+(34-36) to Dexterity",
+    "type": "Suffix",
+    "level": 81,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Dexterity"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Pupil",
+    "stat": "+(5-8) to Intelligence",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Intelligence"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Student",
+    "stat": "+(9-12) to Intelligence",
+    "type": "Suffix",
+    "level": 11,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Intelligence"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Prodigy",
+    "stat": "+(13-16) to Intelligence",
+    "type": "Suffix",
+    "level": 22,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Intelligence"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Augur",
+    "stat": "+(17-20) to Intelligence",
+    "type": "Suffix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Intelligence"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Philosopher",
+    "stat": "+(21-24) to Intelligence",
+    "type": "Suffix",
+    "level": 44,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Intelligence"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Sage",
+    "stat": "+(25-27) to Intelligence",
+    "type": "Suffix",
+    "level": 55,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Intelligence"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Savant",
+    "stat": "+(28-30) to Intelligence",
+    "type": "Suffix",
+    "level": 66,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Intelligence"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Virtuoso",
+    "stat": "+(31-33) to Intelligence",
+    "type": "Suffix",
+    "level": 74,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "Intelligence"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Whelpling",
+    "stat": "+(6-10)% to Fire Resistance",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "FireResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Salamander",
+    "stat": "+(11-15)% to Fire Resistance",
+    "type": "Suffix",
+    "level": 12,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "FireResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Drake",
+    "stat": "+(16-20)% to Fire Resistance",
+    "type": "Suffix",
+    "level": 24,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "FireResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Kiln",
+    "stat": "+(21-25)% to Fire Resistance",
+    "type": "Suffix",
+    "level": 36,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "FireResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Furnace",
+    "stat": "+(26-30)% to Fire Resistance",
+    "type": "Suffix",
+    "level": 48,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "FireResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Volcano",
+    "stat": "+(31-35)% to Fire Resistance",
+    "type": "Suffix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "FireResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Magma",
+    "stat": "+(36-40)% to Fire Resistance",
+    "type": "Suffix",
+    "level": 71,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "FireResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Tzteosh",
+    "stat": "+(41-45)% to Fire Resistance",
+    "type": "Suffix",
+    "level": 82,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "FireResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Seal",
+    "stat": "+(6-10)% to Cold Resistance",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ColdResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Penguin",
+    "stat": "+(11-15)% to Cold Resistance",
+    "type": "Suffix",
+    "level": 14,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ColdResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Narwhal",
+    "stat": "+(16-20)% to Cold Resistance",
+    "type": "Suffix",
+    "level": 26,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ColdResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Yeti",
+    "stat": "+(21-25)% to Cold Resistance",
+    "type": "Suffix",
+    "level": 38,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ColdResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Walrus",
+    "stat": "+(26-30)% to Cold Resistance",
+    "type": "Suffix",
+    "level": 50,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ColdResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Polar Bear",
+    "stat": "+(31-35)% to Cold Resistance",
+    "type": "Suffix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ColdResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Ice",
+    "stat": "+(36-40)% to Cold Resistance",
+    "type": "Suffix",
+    "level": 71,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ColdResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Haast",
+    "stat": "+(41-45)% to Cold Resistance",
+    "type": "Suffix",
+    "level": 82,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ColdResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Cloud",
+    "stat": "+(6-10)% to Lightning Resistance",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LightningResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Squall",
+    "stat": "+(11-15)% to Lightning Resistance",
+    "type": "Suffix",
+    "level": 13,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LightningResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Storm",
+    "stat": "+(16-20)% to Lightning Resistance",
+    "type": "Suffix",
+    "level": 25,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LightningResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Thunderhead",
+    "stat": "+(21-25)% to Lightning Resistance",
+    "type": "Suffix",
+    "level": 37,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LightningResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Tempest",
+    "stat": "+(26-30)% to Lightning Resistance",
+    "type": "Suffix",
+    "level": 49,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LightningResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Maelstrom",
+    "stat": "+(31-35)% to Lightning Resistance",
+    "type": "Suffix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LightningResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Lightning",
+    "stat": "+(36-40)% to Lightning Resistance",
+    "type": "Suffix",
+    "level": 71,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LightningResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Ephij",
+    "stat": "+(41-45)% to Lightning Resistance",
+    "type": "Suffix",
+    "level": 82,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LightningResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Lost",
+    "stat": "+(4-7)% to Chaos Resistance",
+    "type": "Suffix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": "250",
+    "family": [
+      "ChaosResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Banishment",
+    "stat": "+(8-11)% to Chaos Resistance",
+    "type": "Suffix",
+    "level": 30,
+    "tier": "",
+    "drop_chance": "250",
+    "family": [
+      "ChaosResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Eviction",
+    "stat": "+(12-15)% to Chaos Resistance",
+    "type": "Suffix",
+    "level": 44,
+    "tier": "",
+    "drop_chance": "250",
+    "family": [
+      "ChaosResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Expulsion",
+    "stat": "+(16-19)% to Chaos Resistance",
+    "type": "Suffix",
+    "level": 56,
+    "tier": "",
+    "drop_chance": "250",
+    "family": [
+      "ChaosResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Exile",
+    "stat": "+(20-23)% to Chaos Resistance",
+    "type": "Suffix",
+    "level": 68,
+    "tier": "",
+    "drop_chance": "250",
+    "family": [
+      "ChaosResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Bameth",
+    "stat": "+(24-27)% to Chaos Resistance",
+    "type": "Suffix",
+    "level": 81,
+    "tier": "",
+    "drop_chance": "250",
+    "family": [
+      "ChaosResistance"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Hale",
+    "stat": "+(10-19) to maximum Life",
+    "type": "Prefix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Healthy",
+    "stat": "+(20-29) to maximum Life",
+    "type": "Prefix",
+    "level": 6,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Sanguine",
+    "stat": "+(30-39) to maximum Life",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Stalwart",
+    "stat": "+(40-59) to maximum Life",
+    "type": "Prefix",
+    "level": 24,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Stout",
+    "stat": "+(60-69) to maximum Life",
+    "type": "Prefix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Robust",
+    "stat": "+(70-84) to maximum Life",
+    "type": "Prefix",
+    "level": 38,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Rotund",
+    "stat": "+(85-99) to maximum Life",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Virile",
+    "stat": "+(100-119) to maximum Life",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Athlete's",
+    "stat": "+(120-149) to maximum Life",
+    "type": "Prefix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Beryl",
+    "stat": "+(10-14) to maximum Mana",
+    "type": "Prefix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedMana"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Cobalt",
+    "stat": "+(15-24) to maximum Mana",
+    "type": "Prefix",
+    "level": 6,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedMana"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Azure",
+    "stat": "+(25-34) to maximum Mana",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedMana"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Teal",
+    "stat": "+(35-54) to maximum Mana",
+    "type": "Prefix",
+    "level": 25,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedMana"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Cerulean",
+    "stat": "+(55-64) to maximum Mana",
+    "type": "Prefix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedMana"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Aqua",
+    "stat": "+(65-79) to maximum Mana",
+    "type": "Prefix",
+    "level": 38,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedMana"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Opalescent",
+    "stat": "+(80-89) to maximum Mana",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedMana"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Gentian",
+    "stat": "+(90-104) to maximum Mana",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedMana"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Chalybeous",
+    "stat": "+(105-124) to maximum Mana",
+    "type": "Prefix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "IncreasedMana"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Shining",
+    "stat": "+(10-17) to maximum Energy Shield",
+    "type": "Prefix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "BaseLocalDefences"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Glimmering",
+    "stat": "+(18-24) to maximum Energy Shield",
+    "type": "Prefix",
+    "level": 8,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "BaseLocalDefences"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Glittering",
+    "stat": "+(25-30) to maximum Energy Shield",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "BaseLocalDefences"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Glowing",
+    "stat": "+(31-35) to maximum Energy Shield",
+    "type": "Prefix",
+    "level": 25,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "BaseLocalDefences"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Radiating",
+    "stat": "+(36-41) to maximum Energy Shield",
+    "type": "Prefix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "BaseLocalDefences"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Pulsing",
+    "stat": "+(42-47) to maximum Energy Shield",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "BaseLocalDefences"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Blazing",
+    "stat": "+(48-60) to maximum Energy Shield",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "BaseLocalDefences"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Protective",
+    "stat": "(15-26)% increased Energy Shield",
+    "type": "Prefix",
+    "level": 2,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Strong-Willed",
+    "stat": "(27-42)% increased Energy Shield",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Resolute",
+    "stat": "(43-55)% increased Energy Shield",
+    "type": "Prefix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Fearless",
+    "stat": "(56-67)% increased Energy Shield",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Dauntless",
+    "stat": "(68-79)% increased Energy Shield",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Indomitable",
+    "stat": "(80-91)% increased Energy Shield",
+    "type": "Prefix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Unassailable",
+    "stat": "(92-100)% increased Energy Shield",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Monk's",
+    "stat": "(6-13)% increased Energy Shield+(7-10) to maximum Life",
+    "type": "Prefix",
+    "level": 8,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "BaseLocalDefencesAndLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Prior's",
+    "stat": "(14-20)% increased Energy Shield+(11-19) to maximum Life",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "BaseLocalDefencesAndLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Abbot's",
+    "stat": "(21-26)% increased Energy Shield+(20-25) to maximum Life",
+    "type": "Prefix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "BaseLocalDefencesAndLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Bishop's",
+    "stat": "(27-32)% increased Energy Shield+(26-32) to maximum Life",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "BaseLocalDefencesAndLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Exarch's",
+    "stat": "(33-38)% increased Energy Shield+(33-41) to maximum Life",
+    "type": "Prefix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "BaseLocalDefencesAndLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Pope's",
+    "stat": "(39-42)% increased Energy Shield+(42-49) to maximum Life",
+    "type": "Prefix",
+    "level": 78,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "BaseLocalDefencesAndLife"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Worthy",
+    "stat": "15% reduced Attribute Requirements",
+    "type": "Suffix",
+    "level": 24,
+    "tier": "",
+    "drop_chance": "700",
+    "family": [
+      "LocalAttributeRequirements"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Apt",
+    "stat": "20% reduced Attribute Requirements",
+    "type": "Suffix",
+    "level": 32,
+    "tier": "",
+    "drop_chance": "700",
+    "family": [
+      "LocalAttributeRequirements"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Talented",
+    "stat": "25% reduced Attribute Requirements",
+    "type": "Suffix",
+    "level": 40,
+    "tier": "",
+    "drop_chance": "700",
+    "family": [
+      "LocalAttributeRequirements"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Skilled",
+    "stat": "30% reduced Attribute Requirements",
+    "type": "Suffix",
+    "level": 52,
+    "tier": "",
+    "drop_chance": "700",
+    "family": [
+      "LocalAttributeRequirements"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Proficient",
+    "stat": "35% reduced Attribute Requirements",
+    "type": "Suffix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": "700",
+    "family": [
+      "LocalAttributeRequirements"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Glinting",
+    "stat": "Adds (1-2) to 3 Physical Damage to Attacks",
+    "type": "Prefix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "PhysicalDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Burnished",
+    "stat": "Adds (2-3) to (4-6) Physical Damage to Attacks",
+    "type": "Prefix",
+    "level": 8,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "PhysicalDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Polished",
+    "stat": "Adds (2-4) to (5-8) Physical Damage to Attacks",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "PhysicalDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Honed",
+    "stat": "Adds (4-6) to (8-11) Physical Damage to Attacks",
+    "type": "Prefix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "PhysicalDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Gleaming",
+    "stat": "Adds (5-7) to (9-13) Physical Damage to Attacks",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "PhysicalDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Annealed",
+    "stat": "Adds (6-10) to (12-17) Physical Damage to Attacks",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "PhysicalDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Razor-sharp",
+    "stat": "Adds (7-11) to (14-20) Physical Damage to Attacks",
+    "type": "Prefix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": "800",
+    "family": [
+      "PhysicalDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Tempered",
+    "stat": "Adds (10-15) to (18-26) Physical Damage to Attacks",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": "600",
+    "family": [
+      "PhysicalDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Flaring",
+    "stat": "Adds (12-19) to (22-32) Physical Damage to Attacks",
+    "type": "Prefix",
+    "level": 75,
+    "tier": "",
+    "drop_chance": "400",
+    "family": [
+      "PhysicalDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Heated",
+    "stat": "Adds (1-2) to 3 Fire damage to Attacks",
+    "type": "Prefix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "FireDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Smouldering",
+    "stat": "Adds (3-5) to (6-9) Fire damage to Attacks",
+    "type": "Prefix",
+    "level": 8,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "FireDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Smoking",
+    "stat": "Adds (6-8) to (10-13) Fire damage to Attacks",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "FireDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Burning",
+    "stat": "Adds (9-11) to (14-17) Fire damage to Attacks",
+    "type": "Prefix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "FireDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Flaming",
+    "stat": "Adds (12-13) to (18-20) Fire damage to Attacks",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "FireDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Scorching",
+    "stat": "Adds (11-16) to (21-26) Fire damage to Attacks",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "FireDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Incinerating",
+    "stat": "Adds (13-19) to (27-32) Fire damage to Attacks",
+    "type": "Prefix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": "400",
+    "family": [
+      "FireDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Blasting",
+    "stat": "Adds (20-24) to (33-36) Fire damage to Attacks",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": "300",
+    "family": [
+      "FireDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Cremating",
+    "stat": "Adds (25-29) to (37-45) Fire damage to Attacks",
+    "type": "Prefix",
+    "level": 75,
+    "tier": "",
+    "drop_chance": "200",
+    "family": [
+      "FireDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Frosted",
+    "stat": "Adds 1 to (2-3) Cold damage to Attacks",
+    "type": "Prefix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "ColdDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Chilled",
+    "stat": "Adds (3-4) to (5-8) Cold damage to Attacks",
+    "type": "Prefix",
+    "level": 8,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "ColdDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Icy",
+    "stat": "Adds (5-6) to (9-11) Cold damage to Attacks",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "ColdDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Frigid",
+    "stat": "Adds (7-8) to (12-14) Cold damage to Attacks",
+    "type": "Prefix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "ColdDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Freezing",
+    "stat": "Adds (9-10) to (15-17) Cold damage to Attacks",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "ColdDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Frozen",
+    "stat": "Adds (11-13) to (18-21) Cold damage to Attacks",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "ColdDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Glaciated",
+    "stat": "Adds (14-15) to (22-24) Cold damage to Attacks",
+    "type": "Prefix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": "400",
+    "family": [
+      "ColdDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Polar",
+    "stat": "Adds (16-20) to (25-31) Cold damage to Attacks",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": "300",
+    "family": [
+      "ColdDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Entombing",
+    "stat": "Adds (21-24) to (32-37) Cold damage to Attacks",
+    "type": "Prefix",
+    "level": 75,
+    "tier": "",
+    "drop_chance": "200",
+    "family": [
+      "ColdDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Humming",
+    "stat": "Adds 1 to (4-6) Lightning damage to Attacks",
+    "type": "Prefix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "LightningDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Buzzing",
+    "stat": "Adds 1 to (10-15) Lightning damage to Attacks",
+    "type": "Prefix",
+    "level": 8,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "LightningDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Snapping",
+    "stat": "Adds 1 to (16-22) Lightning damage to Attacks",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "LightningDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Crackling",
+    "stat": "Adds 1 to (23-27) Lightning damage to Attacks",
+    "type": "Prefix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "LightningDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Sparking",
+    "stat": "Adds 1 to (28-32) Lightning damage to Attacks",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "LightningDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Arcing",
+    "stat": "Adds (1-2) to (33-40) Lightning damage to Attacks",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "LightningDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Shocking",
+    "stat": "Adds (1-2) to (41-47) Lightning damage to Attacks",
+    "type": "Prefix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": "400",
+    "family": [
+      "LightningDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Discharging",
+    "stat": "Adds (1-3) to (48-59) Lightning damage to Attacks",
+    "type": "Prefix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": "300",
+    "family": [
+      "LightningDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Electrocuting",
+    "stat": "Adds (1-4) to (60-71) Lightning damage to Attacks",
+    "type": "Prefix",
+    "level": 75,
+    "tier": "",
+    "drop_chance": "200",
+    "family": [
+      "LightningDamage"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Combat",
+    "stat": "+1 to Level of all Melee Skills",
+    "type": "Suffix",
+    "level": 5,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "IncreaseSocketedGemLevel"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Dueling",
+    "stat": "+2 to Level of all Melee Skills",
+    "type": "Suffix",
+    "level": 41,
+    "tier": "",
+    "drop_chance": "250",
+    "family": [
+      "IncreaseSocketedGemLevel"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Parasite",
+    "stat": "Leech (5-5.9)% of Physical Attack Damage as Life",
+    "type": "Suffix",
+    "level": 21,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LifeLeech"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Locust",
+    "stat": "Leech (6-6.9)% of Physical Attack Damage as Life",
+    "type": "Suffix",
+    "level": 38,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LifeLeech"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Remora",
+    "stat": "Leech (7-7.9)% of Physical Attack Damage as Life",
+    "type": "Suffix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LifeLeech"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Lamprey",
+    "stat": "Leech (8-8.9)% of Physical Attack Damage as Life",
+    "type": "Suffix",
+    "level": 68,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LifeLeech"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Vampire",
+    "stat": "Leech (9-9.9)% of Physical Attack Damage as Life",
+    "type": "Suffix",
+    "level": 81,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LifeLeech"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Thirsty",
+    "stat": "Leech (4-4.9)% of Physical Attack Damage as Mana",
+    "type": "Suffix",
+    "level": 21,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ManaLeech"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Parched",
+    "stat": "Leech (5-5.9)% of Physical Attack Damage as Mana",
+    "type": "Suffix",
+    "level": 38,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ManaLeech"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Arid",
+    "stat": "Leech (6-6.9)% of Physical Attack Damage as Mana",
+    "type": "Suffix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ManaLeech"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Drought",
+    "stat": "Leech (7-7.9)% of Physical Attack Damage as Mana",
+    "type": "Suffix",
+    "level": 68,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ManaLeech"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of the Desperate",
+    "stat": "Leech (8-8.9)% of Physical Attack Damage as Mana",
+    "type": "Suffix",
+    "level": 81,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ManaLeech"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Success",
+    "stat": "Gain (4-6) Life per enemy killed",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "LifeGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Victory",
+    "stat": "Gain (7-9) Life per enemy killed",
+    "type": "Suffix",
+    "level": 11,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "LifeGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Triumph",
+    "stat": "Gain (10-18) Life per enemy killed",
+    "type": "Suffix",
+    "level": 22,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "LifeGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Conquest",
+    "stat": "Gain (19-28) Life per enemy killed",
+    "type": "Suffix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "LifeGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Vanquishing",
+    "stat": "Gain (29-40) Life per enemy killed",
+    "type": "Suffix",
+    "level": 44,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "LifeGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Valour",
+    "stat": "Gain (41-53) Life per enemy killed",
+    "type": "Suffix",
+    "level": 55,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "LifeGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Glory",
+    "stat": "Gain (54-68) Life per enemy killed",
+    "type": "Suffix",
+    "level": 66,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "LifeGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Legend",
+    "stat": "Gain (69-84) Life per enemy killed",
+    "type": "Suffix",
+    "level": 77,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "LifeGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Absorption",
+    "stat": "Gain (2-3) Mana per enemy killed",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "ManaGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Osmosis",
+    "stat": "Gain (4-5) Mana per enemy killed",
+    "type": "Suffix",
+    "level": 12,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "ManaGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Infusion",
+    "stat": "Gain (6-9) Mana per enemy killed",
+    "type": "Suffix",
+    "level": 23,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "ManaGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Enveloping",
+    "stat": "Gain (10-14) Mana per enemy killed",
+    "type": "Suffix",
+    "level": 34,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "ManaGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Consumption",
+    "stat": "Gain (15-20) Mana per enemy killed",
+    "type": "Suffix",
+    "level": 45,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "ManaGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Siphoning",
+    "stat": "Gain (21-27) Mana per enemy killed",
+    "type": "Suffix",
+    "level": 56,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "ManaGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Devouring",
+    "stat": "Gain (28-35) Mana per enemy killed",
+    "type": "Suffix",
+    "level": 67,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "ManaGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Assimilation",
+    "stat": "Gain (36-45) Mana per enemy killed",
+    "type": "Suffix",
+    "level": 78,
+    "tier": "",
+    "drop_chance": "750",
+    "family": [
+      "ManaGainedFromEnemyDeath"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Rejuvenation",
+    "stat": "Gain 2 Life per Enemy Hit with Attacks",
+    "type": "Suffix",
+    "level": 8,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LifeGainPerTarget"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Restoration",
+    "stat": "Gain 3 Life per Enemy Hit with Attacks",
+    "type": "Suffix",
+    "level": 20,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LifeGainPerTarget"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Regrowth",
+    "stat": "Gain 4 Life per Enemy Hit with Attacks",
+    "type": "Suffix",
+    "level": 30,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LifeGainPerTarget"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Nourishment",
+    "stat": "Gain 5 Life per Enemy Hit with Attacks",
+    "type": "Suffix",
+    "level": 40,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LifeGainPerTarget"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Skill",
+    "stat": "(5-7)% increased Attack Speed",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "IncreasedAttackSpeed"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Ease",
+    "stat": "(8-10)% increased Attack Speed",
+    "type": "Suffix",
+    "level": 22,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "IncreasedAttackSpeed"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Mastery",
+    "stat": "(11-13)% increased Attack Speed",
+    "type": "Suffix",
+    "level": 37,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "IncreasedAttackSpeed"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Renown",
+    "stat": "(14-16)% increased Attack Speed",
+    "type": "Suffix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "IncreasedAttackSpeed"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Precise",
+    "stat": "+(11-32) to Accuracy Rating",
+    "type": "Prefix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "800",
+    "family": [
+      "IncreasedAccuracy"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Reliable",
+    "stat": "+(33-60) to Accuracy Rating",
+    "type": "Prefix",
+    "level": 11,
+    "tier": "",
+    "drop_chance": "800",
+    "family": [
+      "IncreasedAccuracy"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Focused",
+    "stat": "+(61-84) to Accuracy Rating",
+    "type": "Prefix",
+    "level": 18,
+    "tier": "",
+    "drop_chance": "800",
+    "family": [
+      "IncreasedAccuracy"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Deliberate",
+    "stat": "+(85-123) to Accuracy Rating",
+    "type": "Prefix",
+    "level": 26,
+    "tier": "",
+    "drop_chance": "800",
+    "family": [
+      "IncreasedAccuracy"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Consistent",
+    "stat": "+(124-167) to Accuracy Rating",
+    "type": "Prefix",
+    "level": 36,
+    "tier": "",
+    "drop_chance": "800",
+    "family": [
+      "IncreasedAccuracy"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Steady",
+    "stat": "+(168-236) to Accuracy Rating",
+    "type": "Prefix",
+    "level": 48,
+    "tier": "",
+    "drop_chance": "800",
+    "family": [
+      "IncreasedAccuracy"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Hunter's",
+    "stat": "+(237-346) to Accuracy Rating",
+    "type": "Prefix",
+    "level": 58,
+    "tier": "",
+    "drop_chance": "800",
+    "family": [
+      "IncreasedAccuracy"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Ranger's",
+    "stat": "+(347-450) to Accuracy Rating",
+    "type": "Prefix",
+    "level": 67,
+    "tier": "",
+    "drop_chance": "400",
+    "family": [
+      "IncreasedAccuracy"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "Amazon's",
+    "stat": "+(451-550) to Accuracy Rating",
+    "type": "Prefix",
+    "level": 76,
+    "tier": "",
+    "drop_chance": "200",
+    "family": [
+      "IncreasedAccuracy"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Ire",
+    "stat": "(10-14)% increased Critical Damage Bonus",
+    "type": "Suffix",
+    "level": 8,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "CriticalStrikeMultiplier"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Anger",
+    "stat": "(15-19)% increased Critical Damage Bonus",
+    "type": "Suffix",
+    "level": 21,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "CriticalStrikeMultiplier"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Rage",
+    "stat": "(20-24)% increased Critical Damage Bonus",
+    "type": "Suffix",
+    "level": 31,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "CriticalStrikeMultiplier"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Fury",
+    "stat": "(25-29)% increased Critical Damage Bonus",
+    "type": "Suffix",
+    "level": 45,
+    "tier": "",
+    "drop_chance": "500",
+    "family": [
+      "CriticalStrikeMultiplier"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Ferocity",
+    "stat": "(30-34)% increased Critical Damage Bonus",
+    "type": "Suffix",
+    "level": 59,
+    "tier": "",
+    "drop_chance": "250",
+    "family": [
+      "CriticalStrikeMultiplier"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Plunder",
+    "stat": "(6-10)% increased Rarity of Items found",
+    "type": "Suffix",
+    "level": 3,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ItemFoundRarityIncrease"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Raiding",
+    "stat": "(11-14)% increased Rarity of Items found",
+    "type": "Suffix",
+    "level": 24,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ItemFoundRarityIncrease"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Archaeology",
+    "stat": "(15-18)% increased Rarity of Items found",
+    "type": "Suffix",
+    "level": 40,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "ItemFoundRarityIncrease"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Enlivening",
+    "stat": "(26-30)% increased Energy Shield Recharge Rate",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "EnergyShieldRegeneration"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Diffusion",
+    "stat": "(31-35)% increased Energy Shield Recharge Rate",
+    "type": "Suffix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "EnergyShieldRegeneration"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Dispersal",
+    "stat": "(36-40)% increased Energy Shield Recharge Rate",
+    "type": "Suffix",
+    "level": 36,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "EnergyShieldRegeneration"
+    ],
+    "glove_type": "int"
+  },
+  {
+    "code": "",
+    "name": "of Buffering",
+    "stat": "(41-45)% increased Energy Shield Recharge Rate",
+    "type": "Suffix",
+    "level": 48,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "EnergyShieldRegeneration"
+    ],
+    "glove_type": "int"
+  }
+]

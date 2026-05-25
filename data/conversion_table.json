@@ -1,0 +1,371 @@
+{
+  "_meta": {
+    "description": "Conversion table for Way of the Stonefist. Keys are lowercase keyword patterns matched against modifier stat text.",
+    "sources": [
+      "Example 1: Fine Bracers (DEX rare) -> Fists of Stone",
+      "Example 2: Knightly Mitts (STR rare) -> Fists of Stone",
+      "Example 3: Treefingers (STR unique) -> Fists of Stone",
+      "Example 4: Hand of Wisdom and Action (DEX/INT unique) -> Fists of Stone"
+    ],
+    "key_patterns": [
+      "UNIQUE vs RARE: Unique mods follow item-specific conversion rules, not generic ones",
+      "Flat vs % defence stats convert DIFFERENTLY (flat Armour splits into 2 per-level mods; % increased Armour → single % more mod)",
+      "Resource thresholds: Life → on Low Life bonus; Mana → on Low Mana bonus",
+      "Attack stats → Cast stats (Attack Speed → Cast Speed, same % value)",
+      "CC buildup → different CC buildup (Stun → Immobilisation, ratio ~0.72)",
+      "Keystones → different keystones (Giant's Blood → Hollow Palm Technique)",
+      "Critical Hit triggers → preserve % chance, change effect type",
+      "Flat Armour → per-level EVA + per-level ES (split, both stacking with Fists of Stone base implicit)",
+      "Strength (flat) → increased Area of Effect for Attacks (ratio ~1.25x)",
+      "per 20 [Attribute] mods: the attribute SWAPS (DEX ↔ INT on HoWA unique)"
+    ]
+  },
+
+  "increased evasion rating": {
+    "converted_stat": "more Global Evasion Rating and Energy Shield",
+    "formula": "value / 5",
+    "example": "75% increased Evasion Rating → 15% more Global Evasion Rating and Energy Shield",
+    "split": false,
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "increased armour": {
+    "converted_stat": "more Global Evasion Rating and Energy Shield",
+    "formula": "value / ~4",
+    "example": "51% increased Armour → 13% more Global Evasion Rating and Energy Shield",
+    "split": false,
+    "note": "% increased Armour converts as a SINGLE stat (unlike flat +Armour which splits into 2 per-level mods). Ratio ~4 vs ~5 for Evasion.",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "to armour": {
+    "converted_stat": "Has +X to Evasion Rating per player level + Has +Y to maximum Energy Shield per player level",
+    "formula": "unknown — +84 flat Armour → +2 EVA/level + +1 ES/level",
+    "example": "+84 to Armour → Has +2 to Evasion Rating per player level + Has +1 to maximum Energy Shield per player level",
+    "split": true,
+    "split_outputs": [
+      "Has +X to Evasion Rating per player level",
+      "Has +Y to maximum Energy Shield per player level"
+    ],
+    "note": "FLAT Armour only. Converts to BOTH EVA and ES per level (Fists of Stone is hybrid). Stacks with base implicits.",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "to evasion rating": {
+    "converted_stat": "Has +X to Evasion Rating per player level",
+    "formula": "unknown — by analogy with flat Armour (splits into per-level). Flat EVA may split or just → EVA/level.",
+    "example": "No confirmed example yet. By analogy: flat Armour → per-level EVA + per-level ES (split). Flat EVA may follow similar pattern.",
+    "split": false,
+    "note": "BY ANALOGY with flat Armour which splits into EVA/level + ES/level. Flat EVA may convert to EVA/level only, or still split — unconfirmed.",
+    "confirmed": false,
+    "unknown": true
+  },
+
+  "adds physical damage to attacks": {
+    "converted_stat": "Attacks Gain ?% of Damage as Extra Physical Damage",
+    "formula": "unknown — tier-dependent. T-low (5-9) → 13%; T-high (13-23) → 24% (Damnation Palm unique)",
+    "example": "Adds 13 to 23 Physical Damage to Attacks → Attacks Gain 24% of Damage as Extra Physical Damage (Damnation Palm unique, confirmed)",
+    "split": false,
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "maximum life": {
+    "converted_stat": "less damage taken while on Low Life",
+    "formula": "unknown — +84 Life → 10% less dmg on Low Life",
+    "example": "+84 to maximum Life → 10% less damage taken while on Low Life",
+    "split": false,
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "to intelligence": {
+    "converted_stat": "increased Cooldown Recovery Rate (rare) OR increased Intelligence (unique)",
+    "formula": "rare: ~value:value numeric; unique: ~value * 0.35 (HoWA: +20 INT → 7% increased INT)",
+    "example": "RARE: +22 to Intelligence → 21% increased Cooldown Recovery Rate (Fine Bracers). UNIQUE: +20 to Intelligence → 7% increased Intelligence (Hand of Wisdom and Action)",
+    "split": false,
+    "note": "CONTEXT-DEPENDENT. Rare items: INT → CDR. Unique items: INT → % increased INT. The conversion rule differs by item type.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 1.0,
+      "output_pattern": "~{value}% increased Cooldown Recovery Rate"
+    }
+  },
+
+  "maximum mana": {
+    "converted_stat": "more Attack damage while on Low Mana",
+    "formula": "unknown — +61 Mana → 18% more Attack damage on Low Mana",
+    "example": "+61 to maximum Mana → 18% more Attack damage while on Low Mana",
+    "split": false,
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "to strength": {
+    "converted_stat": "increased Area of Effect for Attacks",
+    "formula": "round to nearest 10 (examples: +16→20, +31→30)",
+    "example": "+16 to Strength → 20% increased Area of Effect for Attacks; +31 to Strength → 30% increased AoE (Knightly Mitts)",
+    "split": false,
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 1.0,
+      "round_to": 10,
+      "output_pattern": "~{value}% increased Area of Effect for Attacks"
+    }
+  },
+
+  "to cold resistance": {
+    "converted_stat": "keeps X% Cold Resistance + adds +2% to Maximum Cold Resistance",
+    "formula": "RARE: full value kept (unconfirmed). UNIQUE: value÷2 (suspected by analogy with Fire/Lightning).",
+    "example": "RARE (Fine Bracers?): +32% Cold Res → +32% kept + +2% Max. UNIQUE: pattern likely halved like Fire/Lightning.",
+    "split": true,
+    "split_outputs": [
+      "+X% to Cold Resistance (full value on rare; halved on unique — unconfirmed)",
+      "+2% to Maximum Cold Resistance"
+    ],
+    "note": "Pattern: RARE items keep full resistance. UNIQUE items (Damnation Palm confirmed for Fire/Lightning) have value÷2. Cold unique not confirmed yet.",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "to fire resistance": {
+    "converted_stat": "keeps X% Fire Resistance + adds +2% to Maximum Fire Resistance",
+    "formula": "RARE: full value kept (likely). UNIQUE: value÷2, rounded up (27→14, confirmed Damnation Palm)",
+    "example": "UNIQUE (Damnation Palm confirmed): +27% Fire Resistance → +14% Fire Res + +2% Maximum Fire Res",
+    "split": true,
+    "split_outputs": [
+      "+X% to Fire Resistance (full on rare; halved on unique)",
+      "+2% to Maximum Fire Resistance"
+    ],
+    "note": "CONFIRMED on Damnation Palm unique: value÷2 rounded up. Rare items likely keep full value (same pattern as seen with Cold on rare gloves).",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "to lightning resistance": {
+    "converted_stat": "keeps X% Lightning Resistance + adds +2% to Maximum Lightning Resistance",
+    "formula": "RARE: full value kept (likely). UNIQUE: value÷2 exact (40→20, confirmed Damnation Palm)",
+    "example": "UNIQUE (Damnation Palm confirmed): +40% Lightning Resistance → +20% Lightning Res + +2% Maximum Lightning Res",
+    "split": true,
+    "split_outputs": [
+      "+X% to Lightning Resistance (full on rare; halved on unique)",
+      "+2% to Maximum Lightning Resistance"
+    ],
+    "note": "CONFIRMED on Damnation Palm unique: value÷2. Rare items likely keep full value.",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "to level of all melee skills": {
+    "converted_stat": "+X/2 to Level of all Melee Skills + increased Quality of all Skills",
+    "formula": "level halved (rounded down) + unknown quality %",
+    "example": "+2 to Level of all Melee Skills → +1 to Level of all Melee Skills + +10% to Quality of all Skills (Knightly Mitts)",
+    "split": true,
+    "split_outputs": [
+      "+X to Level of all Melee Skills (value halved)",
+      "+Y% to Quality of all Skills"
+    ],
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "attack speed": {
+    "converted_stat": "cast speed (same % value, attack → cast)",
+    "formula": "value preserved exactly",
+    "example": "5% reduced Attack Speed → 5% reduced Cast Speed",
+    "split": false,
+    "note": "Attack Speed converts to Cast Speed preserving the exact % value. Pattern: attack stat → cast stat.",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "stun buildup": {
+    "converted_stat": "increased Immobilisation buildup",
+    "formula": "value * ~0.72",
+    "example": "29% increased Stun Buildup → 21% increased Immobilisation buildup",
+    "split": false,
+    "note": "CC buildup stat → different CC buildup stat. Stun is a form of Immobilisation.",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "gain arcane surge": {
+    "converted_stat": "chance to gain a Power Charge on Critical Hit",
+    "formula": "% value preserved",
+    "example": "10% chance to Gain Arcane Surge when you deal a Critical Hit → 10% chance to gain a Power Charge on Critical Hit",
+    "split": false,
+    "note": "Critical Hit triggers preserve % chance, change effect type.",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "giant's blood": {
+    "converted_stat": "Hollow Palm Technique",
+    "formula": "keystone → keystone (fixed mapping)",
+    "example": "Giant's Blood → Hollow Palm Technique",
+    "split": false,
+    "note": "Keystones convert to thematically related keystones. STR-themed keystone → Martial Artist/unarmed keystone.",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "to chaos resistance": {
+    "converted_stat": "keeps X% Chaos Resistance + adds +2% to Maximum Chaos Resistance",
+    "formula": "RARE likely: full value kept. UNIQUE likely: value÷2. By analogy with Fire/Lightning/Cold.",
+    "example": "No confirmed example yet. By analogy: Fire +27→+14 (unique, ÷2) + +2% Max.",
+    "split": true,
+    "split_outputs": [
+      "+X% to Chaos Resistance (full on rare; likely halved on unique — unconfirmed)",
+      "+2% to Maximum Chaos Resistance"
+    ],
+    "note": "BY ANALOGY with fire/cold/lightning resistance. Chaos resist is special in PoE2 — pattern may differ.",
+    "confirmed": false,
+    "unknown": true
+  },
+
+  "to dexterity": {
+    "converted_stat": "increased Dexterity (% version)",
+    "formula": "flat → % increased, ~value * 0.55 (unique: +20 DEX → 11% increased DEX)",
+    "example": "+20 to Dexterity → 11% increased Dexterity (Hand of Wisdom and Action unique)",
+    "split": false,
+    "note": "UNIQUE ITEM specific. On rare DEX gloves the conversion may differ. Formula: +20 flat → 11% increased.",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "increased energy shield": {
+    "converted_stat": "more Global Evasion Rating and Energy Shield",
+    "formula": "unknown — by analogy: Evasion ÷5, Armour ÷4. Energy Shield likely ÷5 (INT/DEX type).",
+    "example": "No confirmed example yet. By analogy: % increased Evasion Rating → ÷5 more Global EVA+ES.",
+    "split": false,
+    "note": "BY ANALOGY with increased Evasion (÷5) and Armour (÷4): % increased ES → more Global EVA+ES at similar ratio. Ratio unconfirmed.",
+    "confirmed": false,
+    "unknown": true
+  },
+
+  "adds fire damage to attacks": {
+    "converted_stat": "Attacks Gain ?% of Damage as Extra Fire Damage",
+    "formula": "unknown — by analogy: Cold (11-18)→17%, Lightning (2-41)→20%, Physical (13-23)→24%",
+    "example": "No confirmed example yet. By analogy with Cold and Lightning damage: elemental type PRESERVED.",
+    "split": false,
+    "note": "BY ANALOGY with cold and lightning: elemental type preserved, flat damage → extra % of same element. Formula unknown (% varies by tier).",
+    "confirmed": false,
+    "unknown": true
+  },
+
+  "adds cold damage to attacks": {
+    "converted_stat": "Attacks Gain ?% of Damage as Extra Cold Damage",
+    "formula": "unknown — tier-dependent. (11-18) → 17% (Damnation Palm unique, CONFIRMED)",
+    "example": "Adds 11 to 18 Cold Damage to Attacks → Attacks Gain 17% of Damage as Extra Cold Damage (Damnation Palm unique, confirmed)",
+    "split": false,
+    "note": "Elemental type PRESERVED: Cold → Extra Cold. Formula unknown (% varies by tier).",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "adds lightning damage to attacks": {
+    "converted_stat": "Attacks Gain ?% of Damage as Extra Lightning Damage",
+    "formula": "unknown — tier-dependent. (2-41) → 20% (Damnation Palm unique, CONFIRMED)",
+    "example": "Adds 2 to 41 Lightning Damage to Attacks → Attacks Gain 20% of Damage as Extra Lightning Damage (Damnation Palm unique, confirmed)",
+    "split": false,
+    "note": "Elemental type PRESERVED: Lightning → Extra Lightning. (HoWA special case: Lightning → Cold due to unique theme.) Formula unknown (% varies by tier).",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "life per enemy hit with attacks": {
+    "converted_stat": "Gain X Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently",
+    "formula": "value ~2.6x: 5 → 13, Critical Hit condition added",
+    "example": "Gain 5 Life per Enemy Hit with Attacks → Gain 13 Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently (Damnation Palm unique, CONFIRMED)",
+    "split": false,
+    "note": "Life on Hit → more Life on Hit but requires Critical Hit Recently condition. Multiplier ~2.6x confirmed on Damnation Palm unique.",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "increased attack speed": {
+    "converted_stat": "chance to gain Onslaught for 4 seconds on Hit",
+    "formula": "% value preserved (14% attack speed → 14% Onslaught chance)",
+    "example": "Horror Palm rare (DEX/INT): 14% increased Attack Speed → 14% chance to gain Onslaught for 4 seconds on Hit",
+    "split": false,
+    "note": "RARE DEX-type: increased Attack Speed → Onslaught on Hit (confirmed on rare Horror Palm and likely Thunderfist). STR-type: 'reduced Attack Speed' → 'reduced Cast Speed' (Treefingers unique) — may be different rule.",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "increased cast speed": {
+    "converted_stat": "increased Attack Speed",
+    "formula": "value preserved exactly",
+    "example": "13% increased Cast Speed → 13% increased Attack Speed (Demon Stitcher unique)",
+    "split": false,
+    "note": "Cast Speed ↔ Attack Speed swap is BIDIRECTIONAL. Attack Speed → Cast Speed on Treefingers (confirmed); Cast Speed → Attack Speed confirmed on Demon Stitcher. Value preserved in both directions.",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "increased evasion and energy shield": {
+    "converted_stat": "more Global Evasion Rating and Energy Shield",
+    "formula": "value / 5",
+    "example": "75% increased Evasion and Energy Shield → 15% more Global Evasion Rating and Energy Shield (Thunderfist unique, DEX/INT hybrid stat)",
+    "split": false,
+    "note": "DEX/INT hybrid combined defence stat. Same ÷5 ratio as single 'increased Evasion Rating'. Confirmed on Thunderfist unique (if 75% rolled → 15% more).",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "increased armour, evasion and energy shield": {
+    "converted_stat": "more Global Evasion Rating and Energy Shield",
+    "formula": "value / 8",
+    "example": "~150% increased Armour, Evasion and Energy Shield → 19% more Global Evasion Rating and Energy Shield (Sine Aequo unique, 150/8≈18.75≈19)",
+    "split": false,
+    "note": "Tri-hybrid defence stat (STR/DEX/INT). Different ratio from single stats (÷5 for Evasion, ÷4 for Armour). Confirmed on Sine Aequo at max roll 150% → 19%. Ratio ÷8.",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "chance to poison": {
+    "converted_stat": "?",
+    "formula": "unknown",
+    "confirmed": false,
+    "unknown": true
+  },
+
+  "chance to freeze": {
+    "converted_stat": "?",
+    "formula": "unknown",
+    "confirmed": false,
+    "unknown": true
+  },
+
+  "chance to ignite": {
+    "converted_stat": "?",
+    "formula": "unknown",
+    "confirmed": false,
+    "unknown": true
+  },
+
+  "attack speed per 20 dexterity": {
+    "converted_stat": "increased Area of Effect per 20 Intelligence",
+    "formula": "% value preserved; Attack Speed → Area of Effect; DEX scaling → INT scaling",
+    "example": "1% increased Attack Speed per 20 Dexterity → 1% increased Area of Effect per 20 Intelligence",
+    "split": false,
+    "note": "UNIQUE ITEM: Hand of Wisdom and Action. Attribute swaps DEX ↔ INT. Main stat changes Attack Speed → AoE.",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "lightning damage to attacks per 20 intelligence": {
+    "converted_stat": "Adds Cold Damage to Attacks per 20 Dexterity",
+    "formula": "Lightning → Cold; INT scaling → DEX scaling; damage values change",
+    "example": "Adds 1 to 10 Lightning Damage to Attacks per 20 Intelligence → Adds 6 to 8 Cold Damage to Attacks per 20 Dexterity",
+    "split": false,
+    "note": "UNIQUE ITEM: Hand of Wisdom and Action. Elemental type changes Lightning → Cold. Attribute scaling swaps INT → DEX.",
+    "confirmed": true,
+    "unknown": true
+  }
+}

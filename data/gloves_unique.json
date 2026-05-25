@@ -1,0 +1,177 @@
+[
+  {
+    "name": "Treefingers",
+    "href": "/us/Treefingers",
+    "base_type": "Riveted Mitts"
+  },
+  {
+    "name": "Lochtonial Caress",
+    "href": "/us/Lochtonial_Caress",
+    "base_type": "Tempered Mitts"
+  },
+  {
+    "name": "Dreadfist",
+    "href": "/us/Dreadfist",
+    "base_type": "Bolstered Mitts"
+  },
+  {
+    "name": "Atziri's Acuity",
+    "href": "/us/Atziris_Acuity",
+    "base_type": "Moulded Mitts"
+  },
+  {
+    "name": "Hateforge",
+    "href": "/us/Hateforge",
+    "base_type": "Moulded Mitts"
+  },
+  {
+    "name": "Empire's Grasp",
+    "href": "/us/Empires_Grasp",
+    "base_type": "Titan Mitts"
+  },
+  {
+    "name": "Northpaw",
+    "href": "/us/Northpaw",
+    "base_type": "Suede Bracers"
+  },
+  {
+    "name": "Grip of Winter",
+    "href": "/us/Grip_of_Winter",
+    "base_type": "Firm Bracers"
+  },
+  {
+    "name": "Idle Hands",
+    "href": "/us/Idle_Hands",
+    "base_type": "Sectioned Bracers"
+  },
+  {
+    "name": "Snakebite",
+    "href": "/us/Snakebite",
+    "base_type": "Spined Bracers"
+  },
+  {
+    "name": "Maligaro's Virtuosity",
+    "href": "/us/Maligaros_Virtuosity",
+    "base_type": "Fine Bracers"
+  },
+  {
+    "name": "Painter's Servant",
+    "href": "/us/Painters_Servant",
+    "base_type": "Torn Gloves"
+  },
+  {
+    "name": "Candlemaker",
+    "href": "/us/Candlemaker",
+    "base_type": "Sombre Gloves"
+  },
+  {
+    "name": "Doedre's Tenure",
+    "href": "/us/Doedres_Tenure",
+    "base_type": "Stitched Gloves"
+  },
+  {
+    "name": "Kitoko's Current",
+    "href": "/us/Kitokos_Current",
+    "base_type": "Jewelled Gloves"
+  },
+  {
+    "name": "Demon Stitcher",
+    "href": "/us/Demon_Stitcher",
+    "base_type": "Intricate Gloves"
+  },
+  {
+    "name": "Nightscale",
+    "href": "/us/Nightscale",
+    "base_type": "Pauascale Gloves"
+  },
+  {
+    "name": "Leopold's Applause",
+    "href": "/us/Leopolds_Applause",
+    "base_type": "Embroidered Gloves"
+  },
+  {
+    "name": "Jarngreipr",
+    "href": "/us/Jarngreipr",
+    "base_type": "Ringmail Gauntlets"
+  },
+  {
+    "name": "Aurseize",
+    "href": "/us/Aurseize",
+    "base_type": "Layered Gauntlets"
+  },
+  {
+    "name": "Deathblow",
+    "href": "/us/Deathblow",
+    "base_type": "Doubled Gauntlets"
+  },
+  {
+    "name": "Valako's Vice",
+    "href": "/us/Valakos_Vice",
+    "base_type": "Plate Gauntlets"
+  },
+  {
+    "name": "Aerisvane's Wings",
+    "href": "/us/Aerisvanes_Wings",
+    "base_type": "Burnished Gauntlets"
+  },
+  {
+    "name": "Death Articulated",
+    "href": "/us/Death_Articulated",
+    "base_type": "Ornate Gauntlets"
+  },
+  {
+    "name": "Gravebind",
+    "href": "/us/Gravebind",
+    "base_type": "Rope Cuffs"
+  },
+  {
+    "name": "Shackles of the Wretched",
+    "href": "/us/Shackles_of_the_Wretched",
+    "base_type": "Aged Cuffs"
+  },
+  {
+    "name": "Blueflame Bracers",
+    "href": "/us/Blueflame_Bracers",
+    "base_type": "Goldcast Cuffs"
+  },
+  {
+    "name": "The Prisoner's Manacles",
+    "href": "/us/The_Prisoners_Manacles",
+    "base_type": "Verisium Cuffs"
+  },
+  {
+    "name": "Plaguefinger",
+    "href": "/us/Plaguefinger",
+    "base_type": "Gauze Wraps"
+  },
+  {
+    "name": "Killjoy",
+    "href": "/us/Killjoy",
+    "base_type": "Linen Wraps"
+  },
+  {
+    "name": "Blessed Bonds",
+    "href": "/us/Blessed_Bonds",
+    "base_type": "Linen Wraps"
+  },
+  {
+    "name": "Hand of Wisdom and Action",
+    "href": "/us/Hand_of_Wisdom_and_Action",
+    "base_type": "Spiral Wraps"
+  },
+  {
+    "name": "Essentia Sanguis",
+    "href": "/us/Essentia_Sanguis",
+    "base_type": "Furtive Wraps"
+  },
+  {
+    "name": "Thunderfist",
+    "href": "/us/Thunderfist",
+    "base_type": "Utility Wraps"
+  },
+  {
+    "name": "Sine Aequo",
+    "href": "/us/Sine_Aequo",
+    "base_type": "Grand Manchettes"
+  }
+]
