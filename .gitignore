@@ -20,3 +20,5 @@ dist/
 # Temp / junk files
 nul
 tmp_*.html
+
+claude.md

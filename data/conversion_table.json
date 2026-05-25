@@ -42,14 +42,14 @@
 
   "to armour": {
     "converted_stat": "Has +X to Evasion Rating per player level + Has +Y to maximum Energy Shield per player level",
-    "formula": "unknown — +84 flat Armour → +2 EVA/level + +1 ES/level",
+    "formula": "unknown — +84 flat Armour → +2 EVA/level + +1 ES/level; +(123-160) Armour → +4 EVA/level + +1 ES/level (Horror Palm showcase)",
     "example": "+84 to Armour → Has +2 to Evasion Rating per player level + Has +1 to maximum Energy Shield per player level",
     "split": true,
     "split_outputs": [
-      "Has +X to Evasion Rating per player level",
-      "Has +Y to maximum Energy Shield per player level"
+      "Has +4 to Evasion Rating per player level (showcase)",
+      "Has +1 to maximum Energy Shield per player level (showcase)"
     ],
-    "note": "FLAT Armour only. Converts to BOTH EVA and ES per level (Fists of Stone is hybrid). Stacks with base implicits.",
+    "note": "FLAT Armour only. Converts to BOTH EVA and ES per level (Fists of Stone is hybrid). Stacks with base implicits. Showcase values from Horror Palm +(123-160) Armour prefix.",
     "confirmed": true,
     "unknown": true
   },
