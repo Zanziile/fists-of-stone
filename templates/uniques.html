@@ -244,6 +244,25 @@
       padding: 3rem 0;
       display: none;
     }
+
+    .filter-btn {
+      background: #120f0a;
+      border: 1px solid var(--poe-border);
+      color: var(--poe-text-dim);
+      border-radius: 5px;
+      font-size: 0.8rem;
+      padding: 0.42rem 0.9rem;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.15s;
+      flex-shrink: 0;
+    }
+    .filter-btn:hover { border-color: var(--poe-gold-dim); color: var(--poe-text); }
+    .filter-btn.active {
+      background: rgba(200,160,69,0.12);
+      border-color: var(--poe-gold);
+      color: var(--poe-gold);
+    }
   </style>
 </head>
 <body>
@@ -269,13 +288,18 @@
     <span class="legend-item preserved">Preserved (no change)</span>
   </div>
 
-  <div class="search-bar">
-    <input id="search-input" class="search-input" type="text"
-           placeholder="Search by name, base type, or mod text…"
-           oninput="runSearch(this.value)" />
-    <button class="search-clear" id="search-clear" onclick="clearSearch()" title="Clear">×</button>
-    <div class="search-count" id="search-count"></div>
+  <div class="search-bar" style="display:flex;gap:0.5rem;align-items:flex-start;">
+    <div style="position:relative;flex:1;">
+      <input id="search-input" class="search-input" type="text"
+             placeholder="Search by name, base type, or mod text…"
+             oninput="runSearch(this.value)" />
+      <button class="search-clear" id="search-clear" onclick="clearSearch()" title="Clear">×</button>
+    </div>
+    <button class="filter-btn" id="data-filter-btn" onclick="toggleDataFilter()" title="Show only gloves with known conversion data">
+      Only with data
+    </button>
   </div>
+  <div class="search-count" id="search-count" style="margin-bottom:0.6rem;"></div>
   <div class="no-results" id="no-results">No unique gloves match your search.</div>
 
   {% for type_key, type_label, gloves in ordered_groups %}
@@ -283,7 +307,8 @@
   <div class="row g-3 mb-2" data-group="{{ type_key }}">
     {% for g in gloves %}
     <div class="col-12 col-md-6 col-xl-4 unique-col"
-         data-search="{{ ([g.name, g.base_type, g.converts_to] + (g.mods | map(attribute='before') | list) + (g.mods | map(attribute='after') | list)) | join(' ') | lower }}">
+         data-search="{{ ([g.name, g.base_type, g.converts_to] + (g.mods | map(attribute='before') | list) + (g.mods | map(attribute='after') | list)) | join(' ') | lower }}"
+         data-has-mods="{{ '1' if g.mods else '0' }}">
       <div class="unique-card">
 
         <!-- Card header -->
@@ -367,11 +392,21 @@
 </div>
 
 <script>
-function runSearch(term) {
-  term = term.trim().toLowerCase();
+let dataFilterActive = false;
 
-  const clearBtn = document.getElementById("search-clear");
-  const countEl  = document.getElementById("search-count");
+function runSearch(term) {
+  applyFilters(term.trim().toLowerCase(), dataFilterActive);
+}
+
+function toggleDataFilter() {
+  dataFilterActive = !dataFilterActive;
+  document.getElementById("data-filter-btn").classList.toggle("active", dataFilterActive);
+  applyFilters(document.getElementById("search-input").value.trim().toLowerCase(), dataFilterActive);
+}
+
+function applyFilters(term, onlyWithData) {
+  const clearBtn  = document.getElementById("search-clear");
+  const countEl   = document.getElementById("search-count");
   const noResults = document.getElementById("no-results");
 
   clearBtn.style.display = term ? "block" : "none";
@@ -380,33 +415,33 @@ function runSearch(term) {
   let visible = 0;
 
   cards.forEach(card => {
-    const match = !term || card.dataset.search.includes(term);
-    card.style.display = match ? "" : "none";
-    if (match) visible++;
+    const textMatch  = !term || card.dataset.search.includes(term);
+    const dataMatch  = !onlyWithData || card.dataset.hasMods === "1";
+    const show = textMatch && dataMatch;
+    card.style.display = show ? "" : "none";
+    if (show) visible++;
   });
 
-  // Show / hide group headers and rows
+  // Hide empty group headers + rows
   document.querySelectorAll("[data-group]").forEach(el => {
     const group = el.dataset.group;
-    const anyVisible = [...document.querySelectorAll(`.unique-col[data-search]`)]
+    const anyVisible = [...document.querySelectorAll(`.unique-col[data-group]`)]
       .filter(c => c.closest(`[data-group="${group}"]`) && c.style.display !== "none").length > 0;
-    // header and row both share data-group
     el.style.display = anyVisible ? "" : "none";
   });
 
-  noResults.style.display = visible === 0 && term ? "block" : "none";
+  noResults.style.display = (visible === 0 && (term || onlyWithData)) ? "block" : "none";
 
-  if (term) {
-    countEl.textContent = visible === 1 ? "1 result" : `${visible} results`;
-  } else {
-    countEl.textContent = "";
-  }
+  const isFiltered = term || onlyWithData;
+  countEl.textContent = isFiltered
+    ? (visible === 1 ? "1 result" : `${visible} results`)
+    : "";
 }
 
 function clearSearch() {
   const input = document.getElementById("search-input");
   input.value = "";
-  runSearch("");
+  applyFilters("", dataFilterActive);
   input.focus();
 }
 </script>

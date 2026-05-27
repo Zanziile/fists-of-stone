@@ -315,7 +315,7 @@
   {
     "name": "Ringmail Gauntlets",
     "href": "Ringmail_Gauntlets",
-    "type": "str",
+    "type": "str_dex",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex01.webp",
     "properties": {
       "Armour": "13",
@@ -330,7 +330,7 @@
   {
     "name": "Layered Gauntlets",
     "href": "Layered_Gauntlets",
-    "type": "str",
+    "type": "str_dex",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex02.webp",
     "properties": {
       "Armour": "22",
@@ -345,7 +345,7 @@
   {
     "name": "Doubled Gauntlets",
     "href": "Doubled_Gauntlets",
-    "type": "str",
+    "type": "str_dex",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex03.webp",
     "properties": {
       "Armour": "37",
@@ -360,7 +360,7 @@
   {
     "name": "Plate Gauntlets",
     "href": "Plate_Gauntlets",
-    "type": "str",
+    "type": "str_dex",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex04.webp",
     "properties": {
       "Armour": "48",
@@ -375,7 +375,7 @@
   {
     "name": "Burnished Gauntlets",
     "href": "Burnished_Gauntlets",
-    "type": "str",
+    "type": "str_dex",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex01.webp",
     "properties": {
       "Armour": "55",
@@ -390,7 +390,7 @@
   {
     "name": "Ornate Gauntlets",
     "href": "Ornate_Gauntlets",
-    "type": "str",
+    "type": "str_dex",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex01.webp",
     "properties": {
       "Armour": "67",
@@ -495,7 +495,7 @@
   {
     "name": "Gauze Wraps",
     "href": "Gauze_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp",
     "properties": {
       "Evasion Rating": "8",
@@ -510,7 +510,7 @@
   {
     "name": "Linen Wraps",
     "href": "Linen_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt02.webp",
     "properties": {
       "Evasion Rating": "18",
@@ -525,7 +525,7 @@
   {
     "name": "Spiral Wraps",
     "href": "Spiral_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt03.webp",
     "properties": {
       "Evasion Rating": "33",
@@ -540,7 +540,7 @@
   {
     "name": "Buckled Wraps",
     "href": "Buckled_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt04.webp",
     "properties": {
       "Evasion Rating": "44",
@@ -555,7 +555,7 @@
   {
     "name": "Furtive Wraps",
     "href": "Furtive_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp",
     "properties": {
       "Evasion Rating": "50",
@@ -570,7 +570,7 @@
   {
     "name": "Utility Wraps",
     "href": "Utility_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp",
     "properties": {
       "Evasion Rating": "61",
@@ -585,7 +585,7 @@
   {
     "name": "Grand Manchettes",
     "href": "Grand_Manchettes",
-    "type": "str_int",
+    "type": "str_dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr01.webp",
     "properties": {
       "Armour": "44",
@@ -758,7 +758,7 @@
   {
     "name": "Ironmail Gauntlets",
     "href": "Ironmail_Gauntlets",
-    "type": "str",
+    "type": "str_dex",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex01.webp",
     "properties": {
       "Armour": "48",
@@ -773,7 +773,7 @@
   {
     "name": "Captain Gauntlets",
     "href": "Captain_Gauntlets",
-    "type": "str",
+    "type": "str_dex",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex02.webp",
     "properties": {
       "Armour": "54",
@@ -788,7 +788,7 @@
   {
     "name": "Zealot Gauntlets",
     "href": "Zealot_Gauntlets",
-    "type": "str",
+    "type": "str_dex",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex03.webp",
     "properties": {
       "Armour": "61",
@@ -848,7 +848,7 @@
   {
     "name": "Bandage Wraps",
     "href": "Bandage_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp",
     "properties": {
       "Evasion Rating": "44",
@@ -863,7 +863,7 @@
   {
     "name": "Cambric Wraps",
     "href": "Cambric_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt02.webp",
     "properties": {
       "Evasion Rating": "49",
@@ -878,7 +878,7 @@
   {
     "name": "Adorned Wraps",
     "href": "Adorned_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt03.webp",
     "properties": {
       "Evasion Rating": "56",
@@ -1049,7 +1049,7 @@
   {
     "name": "Steelmail Gauntlets",
     "href": "Steelmail_Gauntlets",
-    "type": "str",
+    "type": "str_dex",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex01.webp",
     "properties": {
       "Armour": "67",
@@ -1064,7 +1064,7 @@
   {
     "name": "Commander Gauntlets",
     "href": "Commander_Gauntlets",
-    "type": "str",
+    "type": "str_dex",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex02.webp",
     "properties": {
       "Armour": "74",
@@ -1079,7 +1079,7 @@
   {
     "name": "Cultist Gauntlets",
     "href": "Cultist_Gauntlets",
-    "type": "str",
+    "type": "str_dex",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex03.webp",
     "properties": {
       "Armour": "80",
@@ -1094,7 +1094,7 @@
   {
     "name": "Blacksteel Gauntlets",
     "href": "Blacksteel_Gauntlets",
-    "type": "str",
+    "type": "str_dex",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex04.webp",
     "properties": {
       "Armour": "87",
@@ -1169,7 +1169,7 @@
   {
     "name": "War Wraps",
     "href": "War_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp",
     "properties": {
       "Evasion Rating": "61",
@@ -1184,7 +1184,7 @@
   {
     "name": "Elegant Wraps",
     "href": "Elegant_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt02.webp",
     "properties": {
       "Evasion Rating": "67",
@@ -1199,7 +1199,7 @@
   {
     "name": "Vaal Wraps",
     "href": "Vaal_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt03.webp",
     "properties": {
       "Evasion Rating": "73",
@@ -1214,7 +1214,7 @@
   {
     "name": "Secured Wraps",
     "href": "Secured_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt04.webp",
     "properties": {
       "Evasion Rating": "79",
@@ -1229,7 +1229,7 @@
   {
     "name": "[DNT-UNUSED] Hand Wraps",
     "href": "DNT-UNUSED_Hand_Wraps",
-    "type": "int",
+    "type": "dex_int",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt04.webp",
     "properties": {
       "Evasion Rating": "7",

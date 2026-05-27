@@ -493,9 +493,38 @@ let qualityEnabled = false;
 let runeCount = 0;
 
 // =============================================
+// URL params
+// =============================================
+function updateUrl() {
+  const params = new URLSearchParams();
+  if (selectedType) params.set("type", selectedType);
+  const ilvl = getItemLevel();
+  if (ilvl !== 75)  params.set("ilvl", ilvl);
+  const char = getCharLevel();
+  if (char !== 90)  params.set("char", char);
+  prefixSlots.filter(Boolean).forEach(m => params.append("p", m.normalized_key));
+  suffixSlots.filter(Boolean).forEach(m => params.append("s", m.normalized_key));
+  history.replaceState(null, "", "?" + params.toString());
+}
+
+function readUrlParams() {
+  const params = new URLSearchParams(window.location.search);
+  const typeParam = params.get("type");
+  const ilvlParam = params.get("ilvl");
+  const charParam = params.get("char");
+
+  if (ilvlParam) document.getElementById("item-level-input").value = ilvlParam;
+  if (charParam) document.getElementById("char-level-input").value = charParam;
+
+  if (typeParam) {
+    selectType(typeParam, { p: params.getAll("p"), s: params.getAll("s") });
+  }
+}
+
+// =============================================
 // Type selector
 // =============================================
-function selectType(typeKey) {
+async function selectType(typeKey, restore = null) {
   selectedType = typeKey;
 
   document.querySelectorAll(".type-btn").forEach(btn => {
@@ -512,7 +541,27 @@ function selectType(typeKey) {
   renderSlots();
   setAddButtons(false, false);
 
-  loadMods(typeKey);
+  await loadMods(typeKey);
+
+  if (restore) {
+    // Restore from URL: add filled slots for each saved key
+    for (const key of (restore.p || [])) {
+      const mod = availablePrefixes.find(m => m.normalized_key === key);
+      if (mod) prefixSlots.push(mod);
+    }
+    for (const key of (restore.s || [])) {
+      const mod = availableSuffixes.find(m => m.normalized_key === key);
+      if (mod) suffixSlots.push(mod);
+    }
+  } else {
+    // Auto-add one empty slot each so user can start picking right away
+    if (availablePrefixes.length > 0) prefixSlots.push(null);
+    if (availableSuffixes.length > 0) suffixSlots.push(null);
+  }
+
+  renderSlots();
+  setAddButtons(availablePrefixes.length > 0, availableSuffixes.length > 0);
+  updateUrl();
 }
 
 async function loadMods(typeKey) {
@@ -573,8 +622,8 @@ function applyItemLevelFilter() {
   setAddButtons(availablePrefixes.length > 0, availableSuffixes.length > 0);
 }
 
-function onItemLevelChange() { applyItemLevelFilter(); }
-function onCharLevelChange() { if (lastConvertData) renderResult(lastConvertData); }
+function onItemLevelChange() { applyItemLevelFilter(); updateUrl(); }
+function onCharLevelChange() { updateUrl(); if (lastConvertData) renderResult(lastConvertData); }
 
 // =============================================
 // Mod slots
@@ -584,6 +633,7 @@ function addModSlot(kind) {
   else if (kind === "suffix" && suffixSlots.length < 3) suffixSlots.push(null);
   renderSlots();
   setAddButtons(availablePrefixes.length > 0, availableSuffixes.length > 0);
+  updateUrl();
 }
 
 function removeModSlot(kind, idx) {
@@ -591,6 +641,7 @@ function removeModSlot(kind, idx) {
   else suffixSlots.splice(idx, 1);
   renderSlots();
   setAddButtons(availablePrefixes.length > 0, availableSuffixes.length > 0);
+  updateUrl();
 }
 
 function setAddButtons(prefixOk, suffixOk) {
@@ -717,6 +768,7 @@ function pickMod(wrapper, mod, kind, idx) {
   else suffixSlots[idx] = mod;
   wrapper.querySelector(".custom-dropdown-panel").classList.remove("open");
   renderSlots();
+  updateUrl();
 }
 
 document.addEventListener("click", () => {
@@ -932,6 +984,8 @@ function showEmptyResult(msg) {
 function escHtml(str) {
   return String(str).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 }
+
+document.addEventListener("DOMContentLoaded", readUrlParams);
 
 async function quitApp() {
   if (!confirm("Stop Stone of Fist server?")) return;
