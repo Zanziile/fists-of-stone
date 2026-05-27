@@ -2,176 +2,340 @@
   {
     "name": "Treefingers",
     "href": "/us/Treefingers",
-    "base_type": "Riveted Mitts"
+    "base_type": "Riveted Mitts",
+    "attribute_type": "str",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr02.webp",
+    "mods": [
+      {"before": "Giant's Blood", "after": "Hollow Palm Technique", "confirmed": true, "note": "Keystone → thematically related keystone"}
+    ]
   },
   {
     "name": "Lochtonial Caress",
     "href": "/us/Lochtonial_Caress",
-    "base_type": "Tempered Mitts"
+    "base_type": "Tempered Mitts",
+    "attribute_type": "str",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr03.webp",
+    "mods": []
   },
   {
     "name": "Dreadfist",
     "href": "/us/Dreadfist",
-    "base_type": "Bolstered Mitts"
+    "base_type": "Bolstered Mitts",
+    "attribute_type": "str",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr04.webp",
+    "mods": []
   },
   {
     "name": "Atziri's Acuity",
     "href": "/us/Atziris_Acuity",
-    "base_type": "Moulded Mitts"
+    "base_type": "Moulded Mitts",
+    "attribute_type": "str",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr05.webp",
+    "mods": []
   },
   {
     "name": "Hateforge",
     "href": "/us/Hateforge",
-    "base_type": "Moulded Mitts"
+    "base_type": "Moulded Mitts",
+    "attribute_type": "str",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr05.webp",
+    "mods": []
   },
   {
     "name": "Empire's Grasp",
     "href": "/us/Empires_Grasp",
-    "base_type": "Titan Mitts"
+    "base_type": "Titan Mitts",
+    "attribute_type": "str",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr07.webp",
+    "mods": []
   },
   {
     "name": "Northpaw",
     "href": "/us/Northpaw",
-    "base_type": "Suede Bracers"
+    "base_type": "Suede Bracers",
+    "attribute_type": "universal",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex01.webp",
+    "mods": []
   },
   {
     "name": "Grip of Winter",
     "href": "/us/Grip_of_Winter",
-    "base_type": "Firm Bracers"
+    "base_type": "Firm Bracers",
+    "attribute_type": "dex",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex02.webp",
+    "mods": []
   },
   {
     "name": "Idle Hands",
     "href": "/us/Idle_Hands",
-    "base_type": "Sectioned Bracers"
+    "base_type": "Sectioned Bracers",
+    "attribute_type": "dex",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex04.webp",
+    "mods": []
   },
   {
     "name": "Snakebite",
     "href": "/us/Snakebite",
-    "base_type": "Spined Bracers"
+    "base_type": "Spined Bracers",
+    "attribute_type": "dex",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex05.webp",
+    "mods": []
   },
   {
     "name": "Maligaro's Virtuosity",
     "href": "/us/Maligaros_Virtuosity",
-    "base_type": "Fine Bracers"
+    "base_type": "Fine Bracers",
+    "attribute_type": "dex",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDex06.webp",
+    "mods": []
   },
   {
     "name": "Painter's Servant",
     "href": "/us/Painters_Servant",
-    "base_type": "Torn Gloves"
+    "base_type": "Torn Gloves",
+    "attribute_type": "int",
+    "converts_to": "Runeforged Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt01.webp",
+    "mods": []
   },
   {
     "name": "Candlemaker",
     "href": "/us/Candlemaker",
-    "base_type": "Sombre Gloves"
+    "base_type": "Sombre Gloves",
+    "attribute_type": "int",
+    "converts_to": "Runeforged Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt02.webp",
+    "mods": []
   },
   {
     "name": "Doedre's Tenure",
     "href": "/us/Doedres_Tenure",
-    "base_type": "Stitched Gloves"
+    "base_type": "Stitched Gloves",
+    "attribute_type": "int",
+    "converts_to": "Runeforged Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt03.webp",
+    "mods": []
   },
   {
     "name": "Kitoko's Current",
     "href": "/us/Kitokos_Current",
-    "base_type": "Jewelled Gloves"
+    "base_type": "Jewelled Gloves",
+    "attribute_type": "int",
+    "converts_to": "Runeforged Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt04.webp",
+    "mods": []
   },
   {
     "name": "Demon Stitcher",
     "href": "/us/Demon_Stitcher",
-    "base_type": "Intricate Gloves"
+    "base_type": "Intricate Gloves",
+    "attribute_type": "int",
+    "converts_to": "Runeforged Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt05.webp",
+    "mods": [
+      {"before": "+(40-60) to maximum Energy Shield", "after": "+N to maximum Runic Ward (~1.5× value)", "confirmed": true, "note": "ES → Runic Ward is the Demon Stitcher theme"},
+      {"before": "+(80-120) to maximum Life", "after": "+M to maximum Life (value slightly increased)", "confirmed": true, "note": "Life is preserved with a small bonus"},
+      {"before": "(N)% increased Cast Speed", "after": "N% increased Attack Speed", "confirmed": true, "note": "Cast ↔ Attack Speed bidirectional swap, value exact"},
+      {"before": "Sacrifice X% of Life to gain that much Energy Shield when you Cast a Spell", "after": "Sacrifice X% of max Life to gain half that much Runic Ward when you Attack", "confirmed": true, "note": "Cast Spell → Attack; ES → Runic Ward (halved); theme preserved"}
+    ]
   },
   {
     "name": "Nightscale",
     "href": "/us/Nightscale",
-    "base_type": "Pauascale Gloves"
+    "base_type": "Pauascale Gloves",
+    "attribute_type": "int",
+    "converts_to": "Runeforged Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt06.webp",
+    "mods": []
   },
   {
     "name": "Leopold's Applause",
     "href": "/us/Leopolds_Applause",
-    "base_type": "Embroidered Gloves"
+    "base_type": "Embroidered Gloves",
+    "attribute_type": "int",
+    "converts_to": "Runeforged Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesInt07.webp",
+    "mods": []
   },
   {
     "name": "Jarngreipr",
     "href": "/us/Jarngreipr",
-    "base_type": "Ringmail Gauntlets"
+    "base_type": "Ringmail Gauntlets",
+    "attribute_type": "str_dex",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex01.webp",
+    "mods": []
   },
   {
     "name": "Aurseize",
     "href": "/us/Aurseize",
-    "base_type": "Layered Gauntlets"
+    "base_type": "Layered Gauntlets",
+    "attribute_type": "str_dex",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex02.webp",
+    "mods": []
   },
   {
     "name": "Deathblow",
     "href": "/us/Deathblow",
-    "base_type": "Doubled Gauntlets"
+    "base_type": "Doubled Gauntlets",
+    "attribute_type": "str_dex",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex03.webp",
+    "mods": []
   },
   {
     "name": "Valako's Vice",
     "href": "/us/Valakos_Vice",
-    "base_type": "Plate Gauntlets"
+    "base_type": "Plate Gauntlets",
+    "attribute_type": "str_dex",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex04.webp",
+    "mods": []
   },
   {
     "name": "Aerisvane's Wings",
     "href": "/us/Aerisvanes_Wings",
-    "base_type": "Burnished Gauntlets"
+    "base_type": "Burnished Gauntlets",
+    "attribute_type": "str_dex",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex01.webp",
+    "mods": []
   },
   {
     "name": "Death Articulated",
     "href": "/us/Death_Articulated",
-    "base_type": "Ornate Gauntlets"
+    "base_type": "Ornate Gauntlets",
+    "attribute_type": "str_dex",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStrDex01.webp",
+    "mods": []
   },
   {
     "name": "Gravebind",
     "href": "/us/Gravebind",
-    "base_type": "Rope Cuffs"
+    "base_type": "Rope Cuffs",
+    "attribute_type": "str_int",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr01.webp",
+    "mods": []
   },
   {
     "name": "Shackles of the Wretched",
     "href": "/us/Shackles_of_the_Wretched",
-    "base_type": "Aged Cuffs"
+    "base_type": "Aged Cuffs",
+    "attribute_type": "str_int",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr02.webp",
+    "mods": []
   },
   {
     "name": "Blueflame Bracers",
     "href": "/us/Blueflame_Bracers",
-    "base_type": "Goldcast Cuffs"
+    "base_type": "Goldcast Cuffs",
+    "attribute_type": "str_int",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr03.webp",
+    "mods": []
   },
   {
     "name": "The Prisoner's Manacles",
     "href": "/us/The_Prisoners_Manacles",
-    "base_type": "Verisium Cuffs"
+    "base_type": "Verisium Cuffs",
+    "attribute_type": "str_int",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesIntStr04.webp",
+    "mods": []
   },
   {
     "name": "Plaguefinger",
     "href": "/us/Plaguefinger",
-    "base_type": "Gauze Wraps"
+    "base_type": "Gauze Wraps",
+    "attribute_type": "dex_int",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp",
+    "mods": []
   },
   {
     "name": "Killjoy",
     "href": "/us/Killjoy",
-    "base_type": "Linen Wraps"
+    "base_type": "Linen Wraps",
+    "attribute_type": "dex_int",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt02.webp",
+    "mods": []
   },
   {
     "name": "Blessed Bonds",
     "href": "/us/Blessed_Bonds",
-    "base_type": "Linen Wraps"
+    "base_type": "Linen Wraps",
+    "attribute_type": "dex_int",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt02.webp",
+    "mods": []
   },
   {
     "name": "Hand of Wisdom and Action",
     "href": "/us/Hand_of_Wisdom_and_Action",
-    "base_type": "Spiral Wraps"
+    "base_type": "Spiral Wraps",
+    "attribute_type": "dex_int",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt03.webp",
+    "mods": [
+      {"before": "+20 to Dexterity", "after": "11% increased Dexterity", "confirmed": true, "note": "Unique-specific: flat DEX → % increased DEX (rare DEX gloves would give CDR instead)"},
+      {"before": "+20 to Intelligence", "after": "7% increased Intelligence", "confirmed": true, "note": "Unique-specific: flat INT → % increased INT"},
+      {"before": "1% increased Attack Speed per 20 Dexterity", "after": "1% increased Area of Effect per 20 Intelligence", "confirmed": true, "note": "DEX ↔ INT attribute swap; Attack Speed → Area of Effect"},
+      {"before": "Adds 1 to 10 Lightning Damage per 20 Intelligence", "after": "Adds 6 to 8 Cold Damage per 20 Dexterity", "confirmed": true, "note": "Lightning → Cold; DEX ↔ INT attribute swap; damage range scales up"}
+    ]
   },
   {
     "name": "Essentia Sanguis",
     "href": "/us/Essentia_Sanguis",
-    "base_type": "Furtive Wraps"
+    "base_type": "Furtive Wraps",
+    "attribute_type": "dex_int",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp",
+    "mods": []
   },
   {
     "name": "Thunderfist",
     "href": "/us/Thunderfist",
-    "base_type": "Utility Wraps"
+    "base_type": "Utility Wraps",
+    "attribute_type": "dex_int",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesDexInt01.webp",
+    "mods": [
+      {"before": "Grants Skill: Level 15 Crackling Palm", "after": "Grants Skill: Level 19 Gelid Palm", "is_implicit": true, "confirmed": true, "note": "Implicit skill converts: Lightning Palm → Cold Palm; level increases by 4"},
+      {"before": "(N)% increased Evasion and Energy Shield", "after": "(N÷5)% more Global Evasion Rating and Energy Shield", "confirmed": true, "note": "DEX/INT hybrid defence stat: ÷5 formula (same as pure Evasion)"},
+      {"before": "(N)% increased Attack Speed", "after": "N% chance to gain Onslaught for 4 seconds on Hit", "confirmed": true, "note": "Unique-specific: Attack Speed → Onslaught on Hit chance (value preserved as %)"},
+      {"before": "+(N)% to Lightning Resistance", "after": "+M% to Cold Resistance + +3% to Maximum Cold Resistance", "confirmed": true, "split": true, "note": "Lightning element → Cold element (Thunderfist theme); resistance kept (full value on rare pattern) + max res bonus"},
+      {"before": "Adds X to Y Lightning Damage to Unarmed Melee Hits", "after": "Adds A to B Cold Damage to Unarmed Melee Hits", "confirmed": true, "note": "Lightning → Cold (Thunderfist theme); element swaps, range scales"},
+      {"before": "+(N)% to Unarmed Melee Attack Critical Hit Chance", "after": "+(N)% to Unarmed Melee Attack Critical Hit Chance", "confirmed": true, "note": "Preserved exactly — crit chance mods are kept as-is"}
+    ]
   },
   {
     "name": "Sine Aequo",
     "href": "/us/Sine_Aequo",
-    "base_type": "Grand Manchettes"
+    "base_type": "Grand Manchettes",
+    "attribute_type": "str_dex_int",
+    "converts_to": "Fists of Stone",
+    "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr01.webp",
+    "mods": [
+      {"before": "(100–150)% increased Armour, Evasion and Energy Shield", "after": "~19% more Global Evasion Rating and Energy Shield (at 150 roll: 150÷8≈19)", "confirmed": true, "note": "Tri-hybrid defence stat: ÷8 formula — different from ÷5 (Evasion) and ÷4 (Armour)"},
+      {"before": "(10–15)% increased Skill Speed", "after": "~22% increased Attack Speed if Critical Hit Recently", "confirmed": true, "note": "Unique-specific: value enhanced + Critical Hit Recently condition added"},
+      {"before": "Enemies Immobilised by you take 20% more Damage", "after": "26% Surpassing chance to gain Mountain's Teachings on Immobilising", "confirmed": true, "note": "Unique-specific thematic conversion: damage bonus → Mountain's Teachings proc"},
+      {"before": "Immobilise enemies at 50% buildup instead of 100%", "after": "Immobilise enemies at 50% buildup instead of 100%", "confirmed": true, "note": "Mechanic threshold PRESERVED — cannot be 'upgraded', so it stays exactly as-is"}
+    ]
   }
 ]

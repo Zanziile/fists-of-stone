@@ -35,10 +35,7 @@
       text-shadow: 0 0 12px rgba(200,160,69,0.4);
     }
 
-    .subtitle {
-      color: var(--poe-text-dim);
-      font-size: 0.85rem;
-    }
+    .subtitle { color: var(--poe-text-dim); font-size: 0.85rem; }
 
     .panel {
       background: var(--poe-panel);
@@ -58,22 +55,62 @@
       border-bottom: 1px solid var(--poe-border);
     }
 
-    /* Selects */
-    select, .form-select {
+    select, .form-select, .form-control {
       background: #120f0a;
       border: 1px solid var(--poe-border);
       color: var(--poe-text);
       font-size: 0.85rem;
     }
-    select:focus, .form-select:focus {
+    select:focus, .form-select:focus, .form-control:focus {
       background: #1a1510;
       border-color: var(--poe-gold-dim);
       color: var(--poe-text);
       box-shadow: 0 0 0 2px rgba(200,160,69,0.2);
     }
-    select option {
-      background: #1a1510;
+    select option { background: #1a1510; }
+
+    /* Type selector grid */
+    .type-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 0.4rem;
+      margin-bottom: 0.2rem;
     }
+    .type-btn {
+      background: #120f0a;
+      border: 1px solid var(--poe-border);
+      color: var(--poe-text-dim);
+      border-radius: 4px;
+      padding: 0.35rem 0.6rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.15s;
+      line-height: 1.3;
+    }
+    .type-btn:hover:not(:disabled) {
+      border-color: var(--poe-gold-dim);
+      color: var(--poe-text);
+    }
+    .type-btn.active {
+      background: rgba(200,160,69,0.12);
+      border-color: var(--poe-gold);
+      color: var(--poe-gold);
+    }
+    .type-btn:disabled {
+      opacity: 0.3;
+      cursor: default;
+    }
+    .type-btn .type-key {
+      font-weight: 700;
+      font-size: 0.75rem;
+      display: block;
+    }
+    .type-btn .type-desc {
+      font-size: 0.7rem;
+      color: var(--poe-text-dim);
+    }
+    .type-btn.active .type-desc { color: var(--poe-gold-dim); }
 
     /* Mod row */
     .mod-row {
@@ -82,9 +119,7 @@
       margin-bottom: 0.4rem;
       align-items: center;
     }
-    .mod-row select {
-      flex: 1;
-    }
+    .mod-row select { flex: 1; }
     .btn-remove {
       background: none;
       border: 1px solid var(--poe-border);
@@ -96,10 +131,7 @@
       cursor: pointer;
       transition: color 0.15s, border-color 0.15s;
     }
-    .btn-remove:hover {
-      color: var(--poe-red);
-      border-color: var(--poe-red);
-    }
+    .btn-remove:hover { color: var(--poe-red); border-color: var(--poe-red); }
 
     .btn-add {
       background: none;
@@ -117,10 +149,7 @@
       color: var(--poe-gold);
       border-color: var(--poe-gold-dim);
     }
-    .btn-add:disabled {
-      opacity: 0.35;
-      cursor: default;
-    }
+    .btn-add:disabled { opacity: 0.35; cursor: default; }
 
     .section-label {
       font-size: 0.72rem;
@@ -137,7 +166,6 @@
       margin-left: 0.3rem;
     }
 
-    /* Convert button */
     .btn-convert {
       background: linear-gradient(135deg, #7a4a10, #5a3008);
       border: 1px solid var(--poe-gold-dim);
@@ -157,14 +185,13 @@
       box-shadow: 0 0 10px rgba(200,160,69,0.3);
     }
 
-    /* Item frame (result) */
+    /* Item frame */
     .item-frame {
       background: #0f0d08;
       border: 1px solid var(--poe-border);
       border-radius: 6px;
       padding: 1rem 1.2rem;
     }
-
     .item-name {
       color: var(--poe-gold);
       font-size: 1rem;
@@ -178,13 +205,11 @@
       text-align: center;
       margin-bottom: 0.6rem;
     }
-
     .item-separator {
       border: none;
       border-top: 1px solid var(--poe-border);
       margin: 0.5rem 0;
     }
-
     .mod-implicit {
       color: var(--poe-implicit);
       font-size: 0.82rem;
@@ -201,54 +226,24 @@
       border-bottom: 1px solid rgba(58,46,30,0.4);
       font-size: 0.82rem;
     }
-    .conv-row:last-child {
-      border-bottom: none;
-    }
-
-    .conv-original {
-      color: var(--poe-text-dim);
-    }
-
-    .conv-arrow {
-      text-align: center;
-      color: var(--poe-border);
-      font-size: 0.9rem;
-      padding-top: 0.05rem;
-    }
-
-    .conv-result {
-      font-weight: 500;
-    }
-    .conv-result.known {
-      color: var(--poe-green);
-    }
-    .conv-result.predicted {
-      color: var(--poe-gold);
-    }
-    .conv-result.partial {
-      color: var(--poe-orange);
-    }
-    .conv-result.unknown {
-      color: var(--poe-red);
-    }
+    .conv-row:last-child { border-bottom: none; }
+    .conv-original { color: var(--poe-text-dim); }
+    .conv-arrow { text-align: center; color: var(--poe-border); font-size: 0.9rem; padding-top: 0.05rem; }
+    .conv-result { font-weight: 500; }
+    .conv-result.known    { color: var(--poe-green); }
+    .conv-result.predicted { color: var(--poe-gold); }
+    .conv-result.partial  { color: var(--poe-orange); }
+    .conv-result.unknown  { color: var(--poe-red); }
 
     .badge-prefix {
-      font-size: 0.65rem;
-      background: #1a2a3a;
-      color: #6090c0;
-      border-radius: 3px;
-      padding: 0.1rem 0.3rem;
-      vertical-align: middle;
-      margin-right: 0.2rem;
+      font-size: 0.65rem; background: #1a2a3a; color: #6090c0;
+      border-radius: 3px; padding: 0.1rem 0.3rem;
+      vertical-align: middle; margin-right: 0.2rem;
     }
     .badge-suffix {
-      font-size: 0.65rem;
-      background: #2a1a2a;
-      color: #9060a0;
-      border-radius: 3px;
-      padding: 0.1rem 0.3rem;
-      vertical-align: middle;
-      margin-right: 0.2rem;
+      font-size: 0.65rem; background: #2a1a2a; color: #9060a0;
+      border-radius: 3px; padding: 0.1rem 0.3rem;
+      vertical-align: middle; margin-right: 0.2rem;
     }
 
     .legend {
@@ -259,21 +254,14 @@
       gap: 0.8rem;
       flex-wrap: wrap;
     }
-    .legend-item::before {
-      content: "●";
-      margin-right: 0.2rem;
-    }
-    .legend-item.known { color: var(--poe-green); }
+    .legend-item::before { content: "●"; margin-right: 0.2rem; }
+    .legend-item.known    { color: var(--poe-green); }
     .legend-item.predicted { color: var(--poe-gold); }
-    .legend-item.partial { color: var(--poe-orange); }
-    .legend-item.unknown { color: var(--poe-red); }
+    .legend-item.partial  { color: var(--poe-orange); }
+    .legend-item.unknown  { color: var(--poe-red); }
 
     /* Custom searchable dropdown */
-    .custom-select-wrapper {
-      position: relative;
-      flex: 1;
-      min-width: 0;
-    }
+    .custom-select-wrapper { position: relative; flex: 1; min-width: 0; }
     .custom-select-trigger {
       background: #120f0a;
       border: 1px solid var(--poe-border);
@@ -297,8 +285,7 @@
       display: none;
       position: absolute;
       top: calc(100% - 1px);
-      left: 0;
-      right: 0;
+      left: 0; right: 0;
       z-index: 1000;
       background: #1a1510;
       border: 1px solid var(--poe-border);
@@ -321,9 +308,7 @@
       flex-shrink: 0;
     }
     .dropdown-search::placeholder { color: var(--poe-text-dim); opacity: 0.7; }
-
     .dropdown-options { overflow-y: auto; flex: 1; }
-
     .dropdown-group-label {
       font-size: 0.68rem;
       color: var(--poe-text-dim);
@@ -348,7 +333,7 @@
     .dropdown-option.selected { color: var(--poe-gold); background: rgba(200,160,69,0.07); }
     .dropdown-option.blank { color: var(--poe-text-dim); font-style: italic; }
 
-    /* Stats preview box */
+    /* Stats preview */
     .stats-preview {
       background: rgba(0,0,0,0.25);
       border: 1px solid rgba(58,46,30,0.5);
@@ -356,13 +341,7 @@
       padding: 0.55rem 0.8rem;
       margin-top: 0.4rem;
     }
-    .sp-title {
-      font-size: 0.67rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--poe-text-dim);
-      margin-bottom: 0.35rem;
-    }
+    .sp-title { font-size: 0.67rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--poe-text-dim); margin-bottom: 0.35rem; }
     .sp-row { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: baseline; padding: 0.1rem 0; font-size: 0.82rem; }
     .sp-eva  { color: #7adf8a; font-weight: 600; }
     .sp-es   { color: var(--poe-blue); font-weight: 600; }
@@ -377,22 +356,7 @@
     .sp-btn:hover { border-color: var(--poe-gold-dim); color: var(--poe-text); }
     .sp-btn.active { background: rgba(200,160,69,0.12); border-color: var(--poe-gold-dim); color: var(--poe-gold); }
 
-    .empty-state {
-      text-align: center;
-      color: var(--poe-text-dim);
-      font-size: 0.85rem;
-      padding: 2rem;
-    }
-
-    .no-data-banner {
-      background: #2a1a0a;
-      border: 1px solid #6a3a10;
-      border-radius: 5px;
-      padding: 0.6rem 1rem;
-      font-size: 0.82rem;
-      color: var(--poe-orange);
-      margin-bottom: 1rem;
-    }
+    .empty-state { text-align: center; color: var(--poe-text-dim); font-size: 0.85rem; padding: 2rem; }
 
     .header-bar {
       background: #100c08;
@@ -400,6 +364,17 @@
       padding: 0.8rem 0;
       margin-bottom: 1.2rem;
     }
+    .nav-link-poe {
+      color: var(--poe-text-dim);
+      font-size: 0.8rem;
+      text-decoration: none;
+      border: 1px solid var(--poe-border);
+      border-radius: 4px;
+      padding: 0.25rem 0.8rem;
+      transition: all 0.15s;
+    }
+    .nav-link-poe:hover { color: var(--poe-gold); border-color: var(--poe-gold-dim); }
+    .nav-link-poe.active { color: var(--poe-gold); border-color: var(--poe-gold); background: rgba(200,160,69,0.08); }
 
     .btn-quit {
       background: none;
@@ -411,67 +386,66 @@
       cursor: pointer;
       transition: color 0.15s, border-color 0.15s;
     }
-    .btn-quit:hover {
-      color: var(--poe-red);
-      border-color: var(--poe-red);
-    }
+    .btn-quit:hover { color: var(--poe-red); border-color: var(--poe-red); }
   </style>
 </head>
 <body>
 
 <div class="header-bar">
-  <div class="container" style="display:flex;align-items:center;justify-content:space-between;">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:1rem;">
     <div>
-      <h1 style="margin:0;">⚔ Stone of Fist</h1>
+      <h1 style="margin:0;">Stone of Fist</h1>
       <div class="subtitle">Path of Exile 2 — Way of the Stonefist glove converter</div>
     </div>
-    {% if local_mode %}<button class="btn-quit" onclick="quitApp()" title="Остановить сервер и закрыть">✕ Закрыть</button>{% endif %}
+    <div style="display:flex;gap:0.5rem;align-items:center;">
+      <a href="/" class="nav-link-poe active">Rare / Magic</a>
+      <a href="/uniques" class="nav-link-poe">Unique</a>
+      {% if local_mode %}
+      <button class="btn-quit" onclick="quitApp()" title="Остановить сервер">✕</button>
+      {% endif %}
+    </div>
   </div>
 </div>
 
 <div class="container pb-4">
-
-  {% if not data_loaded %}
-  <div class="no-data-banner">
-    ⚠ No glove data found. Run <code>python scrape_data.py</code> first to populate the database.
-  </div>
-  {% endif %}
-
   <div class="row g-3">
-    <!-- ===== LEFT: Selector ===== -->
+
+    <!-- LEFT: selector -->
     <div class="col-12 col-lg-5">
       <div class="panel">
         <div class="panel-title">Build Your Gloves</div>
 
-        <!-- Base Type -->
-        <div class="section-label">Base Type</div>
-        <div style="display:flex;gap:0.6rem;align-items:center;">
-          <select id="base-select" class="form-select form-select-sm" style="flex:1" onchange="onBaseChange()">
-            <option value="">— Select base type —</option>
-            {% for type_key, type_label, gloves in glove_groups %}
-            <optgroup label="{{ type_label }}">
-              {% for g in gloves %}
-              <option value="{{ g.name }}" data-type="{{ g.type }}">{{ g.name }}</option>
-              {% endfor %}
-            </optgroup>
-            {% endfor %}
-          </select>
-          <div id="base-thumb" style="width:40px;height:40px;flex-shrink:0;display:flex;align-items:center;justify-content:center;">
-            <img id="base-thumb-img" src="" alt="" style="max-width:40px;max-height:40px;display:none;image-rendering:pixelated;" />
-          </div>
+        <!-- Glove type -->
+        <div class="section-label">Glove Type</div>
+        <div class="type-grid" id="type-grid">
+          {% for type_key, label, available in type_categories %}
+          {% set parts = label.split(' — ') %}
+          <button class="type-btn{% if not available %}" disabled{% else %}" {% endif %}
+                  data-type="{{ type_key }}"
+                  onclick="selectType('{{ type_key }}')">
+            <span class="type-key">{{ parts[0] }}</span>
+            <span class="type-desc">{% if parts|length > 1 %}{{ parts[1] }}{% endif %}</span>
+          </button>
+          {% endfor %}
         </div>
 
-        <!-- Item Level + Character Level -->
-        <div class="section-label">Уровень предмета / персонажа</div>
+        <!-- Optional item name -->
+        <div class="section-label" style="margin-top:0.9rem;">Item Name <span style="font-weight:400;text-transform:none;letter-spacing:0;">(optional)</span></div>
+        <input id="item-name-input" type="text" class="form-control form-control-sm"
+               placeholder="e.g. Titan Mitts, my rare gloves…"
+               style="font-size:0.82rem;" />
+
+        <!-- Levels -->
+        <div class="section-label">Item Level / Character Level</div>
         <div style="display:flex;gap:0.8rem;align-items:center;flex-wrap:wrap;">
           <div style="display:flex;gap:0.3rem;align-items:center;">
-            <span style="font-size:0.72rem;color:var(--poe-text-dim);">Предмет</span>
+            <span style="font-size:0.72rem;color:var(--poe-text-dim);">Item</span>
             <input id="item-level-input" type="number" min="1" max="100" value="75"
               class="form-control form-control-sm" style="width:65px;"
               oninput="onItemLevelChange()" />
           </div>
           <div style="display:flex;gap:0.3rem;align-items:center;">
-            <span style="font-size:0.72rem;color:var(--poe-text-dim);">Персонаж</span>
+            <span style="font-size:0.72rem;color:var(--poe-text-dim);">Character</span>
             <input id="char-level-input" type="number" min="1" max="100" value="90"
               class="form-control form-control-sm" style="width:65px;"
               oninput="onCharLevelChange()" />
@@ -480,94 +454,97 @@
         </div>
 
         <!-- Prefixes -->
-        <div class="section-label">
-          Prefixes
-          <span id="prefix-count">0 / 3</span>
-        </div>
+        <div class="section-label">Prefixes <span id="prefix-count">0 / 3</span></div>
         <div id="prefix-slots"></div>
-        <button class="btn-add" id="btn-add-prefix" onclick="addModSlot('prefix')" disabled>
-          + Add Prefix
-        </button>
+        <button class="btn-add" id="btn-add-prefix" onclick="addModSlot('prefix')" disabled>+ Add Prefix</button>
 
         <!-- Suffixes -->
-        <div class="section-label">
-          Suffixes
-          <span id="suffix-count">0 / 3</span>
-        </div>
+        <div class="section-label">Suffixes <span id="suffix-count">0 / 3</span></div>
         <div id="suffix-slots"></div>
-        <button class="btn-add" id="btn-add-suffix" onclick="addModSlot('suffix')" disabled>
-          + Add Suffix
-        </button>
+        <button class="btn-add" id="btn-add-suffix" onclick="addModSlot('suffix')" disabled>+ Add Suffix</button>
 
-        <button class="btn-convert" onclick="runConvert()">
-          Convert → Fists of Stone
-        </button>
+        <button class="btn-convert" onclick="runConvert()">Convert → Fists of Stone</button>
       </div>
     </div>
 
-    <!-- ===== RIGHT: Result ===== -->
+    <!-- RIGHT: result -->
     <div class="col-12 col-lg-7">
       <div class="panel">
         <div class="panel-title">Conversion Result</div>
-
         <div id="result-area">
-          <div class="empty-state">
-            Select a base type and modifiers, then click Convert.
-          </div>
+          <div class="empty-state">Select a glove type and modifiers, then click Convert.</div>
         </div>
-
       </div>
     </div>
+
   </div>
 </div>
 
 <script>
 // =============================================
-// Glove image map (injected from Flask)
-// =============================================
-const GLOVE_IMAGES = {{ glove_images | tojson }};
-
-// =============================================
 // State
 // =============================================
-let rawPrefixes = [];     // all mods from API (unfiltered)
-let rawSuffixes = [];
-let availablePrefixes = [];  // filtered to ilvl, one per family
-let availableSuffixes = [];
-let qualityEnabled = false;  // +20% quality toggle
-let runeCount = 0;           // 0 / 1 / 2 runes at +18% each
-
-function toggleQuality() {
-  qualityEnabled = !qualityEnabled;
-  if (lastConvertData) renderResult(lastConvertData);
-}
-function setRunes(n) {
-  runeCount = n;
-  if (lastConvertData) renderResult(lastConvertData);
-}
-let prefixSlots = [];   // list of selected mod objects (or null)
-let suffixSlots = [];
-let lastConvertData = null;  // last API result for live char-level updates
+let selectedType = "";
+let rawPrefixes = [], rawSuffixes = [];
+let availablePrefixes = [], availableSuffixes = [];
+let prefixSlots = [], suffixSlots = [];
+let lastConvertData = null;
+let qualityEnabled = false;
+let runeCount = 0;
 
 // =============================================
-// Helpers: item level + ilvl filter
+// Type selector
+// =============================================
+function selectType(typeKey) {
+  selectedType = typeKey;
+
+  document.querySelectorAll(".type-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.type === typeKey);
+  });
+
+  prefixSlots = [];
+  suffixSlots = [];
+  rawPrefixes = [];
+  rawSuffixes = [];
+  availablePrefixes = [];
+  availableSuffixes = [];
+  document.getElementById("ilvl-hint").textContent = "";
+  renderSlots();
+  setAddButtons(false, false);
+
+  loadMods(typeKey);
+}
+
+async function loadMods(typeKey) {
+  const resp = await fetch(`/api/mods?type=${encodeURIComponent(typeKey)}`);
+  const data = await resp.json();
+  rawPrefixes = data.prefix || [];
+  rawSuffixes = data.suffix || [];
+  applyItemLevelFilter();
+}
+
+// =============================================
+// Item level filter
 // =============================================
 function getItemLevel() {
   return parseInt(document.getElementById("item-level-input").value) || 100;
 }
+function getCharLevel() {
+  return parseInt(document.getElementById("char-level-input").value) || 90;
+}
+
+function modFamilyKey(m) {
+  return m.normalized_key || (m.family && m.family.length > 0 ? m.family.join("/") : m.name);
+}
 
 function filterModsByIlvl(mods, ilvl) {
-  // For each unique stat type (normalized_key), keep only the HIGHEST-level
-  // tier whose ilvl requirement is <= the given ilvl
   const byKey = {};
   for (const m of mods) {
     const key = modFamilyKey(m);
     const modLvl = parseInt(m.level) || 0;
     if (modLvl > ilvl) continue;
     const prevLvl = parseInt((byKey[key] || {}).level) || 0;
-    if (!byKey[key] || modLvl >= prevLvl) {
-      byKey[key] = m;
-    }
+    if (!byKey[key] || modLvl >= prevLvl) byKey[key] = m;
   }
   return Object.values(byKey);
 }
@@ -577,8 +554,6 @@ function applyItemLevelFilter() {
   availablePrefixes = filterModsByIlvl(rawPrefixes, ilvl);
   availableSuffixes = filterModsByIlvl(rawSuffixes, ilvl);
 
-  // Update slots: if a previously selected family is still available, point to
-  // the new best tier; if no longer available at this ilvl, clear the slot.
   prefixSlots = prefixSlots.map(m => {
     if (!m) return null;
     const fk = modFamilyKey(m);
@@ -590,83 +565,23 @@ function applyItemLevelFilter() {
     return availableSuffixes.find(a => modFamilyKey(a) === fk) || null;
   });
 
-  // Update hint
   const total = availablePrefixes.length + availableSuffixes.length;
   document.getElementById("ilvl-hint").textContent =
-    total ? `${availablePrefixes.length}P / ${availableSuffixes.length}S доступно` : "";
+    total ? `${availablePrefixes.length}P / ${availableSuffixes.length}S available` : "";
 
   renderSlots();
   setAddButtons(availablePrefixes.length > 0, availableSuffixes.length > 0);
 }
 
-function onItemLevelChange() {
-  applyItemLevelFilter();
-}
-
-function getCharLevel() {
-  const el = document.getElementById("char-level-input");
-  return el ? (parseInt(el.value) || 90) : 90;
-}
-
-function onCharLevelChange() {
-  if (lastConvertData) renderResult(lastConvertData);
-}
-
-// =============================================
-// Base type changed: load available mods
-// =============================================
-async function onBaseChange() {
-  const sel = document.getElementById("base-select");
-  const baseName = sel.value;
-  const baseType = sel.options[sel.selectedIndex]?.dataset?.type || "";
-
-  // Update thumbnail
-  const img = document.getElementById("base-thumb-img");
-  const imgUrl = GLOVE_IMAGES[baseName] || "";
-  if (imgUrl) {
-    img.src = imgUrl;
-    img.style.display = "block";
-  } else {
-    img.style.display = "none";
-  }
-
-  prefixSlots = [];
-  suffixSlots = [];
-
-  if (!baseName) {
-    rawPrefixes = [];
-    rawSuffixes = [];
-    availablePrefixes = [];
-    availableSuffixes = [];
-    document.getElementById("ilvl-hint").textContent = "";
-    renderSlots();
-    setAddButtons(false, false);
-    return;
-  }
-
-  const resp = await fetch(`/api/mods?base=${encodeURIComponent(baseName)}&type=${baseType}`);
-  const data = await resp.json();
-
-  rawPrefixes = data.prefix || [];
-  rawSuffixes = data.suffix || [];
-
-  applyItemLevelFilter();
-}
-
-function setAddButtons(prefixEnabled, suffixEnabled) {
-  document.getElementById("btn-add-prefix").disabled = !prefixEnabled || prefixSlots.length >= 3;
-  document.getElementById("btn-add-suffix").disabled = !suffixEnabled || suffixSlots.length >= 3;
-}
+function onItemLevelChange() { applyItemLevelFilter(); }
+function onCharLevelChange() { if (lastConvertData) renderResult(lastConvertData); }
 
 // =============================================
 // Mod slots
 // =============================================
 function addModSlot(kind) {
-  if (kind === "prefix" && prefixSlots.length < 3) {
-    prefixSlots.push(null);
-  } else if (kind === "suffix" && suffixSlots.length < 3) {
-    suffixSlots.push(null);
-  }
+  if (kind === "prefix" && prefixSlots.length < 3) prefixSlots.push(null);
+  else if (kind === "suffix" && suffixSlots.length < 3) suffixSlots.push(null);
   renderSlots();
   setAddButtons(availablePrefixes.length > 0, availableSuffixes.length > 0);
 }
@@ -678,25 +593,23 @@ function removeModSlot(kind, idx) {
   setAddButtons(availablePrefixes.length > 0, availableSuffixes.length > 0);
 }
 
+function setAddButtons(prefixOk, suffixOk) {
+  document.getElementById("btn-add-prefix").disabled = !prefixOk || prefixSlots.length >= 3;
+  document.getElementById("btn-add-suffix").disabled = !suffixOk || suffixSlots.length >= 3;
+}
+
 function renderSlots() {
   renderSlotGroup("prefix", prefixSlots, availablePrefixes);
   renderSlotGroup("suffix", suffixSlots, availableSuffixes);
-
   document.getElementById("prefix-count").textContent = `${prefixSlots.length} / 3`;
   document.getElementById("suffix-count").textContent = `${suffixSlots.length} / 3`;
 }
 
-function modFamilyKey(m) {
-  // Use normalized_key (stat pattern without numbers) so tiers of the same
-  // mod collapse correctly even for desecrated mods with shared family names
-  return m.normalized_key || (m.family && m.family.length > 0 ? m.family.join("/") : m.name);
-}
-
 const STATUS_GROUPS = [
-  ["known",     "✓ Подтверждено"],
-  ["predicted", "~ Предположительно"],
-  ["partial",   "· Тип известен, формула нет"],
-  ["unknown",   "? Неизвестно"],
+  ["known",     "✓ Confirmed"],
+  ["predicted", "~ Estimated"],
+  ["partial",   "· Type known, formula unknown"],
+  ["unknown",   "? Unknown"],
 ];
 
 function renderSlotGroup(kind, slots, available) {
@@ -707,11 +620,9 @@ function renderSlotGroup(kind, slots, available) {
     const row = document.createElement("div");
     row.className = "mod-row";
 
-    // Wrapper
     const wrapper = document.createElement("div");
     wrapper.className = "custom-select-wrapper";
 
-    // Trigger
     const trigger = document.createElement("div");
     trigger.className = "custom-select-trigger" + (selected ? " has-value" : "");
     trigger.textContent = selected ? selected.stat : "— choose mod —";
@@ -720,40 +631,30 @@ function renderSlotGroup(kind, slots, available) {
       openDropdown(wrapper, slots, available, selected, idx, kind);
     });
 
-    // Panel
     const panel = document.createElement("div");
     panel.className = "custom-dropdown-panel";
 
-    // Search input
     const search = document.createElement("input");
     search.type = "text";
     search.className = "dropdown-search";
-    search.placeholder = "Поиск...";
+    search.placeholder = "Search…";
     search.addEventListener("click", e => e.stopPropagation());
 
-    // Options list
     const optsCont = document.createElement("div");
     optsCont.className = "dropdown-options";
 
-    // Build/rebuild options (called on open and on search input)
     const buildOpts = (term) => {
       optsCont.innerHTML = "";
-      const usedFamilies = new Set(
-        slots.filter((m, i) => i !== idx && m).map(m => modFamilyKey(m))
-      );
+      const usedFamilies = new Set(slots.filter((m, i) => i !== idx && m).map(m => modFamilyKey(m)));
       const excluded = available.filter(m => !usedFamilies.has(modFamilyKey(m)));
-      const filtered = term
-        ? excluded.filter(m => m.stat.toLowerCase().includes(term))
-        : excluded;
+      const filtered = term ? excluded.filter(m => m.stat.toLowerCase().includes(term)) : excluded;
 
-      // Blank option
       const blankDiv = document.createElement("div");
       blankDiv.className = "dropdown-option blank";
       blankDiv.textContent = "— choose mod —";
       blankDiv.addEventListener("click", () => pickMod(wrapper, null, kind, idx));
       optsCont.appendChild(blankDiv);
 
-      // Status groups
       const byStatus = {};
       for (const m of filtered) {
         const s = m.conversion_status || "unknown";
@@ -799,15 +700,10 @@ function renderSlotGroup(kind, slots, available) {
   });
 }
 
-// =============================================
-// Custom dropdown logic
-// =============================================
 function openDropdown(wrapper, slots, available, selected, idx, kind) {
   const panel = wrapper.querySelector(".custom-dropdown-panel");
   const isOpen = panel.classList.contains("open");
-  // Close all open panels
-  document.querySelectorAll(".custom-dropdown-panel.open")
-    .forEach(p => p.classList.remove("open"));
+  document.querySelectorAll(".custom-dropdown-panel.open").forEach(p => p.classList.remove("open"));
   if (!isOpen) {
     panel.classList.add("open");
     panel._search.value = "";
@@ -823,70 +719,55 @@ function pickMod(wrapper, mod, kind, idx) {
   renderSlots();
 }
 
-// Close any open dropdown when clicking outside a wrapper
 document.addEventListener("click", () => {
-  document.querySelectorAll(".custom-dropdown-panel.open")
-    .forEach(p => p.classList.remove("open"));
+  document.querySelectorAll(".custom-dropdown-panel.open").forEach(p => p.classList.remove("open"));
 });
 
 // =============================================
-// Stats preview calculation
+// Stats preview
 // =============================================
+function toggleQuality() {
+  qualityEnabled = !qualityEnabled;
+  if (lastConvertData) renderResult(lastConvertData);
+}
+function setRunes(n) {
+  runeCount = n;
+  if (lastConvertData) renderResult(lastConvertData);
+}
+
 function computeStatsPreview(results, charLevel) {
-  // Base Fists of Stone implicits scale with player level
   let extraEva = charLevel * 3;
   let extraEs  = charLevel * 1;
-  let perLevelShowcase = false;  // true if any per-level value came from split_outputs
-  const moreMods = [];  // { pct, label, approx }
+  let perLevelShowcase = false;
+  const moreMods = [];
 
   for (const r of results) {
-    // ── Per-level bonuses from split_outputs (e.g. flat Armour → +4 EVA/lv + +1 ES/lv) ──
     if (r.split && Array.isArray(r.split_outputs)) {
       for (const line of r.split_outputs) {
         const ll = line.toLowerCase();
         const numM = line.match(/\+(\d+)/);
         if (!numM) continue;
         const n = parseInt(numM[1]);
-        if (ll.includes("evasion rating per player level")) {
-          extraEva += n * charLevel;
-          perLevelShowcase = true;
-        } else if (ll.includes("energy shield per player level")) {
-          extraEs += n * charLevel;
-          perLevelShowcase = true;
-        }
+        if (ll.includes("evasion rating per player level")) { extraEva += n * charLevel; perLevelShowcase = true; }
+        else if (ll.includes("energy shield per player level")) { extraEs += n * charLevel; perLevelShowcase = true; }
       }
-      continue;  // split mods don't produce "more%" entries
-    }
-
-    const convLower = (r.converted || "").toLowerCase();
-    // Only handle "more Global Evasion Rating and Energy Shield" conversions
-    if (!convLower.includes("evasion rating and energy shield")) continue;
-
-    const origLower = (r.original || "").toLowerCase();
-
-    // Determine conversion ratio from original stat keywords
-    let ratio, approx = false;
-    if (/armour.*evasion|evasion.*armour/.test(origLower)) {
-      ratio = 1 / 8;   // tri-hybrid (Armour, Evasion and Energy Shield): ÷8
-    } else if (origLower.includes("armour")) {
-      ratio = 1 / 4;   // increased Armour: ÷4
-    } else if (origLower.includes("evasion") || origLower.includes("energy shield")) {
-      ratio = 1 / 5;   // increased Evasion Rating / Energy Shield: ÷5
-      if (!r.confirmed) approx = true;
-    } else {
       continue;
     }
 
-    // Extract the % value from original stat (handle poedb "(X-Y)%" and plain "X%")
+    const convLower = (r.converted || "").toLowerCase();
+    if (!convLower.includes("evasion rating and energy shield")) continue;
+    const origLower = (r.original || "").toLowerCase();
+
+    let ratio, approx = false;
+    if (/armour.*evasion|evasion.*armour/.test(origLower)) ratio = 1/8;
+    else if (origLower.includes("armour")) ratio = 1/4;
+    else if (origLower.includes("evasion") || origLower.includes("energy shield")) { ratio = 1/5; if (!r.confirmed) approx = true; }
+    else continue;
+
     const rangeM = r.original.match(/\((\d+)[–\-](\d+)\)/);
     const singleM = r.original.match(/\+?(\d+(?:\.\d+)?)/);
-    const val = rangeM
-      ? (parseInt(rangeM[1]) + parseInt(rangeM[2])) / 2
-      : singleM ? parseFloat(singleM[1]) : 0;
-
-    if (val > 0) {
-      moreMods.push({ pct: Math.round(val * ratio), label: r.original, approx });
-    }
+    const val = rangeM ? (parseInt(rangeM[1]) + parseInt(rangeM[2])) / 2 : singleM ? parseFloat(singleM[1]) : 0;
+    if (val > 0) moreMods.push({ pct: Math.round(val * ratio), label: r.original, approx });
   }
 
   return { extraEva, extraEs, perLevelShowcase, moreMods };
@@ -912,7 +793,6 @@ async function runConvert() {
     body: JSON.stringify({ mods: allSelected }),
   });
   const data = await resp.json();
-
   lastConvertData = data;
   renderResult(data);
 }
@@ -922,34 +802,29 @@ async function runConvert() {
 // =============================================
 function renderResult(data) {
   const area = document.getElementById("result-area");
-  const baseName = document.getElementById("base-select").value || "Unknown Gloves";
+  const itemName = document.getElementById("item-name-input").value.trim() || "Your Gloves";
   const results = data.results || [];
   const implicits = data.implicits || [];
 
   let html = `
     <div class="item-frame">
-      <div class="item-name">${escHtml(baseName)}</div>
+      <div class="item-name">${escHtml(itemName)}</div>
       <div class="item-base">Fists of Stone</div>
       <hr class="item-separator">
   `;
 
-  // Implicits
   for (const imp of implicits) {
     html += `<div class="mod-implicit">${escHtml(imp)}</div>`;
   }
 
   if (results.length > 0) {
     html += `<hr class="item-separator">`;
-
-    // Header row
     html += `
       <div style="display:grid;grid-template-columns:1fr 30px 1fr;gap:0.3rem;
                   font-size:0.7rem;color:var(--poe-text-dim);text-transform:uppercase;
                   letter-spacing:0.06em;padding-bottom:0.3rem;border-bottom:1px solid var(--poe-border);
                   margin-bottom:0.2rem;">
-        <div>Original</div>
-        <div></div>
-        <div>Fists of Stone</div>
+        <div>Original</div><div></div><div>Fists of Stone</div>
       </div>
     `;
 
@@ -966,51 +841,42 @@ function renderResult(data) {
       const title = r.note ? `title="${escHtml(r.note)}"` : "";
 
       if (r.split && r.split_outputs && r.split_outputs.length > 0) {
-        // Split conversion: 1 original → multiple outputs
-        // Show the original once, then list each output
-        const splitBadge = `<span style="font-size:0.65rem;background:#2a1a0a;color:var(--poe-orange);
-                              border-radius:3px;padding:0.1rem 0.3rem;margin-left:0.3rem;">×${r.split_outputs.length}</span>`;
+        const splitBadge = `<span style="font-size:0.65rem;background:#2a1a0a;color:var(--poe-orange);border-radius:3px;padding:0.1rem 0.3rem;margin-left:0.3rem;">×${r.split_outputs.length}</span>`;
         html += `
           <div class="conv-row" ${title}>
             <div class="conv-original">${badge}${escHtml(r.original)}${splitBadge}</div>
             <div class="conv-arrow">→</div>
-            <div class="conv-result ${resultClass}">
-              ${r.split_outputs.map(o => `<div>• ${escHtml(o)}</div>`).join("")}
-            </div>
+            <div class="conv-result ${resultClass}">${r.split_outputs.map(o => `<div>• ${escHtml(o)}</div>`).join("")}</div>
           </div>
         `;
       } else {
-        const convertedText = r.converted || "?";
         html += `
           <div class="conv-row">
             <div class="conv-original">${badge}${escHtml(r.original)}</div>
             <div class="conv-arrow">→</div>
-            <div class="conv-result ${resultClass}" ${title}>${escHtml(convertedText)}</div>
+            <div class="conv-result ${resultClass}" ${title}>${escHtml(r.converted || "?")}</div>
           </div>
         `;
       }
     }
   }
 
-  // Stats preview (always shown, updates with char level)
+  // Stats preview
   {
     const charLevel = getCharLevel();
     const stats = computeStatsPreview(results, charLevel);
-
-    // Quality + rune multiplier
     const baseMult = 1 + (qualityEnabled ? 0.20 : 0) + runeCount * 0.18;
     const baseMultParts = [];
-    if (qualityEnabled) baseMultParts.push("качество +20%");
-    if (runeCount === 1) baseMultParts.push("1 руна +18%");
-    if (runeCount === 2) baseMultParts.push("2 руны +36%");
+    if (qualityEnabled) baseMultParts.push("quality +20%");
+    if (runeCount === 1) baseMultParts.push("1 rune +18%");
+    if (runeCount === 2) baseMultParts.push("2 runes +36%");
     const baseMultRow = baseMultParts.length > 0 ? `
       <div class="sp-row">
         <span class="sp-more">×${baseMult.toFixed(2)}</span>
-        <span>к базовым характеристикам предмета</span>
+        <span>to base stats</span>
         <span class="sp-note">(${baseMultParts.join(" + ")})</span>
       </div>` : "";
 
-    // Итоговые значения от перчаток
     const totalEva = Math.round(stats.extraEva * baseMult);
     const totalEs  = Math.round(stats.extraEs  * baseMult);
 
@@ -1018,20 +884,20 @@ function renderResult(data) {
       <hr class="item-separator">
       <div class="stats-preview">
         <div class="sp-controls">
-          <button class="sp-btn${qualityEnabled ? " active" : ""}" onclick="toggleQuality()">Качество +20%</button>
-          <button class="sp-btn${runeCount===0 ? " active" : ""}" onclick="setRunes(0)">Без рун</button>
-          <button class="sp-btn${runeCount===1 ? " active" : ""}" onclick="setRunes(1)">1 руна +18%</button>
-          <button class="sp-btn${runeCount===2 ? " active" : ""}" onclick="setRunes(2)">2 руны +36%</button>
+          <button class="sp-btn${qualityEnabled ? " active" : ""}" onclick="toggleQuality()">Quality +20%</button>
+          <button class="sp-btn${runeCount===0 ? " active" : ""}" onclick="setRunes(0)">No runes</button>
+          <button class="sp-btn${runeCount===1 ? " active" : ""}" onclick="setRunes(1)">1 rune +18%</button>
+          <button class="sp-btn${runeCount===2 ? " active" : ""}" onclick="setRunes(2)">2 runes +36%</button>
         </div>
-        <div class="sp-title">Примерные характеристики при уровне ${charLevel}</div>
+        <div class="sp-title">Approximate stats at level ${charLevel}</div>
         <div class="sp-row">
-          <span class="sp-eva">+${stats.extraEva}</span><span>к Evasion</span>
-          <span class="sp-es">+${stats.extraEs}</span><span>к Energy Shield</span>
-          <span class="sp-note">(имплисит +3/ур · +1/ур${stats.perLevelShowcase ? " + showcase" : ""})</span>
+          <span class="sp-eva">+${stats.extraEva}</span><span>Evasion</span>
+          <span class="sp-es">+${stats.extraEs}</span><span>Energy Shield</span>
+          <span class="sp-note">(implicit +3/lv · +1/lv${stats.perLevelShowcase ? " + showcase" : ""})</span>
         </div>
         ${baseMultRow}
         <div class="sp-row" style="margin-top:0.3rem;padding-top:0.35rem;border-top:1px solid rgba(58,46,30,0.35);">
-          <span style="font-size:0.7rem;color:var(--poe-text-dim);text-transform:uppercase;letter-spacing:0.05em;flex-basis:100%;">Итого от перчаток${stats.perLevelShowcase ? " (showcase)" : ""}</span>
+          <span style="font-size:0.7rem;color:var(--poe-text-dim);text-transform:uppercase;letter-spacing:0.05em;flex-basis:100%;">Total from gloves</span>
           <span class="sp-eva">≈${totalEva}</span><span>EVA</span>
           <span class="sp-es">≈${totalEs}</span><span>ES</span>
         </div>
@@ -1039,22 +905,20 @@ function renderResult(data) {
         <div class="sp-row">
           <span class="sp-more">${m.approx ? "~" : ""}${m.pct}%</span>
           <span>more Global EVA+ES</span>
-          <span class="sp-note">(×${(1 + m.pct / 100).toFixed(2)} к общему — из: ${escHtml(m.label)})</span>
-        </div>
-        `).join("")}
+          <span class="sp-note">(×${(1 + m.pct / 100).toFixed(2)} — from: ${escHtml(m.label)})</span>
+        </div>`).join("")}
       </div>
     `;
   }
 
   html += `</div>`;
 
-  // Legend
   html += `
     <div class="legend">
-      <span class="legend-item known">Подтверждено</span>
-      <span class="legend-item predicted">Предположительно (~расчёт)</span>
-      <span class="legend-item partial">Тип известен, формула нет</span>
-      <span class="legend-item unknown">Неизвестно!</span>
+      <span class="legend-item known">Confirmed</span>
+      <span class="legend-item predicted">Estimated (~formula)</span>
+      <span class="legend-item partial">Type known, formula unknown</span>
+      <span class="legend-item unknown">Unknown</span>
     </div>
   `;
 
@@ -1062,28 +926,17 @@ function renderResult(data) {
 }
 
 function showEmptyResult(msg) {
-  document.getElementById("result-area").innerHTML =
-    `<div class="empty-state">${escHtml(msg)}</div>`;
+  document.getElementById("result-area").innerHTML = `<div class="empty-state">${escHtml(msg)}</div>`;
 }
 
 function escHtml(str) {
-  return String(str)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
+  return String(str).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 }
 
 async function quitApp() {
-  if (!confirm("Остановить сервер Stone of Fist?")) return;
-  try {
-    await fetch("/api/shutdown", { method: "POST" });
-  } catch (_) {
-    // Server may close before response arrives — that's fine
-  }
-  document.body.innerHTML =
-    '<div style="display:flex;align-items:center;justify-content:center;height:100vh;' +
-    'color:#8a8070;font-family:sans-serif;">Сервер остановлен. Можно закрыть вкладку.</div>';
+  if (!confirm("Stop Stone of Fist server?")) return;
+  try { await fetch("/api/shutdown", { method: "POST" }); } catch (_) {}
+  document.body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100vh;color:#8a8070;font-family:sans-serif;">Server stopped. You can close this tab.</div>';
 }
 </script>
 

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unique Gloves — Fists of Stone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    :root {
+      --poe-gold: #c8a045;
+      --poe-gold-dim: #a07828;
+      --poe-bg: #0d0d0d;
+      --poe-panel: #1a1510;
+      --poe-border: #3a2e1e;
+      --poe-text: #d0c8b0;
+      --poe-text-dim: #8a8070;
+      --poe-green: #4caf50;
+      --poe-orange: #e07020;
+      --poe-red: #c04040;
+      --poe-blue: #4a90d9;
+      --poe-implicit: #7fa0c0;
+      --poe-unique: #af6025;
+    }
+
+    body {
+      background: var(--poe-bg);
+      color: var(--poe-text);
+      font-family: "Segoe UI", system-ui, sans-serif;
+      min-height: 100vh;
+    }
+
+    h1 {
+      color: var(--poe-gold);
+      font-size: 1.6rem;
+      letter-spacing: 0.05em;
+      text-shadow: 0 0 12px rgba(200,160,69,0.4);
+    }
+    .subtitle { color: var(--poe-text-dim); font-size: 0.85rem; }
+
+    .header-bar {
+      background: #100c08;
+      border-bottom: 1px solid var(--poe-border);
+      padding: 0.8rem 0;
+      margin-bottom: 1.2rem;
+    }
+    .nav-link-poe {
+      color: var(--poe-text-dim);
+      font-size: 0.8rem;
+      text-decoration: none;
+      border: 1px solid var(--poe-border);
+      border-radius: 4px;
+      padding: 0.25rem 0.8rem;
+      transition: all 0.15s;
+    }
+    .nav-link-poe:hover { color: var(--poe-gold); border-color: var(--poe-gold-dim); }
+    .nav-link-poe.active { color: var(--poe-gold); border-color: var(--poe-gold); background: rgba(200,160,69,0.08); }
+
+    /* Group section */
+    .group-header {
+      color: var(--poe-gold-dim);
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      padding: 0.4rem 0 0.3rem;
+      border-bottom: 1px solid var(--poe-border);
+      margin-bottom: 0.8rem;
+      margin-top: 1.4rem;
+    }
+    .group-header:first-child { margin-top: 0; }
+
+    /* Unique card */
+    .unique-card {
+      background: var(--poe-panel);
+      border: 1px solid var(--poe-border);
+      border-radius: 6px;
+      overflow: hidden;
+      height: 100%;
+    }
+    .unique-card-header {
+      background: #120e09;
+      border-bottom: 1px solid var(--poe-border);
+      padding: 0.6rem 0.9rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .unique-name {
+      color: var(--poe-unique);
+      font-size: 0.9rem;
+      font-weight: 600;
+      flex: 1;
+      min-width: 0;
+    }
+    .unique-base {
+      color: var(--poe-text-dim);
+      font-size: 0.72rem;
+    }
+    .badge-converts {
+      font-size: 0.62rem;
+      padding: 0.1rem 0.45rem;
+      border-radius: 3px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .badge-fists {
+      background: rgba(200,160,69,0.12);
+      border: 1px solid var(--poe-gold-dim);
+      color: var(--poe-gold-dim);
+    }
+    .badge-runeforged {
+      background: rgba(74,144,217,0.12);
+      border: 1px solid #3a70a9;
+      color: #7ab0d9;
+    }
+
+    .unique-card-body { padding: 0.7rem 0.9rem; }
+
+    /* Implicit block */
+    .implicit-block {
+      margin-bottom: 0.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid rgba(58,46,30,0.5);
+    }
+    .implicit-label {
+      font-size: 0.62rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--poe-text-dim);
+      margin-bottom: 0.2rem;
+    }
+    .implicit-line { color: var(--poe-implicit); font-size: 0.78rem; padding: 0.05rem 0; }
+
+    /* Mod table */
+    .mod-table { width: 100%; border-collapse: collapse; }
+    .mod-table th {
+      font-size: 0.62rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--poe-text-dim);
+      font-weight: 600;
+      padding: 0.2rem 0.3rem;
+      border-bottom: 1px solid var(--poe-border);
+    }
+    .mod-table td {
+      font-size: 0.78rem;
+      padding: 0.28rem 0.3rem;
+      vertical-align: top;
+      border-bottom: 1px solid rgba(58,46,30,0.25);
+    }
+    .mod-table tr:last-child td { border-bottom: none; }
+    .mod-table td:nth-child(1) { color: var(--poe-text-dim); width: 45%; }
+    .mod-table td:nth-child(2) { color: var(--poe-border); text-align: center; width: 10%; padding-top: 0.3rem; }
+    .mod-table td:nth-child(3) { width: 45%; }
+
+    .mod-confirmed   { color: var(--poe-green); }
+    .mod-unconfirmed { color: var(--poe-orange); }
+    .mod-preserved   { color: var(--poe-text-dim); font-style: italic; }
+    .mod-implicit-row td:nth-child(1) { color: var(--poe-implicit); }
+    .mod-implicit-row td:nth-child(3) { color: var(--poe-implicit); }
+
+    .mod-note {
+      font-size: 0.67rem;
+      color: var(--poe-text-dim);
+      font-style: italic;
+      margin-top: 0.1rem;
+    }
+
+    /* No-data state */
+    .no-mods {
+      font-size: 0.78rem;
+      color: var(--poe-text-dim);
+      font-style: italic;
+      padding: 0.3rem 0;
+      text-align: center;
+    }
+    .poedb-link {
+      font-size: 0.7rem;
+      color: var(--poe-text-dim);
+      text-decoration: none;
+    }
+    .poedb-link:hover { color: var(--poe-gold); }
+
+    /* Legend */
+    .legend {
+      font-size: 0.72rem;
+      color: var(--poe-text-dim);
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.4rem;
+    }
+    .legend-item::before { content: "●"; margin-right: 0.25rem; }
+    .legend-item.confirmed   { color: var(--poe-green); }
+    .legend-item.unconfirmed { color: var(--poe-orange); }
+    .legend-item.preserved   { color: var(--poe-text-dim); }
+  </style>
+</head>
+<body>
+
+<div class="header-bar">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;gap:1rem;">
+    <div>
+      <h1 style="margin:0;">Stone of Fist</h1>
+      <div class="subtitle">Path of Exile 2 — Way of the Stonefist glove converter</div>
+    </div>
+    <div style="display:flex;gap:0.5rem;">
+      <a href="/" class="nav-link-poe">Rare / Magic</a>
+      <a href="/uniques" class="nav-link-poe active">Unique</a>
+    </div>
+  </div>
+</div>
+
+<div class="container pb-5">
+
+  <div class="legend">
+    <span class="legend-item confirmed">Confirmed conversion</span>
+    <span class="legend-item unconfirmed">Pattern known, values approximate</span>
+    <span class="legend-item preserved">Preserved (no change)</span>
+  </div>
+
+  {% for type_key, type_label, gloves in ordered_groups %}
+  <div class="group-header">{{ type_label }}</div>
+  <div class="row g-3 mb-2">
+    {% for g in gloves %}
+    <div class="col-12 col-md-6 col-xl-4">
+      <div class="unique-card">
+
+        <!-- Card header -->
+        <div class="unique-card-header">
+          {% if g.image %}
+          <img src="{{ g.image }}" alt="" style="width:28px;height:28px;object-fit:contain;image-rendering:pixelated;flex-shrink:0;" />
+          {% endif %}
+          <div style="flex:1;min-width:0;">
+            <div class="unique-name">{{ g.name }}</div>
+            <div class="unique-base">{{ g.base_type }}</div>
+          </div>
+          <span class="badge-converts {% if g.converts_to == 'Runeforged Fists of Stone' %}badge-runeforged{% else %}badge-fists{% endif %}">
+            {{ g.converts_to }}
+          </span>
+        </div>
+
+        <!-- Card body -->
+        <div class="unique-card-body">
+
+          <!-- Target implicits -->
+          <div class="implicit-block">
+            <div class="implicit-label">→ Implicits after conversion</div>
+            {% if g.converts_to == "Runeforged Fists of Stone" %}
+              {% for imp in runeforged_implicits %}
+              <div class="implicit-line">{{ imp }}</div>
+              {% endfor %}
+            {% else %}
+              {% for imp in fists_implicits %}
+              <div class="implicit-line">{{ imp }}</div>
+              {% endfor %}
+            {% endif %}
+          </div>
+
+          <!-- Mod conversions -->
+          {% if g.mods %}
+          <table class="mod-table">
+            <thead>
+              <tr>
+                <th>Before</th>
+                <th></th>
+                <th>After (Fists of Stone)</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for mod in g.mods %}
+              {% set is_preserved = mod.before == mod.after %}
+              <tr {% if mod.is_implicit is defined and mod.is_implicit %}class="mod-implicit-row"{% endif %}>
+                <td>
+                  {% if mod.is_implicit is defined and mod.is_implicit %}
+                  <span style="font-size:0.62rem;color:var(--poe-text-dim);text-transform:uppercase;letter-spacing:0.06em;display:block;margin-bottom:0.1rem;">implicit</span>
+                  {% endif %}
+                  {{ mod.before }}
+                </td>
+                <td>→</td>
+                <td>
+                  <span class="{% if is_preserved %}mod-preserved{% elif mod.confirmed %}mod-confirmed{% else %}mod-unconfirmed{% endif %}">
+                    {{ mod.after }}
+                  </span>
+                  {% if mod.note %}
+                  <div class="mod-note">{{ mod.note }}</div>
+                  {% endif %}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+          {% else %}
+          <div class="no-mods">Conversion data unknown</div>
+          <div style="text-align:center;margin-top:0.3rem;">
+            <a href="https://poedb.tw{{ g.href }}" target="_blank" class="poedb-link">View on poedb.tw ↗</a>
+          </div>
+          {% endif %}
+
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

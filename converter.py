@@ -220,3 +220,12 @@ def load_base_gloves() -> list:
 def reload_conversion_table():
     """Reload conversion table from disk (useful after updates)."""
     _load_conversion_table()
+
+
+def load_unique_gloves() -> list:
+    """Load unique glove data including mods."""
+    path = DATA_DIR / "gloves_unique.json"
+    if not path.exists():
+        return []
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)
