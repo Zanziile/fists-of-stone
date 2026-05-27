@@ -7,6 +7,11 @@
     "converts_to": "Fists of Stone",
     "image": "https://cdn.poe2db.tw/image/Art/2DItems/Armours/Gloves/Basetypes/GlovesStr02.webp",
     "mods": [
+      {"before": "(~52)% increased Armour", "after": "13% more Global Evasion Rating and Energy Shield", "confirmed": true, "note": "STR base: ÷4 formula. Before value reverse-engineered: 13×4=52%"},
+      {"before": "Adds X to Y Physical Damage to Attacks", "after": "Attacks Gain 11% of Damage as Extra Physical Damage", "confirmed": true, "note": "Tier unknown; 11% confirmed from screenshot"},
+      {"before": "5% reduced Attack Speed", "after": "5% reduced Cast Speed", "confirmed": true, "note": "Bidirectional Attack ↔ Cast Speed swap, value preserved exactly"},
+      {"before": "+16 to Strength", "after": "20% increased Area of Effect for Attacks", "confirmed": true, "note": "STR → AoE for Attacks, rounds to nearest 10: +16→20%"},
+      {"before": "29% increased Stun Buildup", "after": "21% increased Immobilisation buildup", "confirmed": true, "note": "CC buildup stat swap ×0.72: 29×0.72≈21%"},
       {"before": "Giant's Blood", "after": "Hollow Palm Technique", "confirmed": true, "note": "Keystone → thematically related keystone"}
     ]
   },
