@@ -5,7 +5,31 @@
       "Example 1: Fine Bracers (DEX rare) -> Fists of Stone",
       "Example 2: Knightly Mitts (STR rare) -> Fists of Stone",
       "Example 3: Treefingers (STR unique) -> Fists of Stone",
-      "Example 4: Hand of Wisdom and Action (DEX/INT unique) -> Fists of Stone"
+      "Example 4: Hand of Wisdom and Action (DEX/INT unique) -> Fists of Stone",
+      "Example 5: Maelstrom Talons (Vaal Wraps, DEX/INT rare, ilvl 84) -> Fists of Stone",
+      "Example 6: Blood Mitts (Secured Wraps, DEX/INT rare, ilvl 82) -> Fists of Stone",
+      "Example 7: Agony Mitts (Vaal Wraps, DEX/INT rare, ilvl 82) -> Fists of Stone",
+      "Example 8: Eagle Knuckle (Vaal Wraps, DEX/INT rare, ilvl 82) -> Fists of Stone",
+      "Example 9: Empyrean Touch (Vaal Wraps, DEX/INT rare, ilvl 82) -> Fists of Stone",
+      "Example 10: Mind Palm (Knightly Mitts, STR rare, ilvl 68) -> Fists of Stone",
+      "Example 11: Damnation Clutches (Knightly Mitts, STR rare, ilvl 80) -> Fists of Stone",
+      "Example 12: Onslaught Caress (Secured Wraps, DEX/INT rare, ilvl 80) -> Fists of Stone",
+      "Example 13: Pain Hold (Vaal Wraps, DEX/INT rare, ilvl 81) -> Fists of Stone",
+      "Example 14: Damnation Caress (Vaal Wraps, DEX/INT rare, ilvl 82, +20% quality) -> Fists of Stone",
+      "Example 15: Horror Fist (Adorned Wraps, DEX/INT rare, ilvl 80) -> Fists of Stone",
+      "Example 16: Empyrean Talons (Blacksteel Gauntlets, STR/DEX rare, ilvl 80) -> Fists of Stone",
+      "Example 17: Dragon Mitts (Stalking Bracers, DEX rare, ilvl 71) -> Fists of Stone",
+      "Example 18: Vengeance Hand (Knightly Mitts, STR rare, ilvl ~65) -> Fists of Stone",
+      "Example 19: Gloom Touch (Grim Gloves, INT rare, ilvl ~65) -> Fists of Stone",
+      "Example 20: Agony Hand (Elegant Wraps, DEX/INT rare, ilvl 72) -> Fists of Stone",
+      "Example 21: Golem Paw (Barbed Bracers, DEX rare, ilvl 82) -> Fists of Stone",
+      "Example 22: Sorrow Fingers (Secured Wraps, DEX/INT rare, ilvl 82) -> Fists of Stone",
+      "Example 23: Apocalypse Paw (Steelmail Gauntlets, STR/DEX rare, ilvl 75) -> Fists of Stone",
+      "Example 24: Eagle Grasp (Stalking Bracers, DEX rare, ilvl 77) -> Fists of Stone",
+      "Example 25: Woe Vise (Knightly Mitts, STR rare, ilvl 78) -> Fists of Stone",
+      "Example 26: Vengeance Claw (Barbed Bracers, DEX rare, ilvl 79) -> Fists of Stone",
+      "Example 27: Skull Clutches (Steelmail Gauntlets, STR/DEX rare, ilvl 80, +7% quality) -> Fists of Stone",
+      "Example 28: Spirit Claw (War Wraps, DEX/INT rare, ilvl 73) -> Fists of Stone"
     ],
     "key_patterns": [
       "UNIQUE vs RARE: Unique mods follow item-specific conversion rules, not generic ones",
@@ -17,7 +41,8 @@
       "Critical Hit triggers → preserve % chance, change effect type",
       "Flat Armour → per-level EVA + per-level ES (split, both stacking with Fists of Stone base implicit)",
       "Strength (flat) → increased Area of Effect for Attacks (ratio ~1.25x)",
-      "per 20 [Attribute] mods: the attribute SWAPS (DEX ↔ INT on HoWA unique)"
+      "per 20 [Attribute] mods: the attribute SWAPS (DEX ↔ INT on HoWA unique)",
+      "CRITICAL: Original base type implicits SURVIVE conversion — Fists of Stone implicits are ADDED alongside them (confirmed Elegant Wraps 18% Armour/EVA/ES implicit persisted + 2 new Fists implicits added)"
     ]
   },
 
@@ -32,144 +57,169 @@
 
   "increased armour": {
     "converted_stat": "more Global Evasion Rating and Energy Shield",
-    "formula": "value / ~4",
-    "example": "51% increased Armour → 13% more Global Evasion Rating and Energy Shield",
+    "formula": "TIER-BASED: T1 (~92-100%) → 19%; T4-T5 (~51%) → 13%. Not a fixed divisor — ÷5 fits T1, ÷4 fits lower tier.",
+    "example": "RARE T1 (Damnation Clutches, str): 96% → 19% more EVA+ES. RARE lower tier (Knightly Mitts?): 51% → 13% more EVA+ES.",
     "split": false,
-    "note": "% increased Armour converts as a SINGLE stat (unlike flat +Armour which splits into 2 per-level mods). Ratio ~4 vs ~5 for Evasion.",
+    "note": "% increased Armour → single % more EVA+ES (unlike flat Armour which splits). Output % is TIER-BASED, not a fixed ratio. T1→19%, T4-T5→13%. The apparent ÷4 or ÷5 difference reflects different tiers, not a formula change.",
     "confirmed": true,
-    "unknown": false
+    "unknown": true
   },
 
   "to armour": {
     "converted_stat": "Has +X to Evasion Rating per player level + Has +Y to maximum Energy Shield per player level",
-    "formula": "unknown — +84 flat Armour → +2 EVA/level + +1 ES/level; +(123-160) Armour → +4 EVA/level + +1 ES/level (Horror Palm showcase)",
-    "example": "+84 to Armour → Has +2 to Evasion Rating per player level + Has +1 to maximum Energy Shield per player level",
+    "formula": "TIER-BASED (STR pure): T6 → +1 EVA/level; T?(+84) → +2 EVA/level; T3 (+127-145) → +4 EVA/level; T1 likely higher. ES/level fixed at +1. STR/DEX bases: Armour may contribute ONLY +1 ES/level (no EVA, since DEX side covers Evasion).",
+    "example": "RARE T6 (Mind Palm, str): +42 → +1 EVA/level + +1 ES/level. RARE T? (Knightly Mitts): +84 → +2 EVA/level + +1 ES/level. RARE T3 (Damnation Clutches/Vengeance Hand, str): +127 and +145 both → +4 EVA/level + +1 ES/level. RARE STR/DEX (Skull Clutches): +60 Armour T1 + +48 Evasion T2 → combined '+4 EVA/level + +1 ES/level' (Armour contributes ES only? Evasion contributes EVA?).",
     "split": true,
     "split_outputs": [
-      "Has +4 to Evasion Rating per player level (showcase)",
-      "Has +1 to maximum Energy Shield per player level (showcase)"
+      "Has +X to Evasion Rating per player level (STR pure tier-based: T6→+1, T?→+2, T3→+4, T1→higher; may be 0 on STR/DEX)",
+      "Has +1 to maximum Energy Shield per player level (fixed at +1 regardless of tier; present on all bases)"
     ],
-    "note": "FLAT Armour only. Converts to BOTH EVA and ES per level (Fists of Stone is hybrid). Stacks with base implicits. Showcase values from Horror Palm +(123-160) Armour prefix.",
+    "note": "CRITICAL: Flat Armour converts to per-level bonuses that appear as IMPLICITS and STACK ADDITIVELY with the base Fists of Stone implicits (+3 EVA/level + +1 ES/level). Vengeance Hand showed 4 implicit lines: base (+3 EVA + +1 ES) PLUS converted (+4 EVA + +1 ES). T3 range confirmed includes at least 127-145 (both give +4 EVA/level). ES/level always +1. STR/DEX HYPOTHESIS (Skull Clutches): on STR/DEX Steelmail, flat Armour T1(~60) + flat Evasion T2(~48) together showed only '+4 EVA + +1 ES' — suggesting Armour on STR/DEX contributes +0 EVA + +1 ES (DEX side handles EVA), while Evasion contributes +4 EVA. The two items' per-level outputs MERGED into one combined display. UNRESOLVED until isolated STR/DEX flat Armour example obtained.",
     "confirmed": true,
     "unknown": true
   },
 
   "to evasion rating": {
     "converted_stat": "Has +X to Evasion Rating per player level",
-    "formula": "unknown — by analogy with flat Armour (splits into per-level). Flat EVA may split or just → EVA/level.",
-    "example": "No confirmed example yet. By analogy: flat Armour → per-level EVA + per-level ES (split). Flat EVA may follow similar pattern.",
+    "formula": "unknown — +48(65-78) flat EVA → +4 EVA/level (Eagle Knuckle rare, dex_int, CONFIRMED). Does NOT split into ES/level.",
+    "example": "RARE (Eagle Knuckle, dex_int): +48 to Evasion Rating → Has +4 to Evasion Rating per player level ONLY (no ES/level split). RARE STR/DEX (Skull Clutches, str_dex): +48 EVA T2 + flat Armour T1 → COMBINED display '+4 EVA/level + +1 ES/level' (merge behavior).",
     "split": false,
-    "note": "BY ANALOGY with flat Armour which splits into EVA/level + ES/level. Flat EVA may convert to EVA/level only, or still split — unconfirmed.",
-    "confirmed": false,
+    "note": "Flat Evasion → EVA/level ONLY (confirmed Eagle Knuckle DEX/INT). CONTRAST with flat Armour which splits into BOTH EVA/level + ES/level. DEX base stat → DEX-side per-level only. Formula ratio ~48/4 = ÷12. STR/DEX MERGE BEHAVIOR (Skull Clutches): on a STR/DEX base, flat Armour T1 and flat Evasion T2 BOTH converted to per-level stats. Their contributions may have MERGED into a single combined display '+4 EVA/level + +1 ES/level'. Hypothesis: Armour contributes +0 EVA + +1 ES (on STR/DEX, DEX side already handles EVA), Evasion contributes +4 EVA → combined '+4 EVA + +1 ES'. OR both contribute equal EVA amounts that display merged. UNRESOLVED — need isolated STR/DEX flat Armour case.",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "to energy shield": {
+    "converted_stat": "Has +X to maximum Energy Shield per player level",
+    "formula": "unknown — +25(22-25) flat ES → +1 ES/level (Eagle Knuckle rare, dex_int, CONFIRMED). Does NOT split into EVA/level.",
+    "example": "RARE (Eagle Knuckle, dex_int): +25 to maximum Energy Shield → Has +1 to maximum Energy Shield per player level ONLY.",
+    "split": false,
+    "note": "Flat Energy Shield → ES/level ONLY (confirmed Eagle Knuckle). INT base stat → INT-side per-level only. Ratio: 25/1 = ÷25. CONTRAST with flat Armour which splits into BOTH EVA/level + ES/level.",
+    "confirmed": true,
     "unknown": true
   },
 
   "adds physical damage to attacks": {
     "converted_stat": "Attacks Gain ?% of Damage as Extra Physical Damage",
-    "formula": "unknown — tier-dependent. T-low (5-9) → 13%; T-high (13-23) → 24% (Damnation Palm unique)",
-    "example": "Adds 13 to 23 Physical Damage to Attacks → Attacks Gain 24% of Damage as Extra Physical Damage (Damnation Palm unique, confirmed)",
+    "formula": "TIER-BASED: T8→11%; T4(DEX/INT)→16%; T3(DEX Barbed, 14-20 range)→17%; T2(DEX Stalking, 18-26 range)→20%; T1→21%.",
+    "example": "RARE T8: max 3-6 → 11%. RARE T4 (Agony Hand, dex_int): rolled max=13(12-17) → 16%. RARE T3 (Vengeance Claw, Barbed Bracers dex): 9-18(14-20), max=18 → 17%. RARE T2 (Eagle Grasp, Stalking Bracers dex): rolled max=20(18-26) → 20%. RARE T1 (Secured Wraps/Steelmail): max 19-32 → 21% (confirmed across 2 base types). UNIQUE: max 13-23 → 24%.",
     "split": false,
+    "note": "TIER-BASED: T8=11%, T4=16%, T3=17%, T2=20%, T1=21%. NOTE: Barbed Bracers T3(14-20) and Stalking Bracers T2(18-26) have overlapping ranges — different base types have different tier cutoffs. T3→T2 gap: +3% (despite overlap in value ranges). T2→T1 gap: +1%. Tier number determines output, not the raw value range.",
     "confirmed": true,
     "unknown": true
   },
 
   "maximum life": {
-    "converted_stat": "less damage taken while on Low Life",
-    "formula": "unknown — +84 Life → 10% less dmg on Low Life",
-    "example": "+84 to maximum Life → 10% less damage taken while on Low Life",
+    "converted_stat": "less damage taken while on Low Life (large values) OR Damage Taken Recouped as Life/Mana/ES (small values)",
+    "formula": "VALUE-BASED SPLIT at ~50 Life threshold. SMALL (<~50): TIER-BASED = Recoup% (DEX/INT); Low Life only (STR); POSSIBLY BOTH (INT pure). LARGE (50+): TIER-BASED +1%/tier → Low Life defense.",
+    "example": "SMALL DEX/INT: +29(26-32 tier range)→6% Recoup; +31→6% Recoup (same tier!); +39→7% Recoup. SMALL STR: +11→5% Low Life defense (NOT Recoup!). SMALL INT (Gloom Touch): +40→6% Low Life + 4% Recoup? (TENTATIVE). LARGE tier table (ALL CONFIRMED): T5(+61)→9%, T4(+84)→10%, T3(+95,85-99)→11%, T2(+101/118)→12%, T1(+126)→13% less dmg Low Life.",
     "split": false,
+    "note": "LARGE LIFE TIER TABLE COMPLETE (5 tiers): T5=9%, T4=10%, T3=11%, T2=12%, T1=13% — clean +1% per tier step. SMALL LIFE: TIER-BASED confirmed — +29 AND +31 BOTH give 6% Recoup on DEX/INT base. Both fall in War Wraps T range 26-32, so the same tier → same output regardless of roll. Floor(29/5)=5≠6 but tier 26-32→6% ✓. The ÷5 formula was approximately correct but not exact. SMALL LIFE PATHS: (1) DEX/INT: TIER-BASED = Recoup; (2) STR: Low Life defense only; (3) INT pure: tentative split (unconfirmed). BASE TYPE MATTERS.",
     "confirmed": true,
-    "unknown": true
+    "unknown": false,
+    "predict_formula": {
+      "ratio": 0.2,
+      "round_to": 1,
+      "output_pattern": "~{value}% of Damage Taken Recouped as Life, Mana and ES (if flat Life < 50)"
+    }
   },
 
   "to intelligence": {
     "converted_stat": "increased Cooldown Recovery Rate (rare) OR increased Intelligence (unique)",
-    "formula": "rare: ~value:value numeric; unique: ~value * 0.35 (HoWA: +20 INT → 7% increased INT)",
-    "example": "RARE: +22 to Intelligence → 21% increased Cooldown Recovery Rate (Fine Bracers). UNIQUE: +20 to Intelligence → 7% increased Intelligence (Hand of Wisdom and Action)",
+    "formula": "CONFLICTING DATA — likely tier-based lookup, NOT value-proportional. T1 INT (+31-33): → 10% CDR. EARLIER data: +22 INT → 21% CDR (Fine Bracers, tier unknown). UNIQUE: ~value * 0.35 (HoWA: +20 INT → 7% increased INT).",
+    "example": "RARE T1 (Eagle Knuckle, dex_int): +32 INT → 10% CDR. RARE earlier example: +22 INT → 21% CDR (Fine Bracers). UNIQUE: +20 INT → 7% increased INT (HoWA).",
     "split": false,
-    "note": "CONTEXT-DEPENDENT. Rare items: INT → CDR. Unique items: INT → % increased INT. The conversion rule differs by item type.",
-    "confirmed": true,
-    "unknown": true,
-    "predict_formula": {
-      "ratio": 1.0,
-      "output_pattern": "~{value}% increased Cooldown Recovery Rate"
-    }
-  },
-
-  "maximum mana": {
-    "converted_stat": "more Attack damage while on Low Mana",
-    "formula": "unknown — +61 Mana → 18% more Attack damage on Low Mana",
-    "example": "+61 to maximum Mana → 18% more Attack damage while on Low Mana",
-    "split": false,
+    "note": "CONTEXT-DEPENDENT. Rare: INT → CDR. Unique: INT → % increased INT. IMPORTANT: The two rare examples conflict (32→10 vs 22→21). Most likely explanation: the output CDR is determined by tier number, not raw value — and if lower-numbered tiers have lower CDR values in PoE2, T1 INT gives T1 CDR (10%) while a higher-numbered (lower rarity) tier gives a higher CDR value (21%). Needs more data.",
     "confirmed": true,
     "unknown": true
   },
 
+  "maximum mana": {
+    "converted_stat": "more Attack damage while on Low Mana",
+    "formula": "TIER-BASED: T5 (55-64) → 19%; T2 (90-104) → 24%; T1 (105-124) → 27%",
+    "example": "RARE T5 (Damnation Clutches, str): +56(55-64) → 19%. RARE T2 (Dragon Mitts, dex): +97(90-104) → 24%. RARE T2 (Eagle Grasp, dex): +90(90-104, min roll) → 24% ✓. RARE T2 (Vengeance Claw, dex): +90(90-104) → 24% ✓ (THIRD T2 CONFIRM). RARE T1 (Horror Fist, dex_int): +105(105-124) → 27%.",
+    "split": false,
+    "note": "Mana → Low Mana attack damage bonus. TIER-BASED. T2→24% confirmed on THREE different DEX-base items all rolling 90-97 within the 90-104 range. T1→27%, T5→19%. Range 90-104 is confirmed as T2 across DEX and DEX/INT bases.",
+    "confirmed": true,
+    "unknown": false
+  },
+
   "to strength": {
     "converted_stat": "increased Area of Effect for Attacks",
-    "formula": "round to nearest 10 (examples: +16→20, +31→30)",
-    "example": "+16 to Strength → 20% increased Area of Effect for Attacks; +31 to Strength → 30% increased AoE (Knightly Mitts)",
+    "formula": "TIER-BASED: STR-base T3(28-30)→27%; STR-base T2(31-35?)→30%. DEX-base T?(+16)→20% (different tier system). NOT 'round to nearest 10' — +29 rounds to 30 but gives 27%.",
+    "example": "DEX base (Fine Bracers, Example 1): +16 → 20% AoE. STR base T3 (Woe Vise, Knightly Mitts): +29(28-30) → 27% AoE. STR base T2? (Knightly Mitts, Example 2): +31 → 30% AoE.",
     "split": false,
+    "note": "TIER-BASED confirmed: +29 gives 27%, not 30% (ruling out 'round to nearest 10'). On STR base Knightly Mitts: T3(28-30)=27%, T2(31-35?)=30% (+3 per tier). +31 is at minimum of T2 range (31), +29 is T3 near max. DEX base (+16→20%) uses different tier ranges. Pattern: ~3% per tier on STR base.",
     "confirmed": true,
-    "unknown": true,
-    "predict_formula": {
-      "ratio": 1.0,
-      "round_to": 10,
-      "output_pattern": "~{value}% increased Area of Effect for Attacks"
-    }
+    "unknown": true
   },
 
   "to cold resistance": {
-    "converted_stat": "keeps X% Cold Resistance + adds +2% to Maximum Cold Resistance",
-    "formula": "RARE: full value kept (unconfirmed). UNIQUE: value÷2 (suspected by analogy with Fire/Lightning).",
-    "example": "RARE (Fine Bracers?): +32% Cold Res → +32% kept + +2% Max. UNIQUE: pattern likely halved like Fire/Lightning.",
+    "converted_stat": "X% to Cold Resistance + +Y% to Maximum Cold Resistance",
+    "formula": "RARE: max_bonus threshold — input ≤20 → +1% max; input 21-40 → +2% max; input ≥41 → +3% max. Preserved flat: independent re-roll within output tier. UNIQUE: value÷2 (suspected by analogy with Fire/Lightning).",
+    "example": "RARE low (Agony Hand, dex_int): +16(16-20)% → +1% Max Cold + +24% Cold (16≤20→+1% ✓). RARE T2 (Sorrow Fingers, dex_int): +36(36-40)% → +2% Max Cold + +39% Cold (36∈21-40→+2% ✓; 36→39 gained 3). RARE (Fine Bracers): +32% → +32% kept + +2% Max Cold. RARE (Maelström Talons): +41% → +38% Cold + +3% Max Cold. UNIQUE: likely value÷2.",
     "split": true,
     "split_outputs": [
-      "+X% to Cold Resistance (full value on rare; halved on unique — unconfirmed)",
-      "+2% to Maximum Cold Resistance"
+      "+X% to Cold Resistance (independent re-roll: 16→24 gained; 36→39 gained; 32→32 kept; 41→38 lost)",
+      "+Y% to Maximum Cold Resistance (threshold: input≤20 → +1%; input 21-40 → +2%; input≥41 → +3%)"
     ],
-    "note": "Pattern: RARE items keep full resistance. UNIQUE items (Damnation Palm confirmed for Fire/Lightning) have value÷2. Cold unique not confirmed yet.",
+    "note": "Max_bonus threshold CONFIRMED on 4 data points: ≤20→+1% (+16→+1% ✓); 21-40→+2% (+32,+36→+2% ✓); ≥41→+3% (+41→+3% ✓). Preserved flat: independent re-roll — can increase (16→24, 36→39) stay (32→32) or decrease (41→38).",
     "confirmed": true,
     "unknown": true
   },
 
   "to fire resistance": {
-    "converted_stat": "keeps X% Fire Resistance + adds +2% to Maximum Fire Resistance",
-    "formula": "RARE: full value kept (likely). UNIQUE: value÷2, rounded up (27→14, confirmed Damnation Palm)",
-    "example": "UNIQUE (Damnation Palm confirmed): +27% Fire Resistance → +14% Fire Res + +2% Maximum Fire Res",
+    "converted_stat": "X% to Fire Resistance + +Y% to Maximum Fire Resistance",
+    "formula": "RARE: max_bonus threshold — input ≤20 → +1% max; input 21-40 → +2% max; input ≥41 → +3% max. Preserved flat: independent re-roll within output tier. UNIQUE: value÷2, rounded up (27→14, confirmed Damnation Palm).",
+    "example": "RARE low (Gloom Touch, INT): +17(13-17)% → +1% Max Fire + +24% Fire. RARE low (Agony Hand, dex_int): +19(16-20)% → +1% Max Fire + +22% Fire. RARE T3 (Eagle Grasp, dex): +34(31-35)% → +2% Max Fire + +33% Fire (34∈21-40→+2% ✓; 34→33 lost 1). RARE T1 (Maelström Talons): +43% → +36% Fire + +3% Max Fire. UNIQUE (Damnation Palm): +27% → +14% Fire + +2% Max Fire.",
     "split": true,
     "split_outputs": [
-      "+X% to Fire Resistance (full on rare; halved on unique)",
-      "+2% to Maximum Fire Resistance"
+      "+X% to Fire Resistance (independent re-roll: 17→24 gained; 19→22 gained; 34→33 lost 1; 43→36 lost)",
+      "+Y% to Maximum Fire Resistance (threshold: input≤20 → +1%; input 21-40 → +2%; input≥41 → +3%)"
     ],
-    "note": "CONFIRMED on Damnation Palm unique: value÷2 rounded up. Rare items likely keep full value (same pattern as seen with Cold on rare gloves).",
+    "note": "Max_bonus threshold CONFIRMED on 5 data points: ≤20→+1% (+17,+19 ✓); 21-40→+2% (+34 ✓); ≥41→+3% (+43 ✓). Preserved flat re-rolls: can gain (17→24, 19→22) or barely change (34→33) or lose (43→36). UNIQUE: value÷2 rounded up (confirmed).",
     "confirmed": true,
     "unknown": true
   },
 
   "to lightning resistance": {
-    "converted_stat": "keeps X% Lightning Resistance + adds +2% to Maximum Lightning Resistance",
-    "formula": "RARE: full value kept (likely). UNIQUE: value÷2 exact (40→20, confirmed Damnation Palm)",
-    "example": "UNIQUE (Damnation Palm confirmed): +40% Lightning Resistance → +20% Lightning Res + +2% Maximum Lightning Res",
+    "converted_stat": "X% to Lightning Resistance + +Y% to Maximum Lightning Resistance",
+    "formula": "RARE: max_bonus threshold — input ≤20 → +1% max; input 21-40 → +2% max; input ≥41 → +3% max. Preserved flat: ANOMALOUS (37→40 GAINED 3; 41→39 lost 2). UNIQUE: value÷2 exact (40→20, Damnation Palm CONFIRMED).",
+    "example": "RARE (Damnation Caress, dex_int): +37% Lightning → +40% Lightning + +2% Max Lightning (value INCREASED!). RARE T1 (Empyrean Touch): +41% Lightning → +39% + +3% Max Lightning. UNIQUE (Damnation Palm): +40% → +20% + +2% Max.",
     "split": true,
     "split_outputs": [
-      "+X% to Lightning Resistance (full on rare; halved on unique)",
-      "+2% to Maximum Lightning Resistance"
+      "+X% to Lightning Resistance (preserved flat formula UNKNOWN — 37→40 gained; 41→39 lost)",
+      "+Y% to Maximum Lightning Resistance (threshold: input≤20 → +1%; input 21-40 → +2%; input≥41 → +3%)"
     ],
-    "note": "CONFIRMED on Damnation Palm unique: value÷2. Rare items likely keep full value.",
+    "note": "Max_bonus threshold CONFIRMED ≤40→+2%, ≥41→+3%: tested at +37,+40 (both→+2%) and +41,+43 (both→+3%). Preserved flat is NOT strictly preserved — it appears to be an independent re-roll within the same output tier range. Horror Fist: +40(T1 max)→37; Damnation Caress: +37(T1 low)→40; Empyrean Touch: +41→39. Theory: Fists of Stone re-rolls within a similar-tier output range.",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "to chaos resistance": {
+    "converted_stat": "X% to Chaos Resistance + +Y% to Maximum Chaos Resistance",
+    "formula": "RARE: max_bonus threshold — input ≤20 → +1% max; input 21-40 → +2% max; input ≥41 → +3% max. Preserved flat: independent re-roll.",
+    "example": "RARE T2 (Eagle Grasp, dex): +20(20-23)% → +1% Max Chaos + +25% Chaos (20 EXACTLY at ≤20 boundary → +1% ✓; 20→25 gained 5). RARE T1 (Empyrean Touch, dex_int): +27% → +23% Chaos + +2% Max Chaos.",
+    "split": true,
+    "split_outputs": [
+      "+X% to Chaos Resistance (independent re-roll: 20→25 gained; 27→23 lost)",
+      "+Y% to Maximum Chaos Resistance (threshold: input≤20 → +1%; input 21-40 → +2%; input≥41 → +3%)"
+    ],
+    "note": "Max_bonus threshold BOUNDARY CONFIRMED: input exactly 20 → +1% (≤20 check is inclusive). T2 Chaos range 20-23 always gives +1% max bonus (all values ≤23 are ≤20? No — only the T2 min roll 20 is exactly ≤20; rolls 21-23 would give +2%). Eagle Grasp rolled minimum (20), so ≤20→+1% boundary confirmed. Preserved flat: re-rolls independently.",
     "confirmed": true,
     "unknown": true
   },
 
   "to level of all melee skills": {
-    "converted_stat": "+X/2 to Level of all Melee Skills + increased Quality of all Skills",
-    "formula": "level halved (rounded down) + unknown quality %",
-    "example": "+2 to Level of all Melee Skills → +1 to Level of all Melee Skills + +10% to Quality of all Skills (Knightly Mitts)",
+    "converted_stat": "+X/2 to Level of all Melee Skills + +Y% to Quality of all Skills",
+    "formula": "level halved (rounded down); Quality % ~10-11% (slight variation observed)",
+    "example": "+2 to Level of all Melee Skills → +1 to Level of all Melee Skills + +11% to Quality of all Skills (Horror Grasp, CONFIRMED). Earlier example (Knightly Mitts): +10% Quality.",
     "split": true,
     "split_outputs": [
       "+X to Level of all Melee Skills (value halved)",
-      "+Y% to Quality of all Skills"
+      "+10 to +11% to Quality of all Skills (slight variation)"
     ],
+    "note": "Two confirmed examples both give +1 from +2 input. Quality output: 10% (Knightly Mitts) vs 11% (Horror Grasp) — small discrepancy, possibly tier-based or within output range.",
     "confirmed": true,
     "unknown": true
   },
@@ -196,10 +246,10 @@
 
   "gain arcane surge": {
     "converted_stat": "chance to gain a Power Charge on Critical Hit",
-    "formula": "% value preserved",
-    "example": "10% chance to Gain Arcane Surge when you deal a Critical Hit → 10% chance to gain a Power Charge on Critical Hit",
+    "formula": "Output is FIXED at 10% regardless of input. Normal mod (10%) → 10%; Desecrated T1 (12%, range 10-15%) → 10%.",
+    "example": "NORMAL (Knightly Mitts, str): 10% Arcane Surge on Crit → 10% Power Charge on Crit. DESECRATED T1 (Sorrow Fingers, dex_int): 12(10-15)% → 10% Power Charge on Crit (higher input, same output).",
     "split": false,
-    "note": "Critical Hit triggers preserve % chance, change effect type.",
+    "note": "Power Charge on Critical Hit is a fixed-value mod in PoE2 (always 10%). The Desecrated version rolls 10-15% on input but ALWAYS outputs 10% — the higher Desecrated roll is lost. This means Desecrated Arcane Surge → Power Charge conversion has NO advantage over the normal version despite a higher input range.",
     "confirmed": true,
     "unknown": false
   },
@@ -214,88 +264,79 @@
     "unknown": false
   },
 
-  "to chaos resistance": {
-    "converted_stat": "keeps X% Chaos Resistance + adds +2% to Maximum Chaos Resistance",
-    "formula": "RARE likely: full value kept. UNIQUE likely: value÷2. By analogy with Fire/Lightning/Cold.",
-    "example": "No confirmed example yet. By analogy: Fire +27→+14 (unique, ÷2) + +2% Max.",
-    "split": true,
-    "split_outputs": [
-      "+X% to Chaos Resistance (full on rare; likely halved on unique — unconfirmed)",
-      "+2% to Maximum Chaos Resistance"
-    ],
-    "note": "BY ANALOGY with fire/cold/lightning resistance. Chaos resist is special in PoE2 — pattern may differ.",
-    "confirmed": false,
-    "unknown": true
-  },
-
-  "to dexterity": {
+  "to dexterity (unique howa)": {
     "converted_stat": "increased Dexterity (% version)",
     "formula": "flat → % increased, ~value * 0.55 (unique: +20 DEX → 11% increased DEX)",
     "example": "+20 to Dexterity → 11% increased Dexterity (Hand of Wisdom and Action unique)",
     "split": false,
-    "note": "UNIQUE ITEM specific. On rare DEX gloves the conversion may differ. Formula: +20 flat → 11% increased.",
+    "note": "UNIQUE ITEM specific (HoWA only). On RARE DEX/INT gloves the conversion is DIFFERENT: flat DEX → Surpassing chance to fire an additional Projectile. See 'to dexterity' entry. Formula: +20 flat → 11% increased.",
     "confirmed": true,
     "unknown": true
   },
 
   "increased energy shield": {
     "converted_stat": "more Global Evasion Rating and Energy Shield",
-    "formula": "unknown — by analogy: Evasion ÷5, Armour ÷4. Energy Shield likely ÷5 (INT/DEX type).",
-    "example": "No confirmed example yet. By analogy: % increased Evasion Rating → ÷5 more Global EVA+ES.",
+    "formula": "value / 5 (rounds to nearest): 38% → 8% more Global EVA+ES (38/5=7.6→8)",
+    "example": "RARE (Gloom Touch, Grim Gloves INT): 38% increased Energy Shield → 8% more Global Evasion Rating and Energy Shield (CONFIRMED)",
     "split": false,
-    "note": "BY ANALOGY with increased Evasion (÷5) and Armour (÷4): % increased ES → more Global EVA+ES at similar ratio. Ratio unconfirmed.",
-    "confirmed": false,
-    "unknown": true
+    "note": "CONFIRMED ÷5 same as increased Evasion Rating. INT base (pure Energy Shield stat) converts to EVA+ES combined output at same ÷5 ratio. Round half-up: 38/5=7.6→8.",
+    "confirmed": true,
+    "unknown": false
   },
 
   "adds fire damage to attacks": {
     "converted_stat": "Attacks Gain ?% of Damage as Extra Fire Damage",
-    "formula": "unknown — by analogy: Cold (11-18)→17%, Lightning (2-41)→20%, Physical (13-23)→24%",
-    "example": "No confirmed example yet. By analogy with Cold and Lightning damage: elemental type PRESERVED.",
+    "formula": "TIER-BASED: T8(max~3)→11%; T7(max 13, 10-13 range, War Wraps)→12%; T5→14%; T4→16%; T3(DEX Barbed, max 31, 27-32 range)→18%; T2→19-20%; T1→23%.",
+    "example": "RARE T8: max~3 → 11%. RARE T7 (Spirit Claw, War Wraps dex_int): max=13(10-13) → 12% (NEW). RARE T5 (Damnation Caress, dex_int): max~18 → 14%. RARE T4 (Woe Vise, Knightly Mitts str): max=22(21-26) → 16%. RARE T3 (Vengeance Claw, Barbed Bracers dex): 13-31(27-32), max=31 → 18%. RARE T2 (Blacksteel str_dex): max~34 → 19%. RARE T2 (Elegant Wraps dex_int): rolled 34(33-36) → 20%. RARE T1 (Maelström Talons, dex_int): max~40 → 23%.",
     "split": false,
-    "note": "BY ANALOGY with cold and lightning: elemental type preserved, flat damage → extra % of same element. Formula unknown (% varies by tier).",
-    "confirmed": false,
+    "note": "Elemental type PRESERVED: Fire → Extra Fire. TIER-BASED: T8=11%, T7=12%, ..., T5=14%, T4=16%, T3=18% — clean +1%/tier at low end (T8→T7), clean +2%/tier at high end (T5→T4→T3). T2=19-20% (varies by base: Blacksteel→19, Elegant Wraps→20), T1=23%. T7 confirmed on War Wraps DEX/INT (max 13, range 10-13). Predicted series: T8=11%, T7=12%, T6=13%, T5=14% — then gap to T4=16%.",
+    "confirmed": true,
     "unknown": true
   },
 
   "adds cold damage to attacks": {
     "converted_stat": "Attacks Gain ?% of Damage as Extra Cold Damage",
-    "formula": "unknown — tier-dependent. (11-18) → 17% (Damnation Palm unique, CONFIRMED)",
-    "example": "Adds 11 to 18 Cold Damage to Attacks → Attacks Gain 17% of Damage as Extra Cold Damage (Damnation Palm unique, confirmed)",
+    "formula": "TIER-BASED: low(max~7)→11%; War Wraps T3(max 10, 9-11 range)→12%; T6(max~14)→13%; T4 DEX(max 18)→16%; T~2 unique(max~18)→17%; T3 DEX/INT(max 22)→17%; T2 STR(max 28, 25-31 range)→19%; T1(max~37)→21%",
+    "example": "RARE low (Dragon Mitts, dex): max~7 → 11%. RARE T3 (Spirit Claw, War Wraps dex_int): max=10(9-11) → 12% (NEW). RARE T6 (Pain Hold, dex_int): max~14 → 13%. RARE T4 (Golem Paw, dex): rolled max=18 → 16%. UNIQUE max~18 → 17%. RARE T3 (Sorrow Fingers, dex_int): rolled max=22 → 17%. RARE T2 (Woe Vise, Knightly Mitts str): 16-28(25-31), rolled max=28 → 19%. RARE T1 (Damnation Caress, dex_int): max~37 → 21%.",
     "split": false,
-    "note": "Elemental type PRESERVED: Cold → Extra Cold. Formula unknown (% varies by tier).",
+    "note": "Elemental type PRESERVED: Cold → Extra Cold. TIER-BASED: 8 data points. War Wraps T3 (max 10, range 9-11) → 12% fills gap between max~7→11% and max~14→13%. NOTE: T3 on War Wraps (range 9-11) vs T3 on Vaal/Secured Wraps (range ~20-22) are VERY different tiers of the same mod with different tier ranges per base type. Progression: max~7→11%, max~10→12%, max~14→13%, max~18→16%, max~22→17%, max~28→19%, max~37→21%.",
     "confirmed": true,
     "unknown": true
   },
 
   "adds lightning damage to attacks": {
     "converted_stat": "Attacks Gain ?% of Damage as Extra Lightning Damage",
-    "formula": "unknown — tier-dependent. (2-41) → 20% (Damnation Palm unique, CONFIRMED)",
-    "example": "Adds 2 to 41 Lightning Damage to Attacks → Attacks Gain 20% of Damage as Extra Lightning Damage (Damnation Palm unique, confirmed)",
+    "formula": "VALUE-BASED (scales with max damage range): max~25→13%; max~37→16%; max~41→20%(unique); max~70→23%",
+    "example": "RARE DEX T1 (Dragon Mitts, dex): max~25 → 13%. RARE T4 (Empyrean Touch): max~37 → 16%. UNIQUE: max~41 → 20%. RARE T1 (Pain Hold, dex_int): max~70 → 23%.",
     "split": false,
-    "note": "Elemental type PRESERVED: Lightning → Extra Lightning. (HoWA special case: Lightning → Cold due to unique theme.) Formula unknown (% varies by tier).",
+    "note": "Elemental type PRESERVED: Lightning → Extra Lightning. VALUE-BASED: four data points confirm higher max damage → higher %. NOTE: 'T1' varies by base type — DEX Stalking Bracers T1 max=23-27 while DEX/INT Vaal Wraps T1 max=60-71. Different base types have very different mod pools!",
     "confirmed": true,
     "unknown": true
   },
 
   "life per enemy hit with attacks": {
     "converted_stat": "Gain X Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently",
-    "formula": "value ~2.6x: 5 → 13, Critical Hit condition added",
-    "example": "Gain 5 Life per Enemy Hit with Attacks → Gain 13 Life per Enemy Hit with Attacks if you have dealt a Critical Hit Recently (Damnation Palm unique, CONFIRMED)",
+    "formula": "value ~2.8x: 5 → 14 (rare, CONFIRMED); UNIQUE: ~2.6x: 5 → 13 (Damnation Palm). Critical Hit condition added.",
+    "example": "RARE (Agony Mitts, dex_int): Gain 5 Life per Enemy Hit → Gain 14 Life per Enemy Hit if Critical Hit Recently. UNIQUE (Damnation Palm): 5 → 13.",
     "split": false,
-    "note": "Life on Hit → more Life on Hit but requires Critical Hit Recently condition. Multiplier ~2.6x confirmed on Damnation Palm unique.",
+    "note": "Life on Hit → more Life on Hit but requires Critical Hit Recently condition. Rare multiplier ~2.8x; unique multiplier ~2.6x. Small discrepancy may be rounding or unique vs rare difference.",
     "confirmed": true,
-    "unknown": true
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 2.8,
+      "round_to": 1,
+      "output_pattern": "~{value} Life per Enemy Hit if Critical Hit Recently"
+    }
   },
 
   "increased attack speed": {
     "converted_stat": "chance to gain Onslaught for 4 seconds on Hit",
-    "formula": "% value preserved (14% attack speed → 14% Onslaught chance)",
-    "example": "Horror Palm rare (DEX/INT): 14% increased Attack Speed → 14% chance to gain Onslaught for 4 seconds on Hit",
+    "formula": "TIER-BASED: T3(8-10%, rolled 10%)→16%; T2(11-13%, rolled 12%)→20%; T1~(15%)→28%",
+    "example": "RARE T3 (Golem Paw, dex): 10(8-10)% → 16% Onslaught. RARE T2 (Apocalypse Paw, str_dex): 12(11-13)% → 20% Onslaught. RARE T1~(Agony Mitts, dex_int): 15% → 28% Onslaught.",
     "split": false,
-    "note": "RARE DEX-type: increased Attack Speed → Onslaught on Hit (confirmed on rare Horror Palm and likely Thunderfist). STR-type: 'reduced Attack Speed' → 'reduced Cast Speed' (Treefingers unique) — may be different rule.",
+    "note": "TIER-BASED confirmed on 3 data points: T3=16%, T2=20%, T1=28%. Spacing non-linear: T3→T2=+4, T2→T1=+8. Note: DEX-type conversion rule. STR-type unique (Treefingers): Attack Speed → Cast Speed (different rule entirely). Base type: both DEX and STR/DEX give same tier outputs for same tier ranks.",
     "confirmed": true,
-    "unknown": false
+    "unknown": true
   },
 
   "increased cast speed": {
@@ -310,12 +351,12 @@
 
   "increased evasion and energy shield": {
     "converted_stat": "more Global Evasion Rating and Energy Shield",
-    "formula": "value / 5",
-    "example": "75% increased Evasion and Energy Shield → 15% more Global Evasion Rating and Energy Shield (Thunderfist unique, DEX/INT hybrid stat)",
+    "formula": "VALUE-BASED (ceil(value/5)): 67%→14% (ceil 13.4=14 ✓); 75%→15% (ceil 15.0=15 ✓); 98%→20% (ceil 19.6=20 ✓). UNCERTAIN: 91%→17% (ceil 18.2=19 ≠17 — may be misread). LOW TIERS (≤35%) → NO visible output CONFIRMED.",
+    "example": "RARE T4 (Agony Hand, dex_int): 67(56-67)% → 14% (ceil(67/5)=14 ✓). RARE T1 (Sorrow Fingers, Secured Wraps dex_int): 98(92-100)% → 20% (ceil(98/5)=20 ✓). UNIQUE (Thunderfist) ~75% → 15% (75/5=15 exact ✓). UNCERTAIN: Agony Mitts 91% → 17% (doesn't fit ceil formula — possible misread of roll). LOW TIER CONFIRMED NO OUTPUT: Spirit Claw (War Wraps, dex_int) 31(27-32)% → NO explicit output (the mod simply vanishes in the conversion).",
     "split": false,
-    "note": "DEX/INT hybrid combined defence stat. Same ÷5 ratio as single 'increased Evasion Rating'. Confirmed on Thunderfist unique (if 75% rolled → 15% more).",
+    "note": "FORMULA: ceil(value/5) fits three confirmed data points (67→14, 75→15, 98→20). The 91→17 data point conflicts (ceil(91/5)=19≠17) — the actual Agony Mitts roll may have been ~85% (ceil(85/5)=17). LOW TIER CONFIRMED: 31% (T3, range 27-32) on War Wraps DEX/INT → ZERO explicit output (mod disappears). Previously had two suspected cases; now explicitly confirmed. Threshold: tiers at ≤35% range appear to produce no output. Different base types have different T1 ranges: Vaal Wraps T1≈80-91%, Secured Wraps T1=92-100%, War Wraps T3=27-32%.",
     "confirmed": true,
-    "unknown": false
+    "unknown": true
   },
 
   "increased armour, evasion and energy shield": {
@@ -367,5 +408,389 @@
     "note": "UNIQUE ITEM: Hand of Wisdom and Action. Elemental type changes Lightning → Cold. Attribute scaling swaps INT → DEX.",
     "confirmed": true,
     "unknown": true
+  },
+
+  "to dexterity": {
+    "converted_stat": "Surpassing chance to fire an additional Projectile",
+    "formula": "TIER-BASED, ~5%/tier spacing: T8(+9,9-12)→19%; T4(+26,25-27)→39%; T3(+28,28-30)→45%; T1(+35,31-35)→55%",
+    "example": "RARE T8 (Horror Fist, dex_int): +9(9-12) → 19%. RARE T4 (Skull Clutches, str_dex): +26(25-27) → 39%. RARE T3 (Apocalypse Paw, str_dex): +28(28-30) → 45%. RARE T1 (Eagle Knuckle, dex_int): +35(31-35) → 55%.",
+    "split": false,
+    "note": "Flat DEX → % Surpassing chance for additional Projectile. TIER-BASED: ~5% per tier. T8=19%, T4=39%, T3=45%, T1=55%. T3→T4 gap: 6% (45→39). T4 CONFIRMED (Skull Clutches, str_dex: +26, range 25-27). Linear model: T8=19%, T7=24%, T6=29%, T5=34%, T4=39%, T3=45%, T2=50%?, T1=55%. T2 unconfirmed but predicted ≈50%. 'Surpassing' = overflowing hit chance in PoE2. Unique exception: HoWA DEX → % increased Dexterity.",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "leech of physical attack damage as mana": {
+    "converted_stat": "Leech X% of Physical Attack Damage as Mana + Leech Mana Y% slower",
+    "formula": "TIER-BASED: low(4.22%)→6.93%+24%; T4(5.5%)→8.53%+25%; T3(6.72%,6-6.9%)→10.25%+24%; T2(7.87%)→11.24%+21%; T1(8.83%)→12.01%+24%",
+    "example": "RARE lower (Vengeance Hand, str): 4.22% → 6.93%+24%. RARE T4 (Golem Paw, dex): 5.5(5-5.9%) → 8.53%+25%. RARE T3 (Vengeance Claw, Barbed Bracers dex): 6.72(6-6.9%) → 10.25%+24%. RARE T2 (Sorrow Fingers, dex_int): 7.87(7-7.9%) → 11.24%+21%. RARE T1 (Horror Grasp, dex_int): 8.83% → 12.01%+24%.",
+    "split": true,
+    "split_outputs": [
+      "Leech X% as Mana (scales: low→6.93%, T4→8.53%, T3→10.25%, T2→11.24%, T1→12.01%)",
+      "Leech Mana Y% slower (varies 21-25%, no clear pattern: T4=25%, T3=24%, T2=21%, T1=24%)"
+    ],
+    "note": "FIVE tiers confirmed. T3(6.72%)→10.25%+24% fills in between T4 and T2. Output increments per tier: T4→T3=+1.72%, T3→T2=+0.99%, T2→T1=+0.77% — irregular spacing (not linear). Penalty 21-25% non-monotone. Ratios: low×1.64, T4×1.55, T3×1.525, T2×1.43, T1×1.36 — decreasing consistently with tier rank.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 1.45,
+      "round_to": 0.01,
+      "output_pattern": "~{value}% of Physical Attack Damage as Mana (+ Leech Mana ~21-25% slower)"
+    }
+  },
+
+  "leech of physical attack damage as life": {
+    "converted_stat": "Leech X% of Physical Attack Damage as Life + Leech Life Y% slower",
+    "formula": "TIER-BASED: T1 (9-9.9%) → 14.46% + 23% slower; T2 (8-8.9%) → 12.11-12.43% + 24-25% slower; T3? (7-7.9%): 7.44% → 11.51% + 25% slower; low tier (5-5.9%) → 8.25% + 21% slower",
+    "example": "RARE T1 (Eagle Knuckle, dex_int): 9.68% → 14.46% + 23% slower. RARE T2 (Mind Palm/Damnation Caress): 8.63-8.76% → 12.11-12.43% + 24-25% slower. RARE T3? (Gloom Touch, int): 7.44% → 11.51% + 25% slower. RARE low-tier (Dragon Mitts, dex): 5.17(5-5.9%) → 8.25% + 21% slower.",
+    "split": true,
+    "split_outputs": [
+      "Leech X% of Physical Attack Damage as Life (higher tier → more %: T1→14.46%, T2→12.11-12.43%, T3?→11.51%, low→8.25%)",
+      "Leech Life Y% slower (varies by tier — not strictly monotone: low→21%, T3?→25%, T2→24-25%, T1→23%)"
+    ],
+    "note": "Physical life leech → enhanced leech + 'Leech Life slower' penalty. FOUR data points. Penalty does NOT monotonically increase with tier — T3? gives 25% (same as T2 max), T1 gives only 23% (lower than T2). Ratio range: ×1.42-1.60. Matches Soul Knuckle: 'Leech 13.8% + Leech Life 22% slower'. T3? tier range may be 7-7.9% based on 7.44% data point.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 1.45,
+      "round_to": 0.01,
+      "output_pattern": "~{value}% of Physical Attack Damage as Life (+ Leech Life slower)"
+    }
+  },
+
+  "armour also applies to elemental": {
+    "converted_stat": "+X% to all Elemental Resistances",
+    "formula": "value × ~0.56: 39% → +22% all Elemental Res",
+    "example": "RARE T1 (Mind Palm, str): +39% of Armour also applies to Elemental Damage → +22% to all Elemental Resistances (CONFIRMED)",
+    "split": false,
+    "note": "STR-base suffix: % Armour→Elemental mitigation → flat +% to all Elemental Resistances (fire+cold+lightning simultaneously). Ratio ~×0.56 (39→22). Very powerful conversion — adds to all 3 elements at once. Only one data point so far.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 0.56,
+      "round_to": 1,
+      "output_pattern": "~+{value}% to all Elemental Resistances"
+    }
+  },
+
+  "attribute requirements": {
+    "converted_stat": "+X to all Attributes",
+    "formula": "CONFLICTING DATA — likely tier-based. 25%(T3)→+17; 35%→+26 (Agony Mitts/Vaal); 35%→+30 (Horror/War). No clean ratio.",
+    "example": "RARE T3 (Damnation Clutches, str): 25% reduced → +17 to all Attributes. RARE (Agony Mitts, dex_int): 35% → +26. RARE (Horror Grasp, dex_int): 35% → +30.",
+    "split": false,
+    "note": "Three data points: 25→17, 35→26, 35→30. The two 35% examples give different results (+26 vs +30), possibly due to different base types (Vaal vs War Wraps) or different tiers despite same displayed value. Tier-based is likely. No clean ratio confirmed.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 0.74,
+      "round_to": 1,
+      "output_pattern": "~+{value} to all Attributes"
+    }
+  },
+
+  "life per enemy killed": {
+    "converted_stat": "Recover X% of maximum Life on Kill",
+    "formula": "VALUE-BASED: floor(flat / 25-26). T3 (+51, range 43-55) → 2%; T1 (+79, range 69-84) → 3%",
+    "example": "RARE T3 (Empyrean Touch, dex_int): +51 → 2% max Life on Kill. RARE T1 (Empyrean Talons, str_dex): +79 → 3% max Life on Kill.",
+    "split": false,
+    "note": "Flat Life on Kill → % of maximum Life on Kill. TWO DATA POINTS: floor(51/25)=2 ✓, floor(79/25)=3 ✓ (or ÷26: 51/26=1.96→2 ✓, 79/26=3.04→3 ✓). Both ÷25 and ÷26 work — likely ÷25 with floor.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 0.04,
+      "round_to": 1,
+      "output_pattern": "~{value}% of maximum Life on Kill"
+    }
+  },
+
+  "mana per enemy killed": {
+    "converted_stat": "Recover X% of maximum Mana on Kill",
+    "formula": "TIER-BASED: low tiers (15-21 range values) → 2%; high tier (43) → 3%. ÷14 formula was WRONG — 17/14=1.2→1 but output is 2%.",
+    "example": "RARE STR-base (Woe Vise, Knightly Mitts): Gain 17(15-20) Mana per Kill → 2%. RARE DEX/INT (Onslaught Caress): Gain 21 Mana per Kill → 2%. RARE DEX/INT (Maelström Talons): Gain 43 Mana per Kill → 3%.",
+    "note": "TIER-BASED: both STR-base low tier (17, range 15-20) and DEX/INT low-mid tier (21) → 2%. DEX/INT high tier (43) → 3%. The ÷14 formula fails for 17 (gives 1 not 2). Threshold for 3% output is somewhere between 21 and 43 (probably a specific tier boundary). Different base types may have different tier ranges that all map to the same output tier.",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "increased rarity of items found": {
+    "converted_stat": "increased Quantity of Gold Dropped by Slain Enemies",
+    "formula": "TIER-BASED with base-type dependent ranges. DEX/INT and STR/DEX share T2 range 11-14→22% (confirmed 3 data points). STR base T2 range ~10-12→23% (different range, different output).",
+    "example": "RARE T2 (Mind Palm, str, 12%)→23%. RARE T2 (Skull Clutches, str_dex, 14%,11-14)→22%. RARE T2 (Spirit Claw, War Wraps dex_int, 13%,11-14)→22% (NEW). RARE T1 (Pain Hold): 16%→28%. RARE T?(Blood Mitts): 16%→29%.",
+    "split": false,
+    "note": "Item Rarity → Gold Quantity. FIVE data points. CONFIRMED TIER-BASED: DEX/INT range 11-14 and STR/DEX range 11-14 BOTH → 22% (three items: Skull Clutches 14%→22%, Spirit Claw 13%→22% — same tier, different rolls, same output). STR base (Knightly Mitts) T2 range ≈10-12 → 23% (different tier range, slightly higher output). CONFIRMED: tier ranges vary by base type. Rolled value within the same tier doesn't affect output.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 1.8,
+      "round_to": 1,
+      "output_pattern": "~{value}% increased Quantity of Gold Dropped by Slain Enemies"
+    }
+  },
+
+  "energy shield recharge rate": {
+    "converted_stat": "faster start of Energy Shield Recharge",
+    "formula": "unknown — tier-dependent. Confirmed conversion exists.",
+    "example": "X% increased Energy Shield Recharge Rate → Y% faster start of Energy Shield Recharge (Secured Wraps rare, dex_int, CONFIRMED pattern)",
+    "split": false,
+    "note": "ES Recharge Rate → Faster ES Recharge Start. Confirmed on rare Secured Wraps. Exact ratio unknown.",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "increased critical damage bonus": {
+    "converted_stat": "to Critical Hit Chance",
+    "formula": "TIER-BASED: T1(30-34)→2.84-2.87%; T2(20-24, War Wraps)→1.69%. Value ÷11 fails across tiers (20÷11=1.82≠1.69).",
+    "example": "RARE T1 (Secured Wraps, dex_int): 31% → 2.84% Crit Chance. RARE T1 (Vengeance Claw, Barbed Bracers dex): 31(30-34)% → 2.87% Crit Chance. RARE T2 (Spirit Claw, War Wraps dex_int): 20(20-24)% → 1.69% Crit Chance (NEW).",
+    "split": false,
+    "note": "Critical Damage Bonus → flat Critical Hit Chance. TIER-BASED confirmed: T1(range 30-34)→~2.85%, T2(range 20-24)→1.69%. The ÷11 formula from T1 does NOT generalize: 20÷11=1.82≠1.69. Ratios: T1→2.85/31=0.092; T2→1.69/20=0.085 — different per tier. T1 tiny variation (2.84 vs 2.87) across base types may reflect narrow output range. TIER-BASED is the correct model.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 0.0909,
+      "round_to": 0.01,
+      "output_pattern": "~+{value}% to Critical Hit Chance"
+    }
+  },
+
+  "to accuracy rating": {
+    "converted_stat": "chance to Blind Enemies on Hit with Attacks",
+    "formula": "TIER-BASED (PROVEN): T8(33-60)→16%; T3(237-346)→32%; T2(347-450)→34%; T1(451-550)→37%. Tier ranges appear consistent across base types.",
+    "example": "RARE T8 (Golem Paw, dex): +43(33-60) → 16%. RARE T3 (Apocalypse Paw, str_dex): +318(237-346) → 32%. RARE T3 (Eagle Grasp, dex): +258(237-346) → 32% (SAME TIER, DIFFERENT ROLL, SAME OUTPUT — proves tier-based). RARE T2 (Sorrow Fingers, dex_int): +450(347-450) → 34%. RARE T1 (Horror Fist, dex_int): +481(451-550) → 37%.",
+    "split": false,
+    "note": "TIER-BASED DEFINITIVELY PROVEN: T3 rolled 258 and T3 rolled 318 BOTH give 32% (different rolls, same tier = same output). Tier ranges consistent across STR/DEX (Steelmail), DEX/INT (Adorned/Secured), and DEX (Stalking/Adorned) bases — accuracy tiers may be global. Predicted: T8=16%, T7≈19%, T6≈22%, T5≈25%, T4≈28%, T3=32%, T2=34%, T1=37%.",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "increased armour and evasion": {
+    "converted_stat": "% of Damage Taken Recouped as Life, Mana and Energy Shield",
+    "formula": "floor(value / 5): 35% → 7% Recouped",
+    "example": "RARE T2 (Empyrean Talons, str_dex): 35(33-38)% increased Armour and Evasion → 7% of Damage Taken Recouped as Life, Mana and ES (floor(35/5)=7 ✓)",
+    "split": false,
+    "note": "IMPORTANT: STR/DEX hybrid defence (Armour+Evasion) converts to RECOUP — NOT to % more Global EVA+ES like pure Armour or pure Evasion! Floor(35/5)=7 matches. Same ÷5 formula as small flat Life (<50) Recoup conversion. Single data point.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 0.2,
+      "round_to": 1,
+      "output_pattern": "~{value}% of Damage Taken Recouped as Life, Mana and ES"
+    }
+  },
+
+  "to fire and chaos resistances": {
+    "converted_stat": "+X% to Maximum Fire Resistance + +Y% to Chaos Resistance (Desecrated mod)",
+    "formula": "SPLIT: Fire component → Max Fire bonus (+3%, fixed regardless of value?); Chaos component → flat Chaos ~original+1",
+    "example": "RARE Desecrated (Empyrean Talons, str_dex): +16(13-17)% Fire+Chaos → +3% Max Fire Resistance + +17% Chaos Resistance (CONFIRMED)",
+    "split": true,
+    "split_outputs": [
+      "+3% to Maximum Fire Resistance (Fire part becomes max bonus — value may always be +3% for Desecrated)",
+      "+Y% to Chaos Resistance (Chaos part becomes flat: 16→17, slightly above original)"
+    ],
+    "note": "DESECRATED MOD. Fire+Chaos splits: Fire→Max Fire bonus, Chaos→flat Chaos. DISCREPANCY: screenshot showed +3% Max Fire (unusual for ≤40 input), but Cold+Chaos gives +2% Max Cold (expected). Possible misread — may actually be +2% Max Fire. Pattern if both +2%: Desecrated dual resist always gives +2% max to elemental part + flat chaos ~original±1. Awaiting another Fire+Chaos example to confirm.",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "to cold and chaos resistances": {
+    "converted_stat": "+2% to Maximum Cold Resistance + +Y% to Chaos Resistance (Desecrated mod)",
+    "formula": "CONFIRMED: +17(13-17) → +2% Max Cold + +16% Chaos (independent re-roll, 17→16 lost 1)",
+    "example": "RARE Desecrated (Dragon Mitts, dex): +17(13-17)% Cold+Chaos → +2% Max Cold + +16% Chaos Resistance (CONFIRMED)",
+    "split": true,
+    "split_outputs": [
+      "+2% to Maximum Cold Resistance (Cold part → always +2% max bonus for Desecrated dual resist)",
+      "+Y% to Chaos Resistance (Chaos part → flat re-roll within input tier range: 17→16)"
+    ],
+    "note": "DESECRATED MOD CONFIRMED. Cold+Chaos → Max Cold (+2%) + flat Chaos (~original±1). Max bonus +2% consistent with normal resistance threshold (≤40→+2%). See fire+chaos note — Fire gave +3% which may be a misread; if both give +2% then pattern is consistent.",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "to strength and dexterity": {
+    "converted_stat": "% increased Strength and Dexterity",
+    "formula": "flat → % increased, ~value × 0.53: T1 (+15, range 9-15) → 8% increased STR+DEX",
+    "example": "RARE Desecrated T1 (Vengeance Hand, str): +15(9-15) Strength and Dexterity → 8% increased Strength and Dexterity (CONFIRMED)",
+    "split": false,
+    "note": "DESECRATED MOD. Flat dual attribute → % increased dual attribute (STR+DEX simultaneously). Ratio ~×0.53 (15×0.53=7.95≈8). Similar to HoWA: +20 single DEX → 11% increased DEX (~×0.55). T1 max roll only — need lower tier to confirm tier-based vs value-based.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 0.53,
+      "round_to": 1,
+      "output_pattern": "~{value}% increased Strength and Dexterity"
+    }
+  },
+
+  "to strength and intelligence": {
+    "converted_stat": "% increased Strength and Intelligence",
+    "formula": "BY ANALOGY with STR+DEX: flat → % increased, ~value × 0.53. T1 range (9-15) → ~8%?",
+    "example": "No confirmed example yet. By analogy with to strength and dexterity (Desecrated, confirmed ×0.53).",
+    "split": false,
+    "note": "DESECRATED MOD (Amanamu). BY ANALOGY with STR+DEX Desecrated which gives % increased STR+DEX. Unconfirmed.",
+    "confirmed": false,
+    "unknown": true
+  },
+
+  "to dexterity and intelligence": {
+    "converted_stat": "% increased Dexterity and Intelligence",
+    "formula": "BY ANALOGY with STR+DEX: flat → % increased, ~value × 0.53. T1 range (9-15) → ~8%?",
+    "example": "No confirmed example yet. By analogy with to strength and dexterity (Desecrated, confirmed ×0.53).",
+    "split": false,
+    "note": "DESECRATED MOD (Kurgal). BY ANALOGY with STR+DEX Desecrated which gives % increased STR+DEX. Unconfirmed.",
+    "confirmed": false,
+    "unknown": true
+  },
+
+  "to lightning and chaos resistances": {
+    "converted_stat": "+X% to Maximum Lightning Resistance + +Y% to Chaos Resistance (Desecrated mod)",
+    "formula": "BY ANALOGY with Fire+Chaos: Lightning component → Max Lightning bonus (+3%?); Chaos component → flat Chaos ~original",
+    "example": "No confirmed example yet. By analogy with Fire+Chaos Desecrated conversion.",
+    "split": true,
+    "split_outputs": [
+      "+3% to Maximum Lightning Resistance (by analogy with Fire+Chaos)",
+      "+Y% to Chaos Resistance (by analogy: flat ~original)"
+    ],
+    "note": "BY ANALOGY with to fire and chaos resistances (Desecrated). Unconfirmed — awaiting screenshot.",
+    "confirmed": false,
+    "unknown": true
+  },
+
+  "deflection rating equal to evasion": {
+    "converted_stat": "Prevent +X% of Damage from Deflected Hits",
+    "formula": "unknown — T1 (22%, range 21-23%) → Prevent 7% Damage from Deflected Hits. Ratio: ~22/3=7.3→7? Or tier-based.",
+    "example": "RARE T1 (Horror Fist, Adorned Wraps dex_int): Gain Deflection Rating equal to 22(21-23)% of Evasion Rating → Prevent +7% of Damage from Deflected Hits (CONFIRMED)",
+    "split": false,
+    "note": "NEW conversion. 'Gain Deflection Rating equal to X% of Evasion Rating' → 'Prevent +Y% of Damage from Deflected Hits'. Deflection mechanic is retained in converted form. Formula: 22→7 (÷3.14, or floor(22/3)=7). Only one data point.",
+    "confirmed": true,
+    "unknown": true
+  },
+
+  "increased mana cost efficiency": {
+    "converted_stat": "increased Reservation Efficiency of Skills",
+    "formula": "value × ~1.43: 7% → 10% (7×1.43=10.0). Single data point — tier-based also possible.",
+    "example": "RARE Desecrated T1 (Eagle Grasp, Stalking Bracers dex): 7(6-10)% increased Mana Cost Efficiency → 10% increased Reservation Efficiency of Skills (CONFIRMED)",
+    "split": false,
+    "note": "DESECRATED MOD. Mana cost efficiency → reservation efficiency. Thematic: mana management → skill reservation reduction. Ratio ×10/7≈1.43. T1 range 6-10%, rolled 7. Single data point. 'Reservation Efficiency' is PoE2 term for reduced skill reservation costs.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 1.43,
+      "round_to": 1,
+      "output_pattern": "~{value}% increased Reservation Efficiency of Skills"
+    }
+  },
+
+  "increased chance to poison": {
+    "converted_stat": "Chance to Poison is calculated from your base chance to inflict Bleeding instead",
+    "formula": "FIXED keystone-like output — input % irrelevant. Any roll (10-30% range) → same fixed mechanic text.",
+    "example": "RARE Desecrated T1 (Vengeance Claw, Barbed Bracers dex): 26(20-30)% increased chance to Poison → 'Chance to Poison is calculated from your base chance to inflict Bleeding instead' (CONFIRMED)",
+    "split": false,
+    "note": "DESECRATED MOD. Poison chance → Poison/Bleeding swap mechanic. The output is a fixed mechanic (not a % value): Poison's base chance is replaced by Bleeding's base chance. If you have 0% Poison but 40% Bleed, your Poison becomes 40%. T1 range 20-30%, rolled 26. The input % value is irrelevant — any roll produces the same text. Builds synergizing both ailments (or those with high bleed chance) benefit most.",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "increased magnitude of ailments": {
+    "converted_stat": "increased Magnitude of Damaging Ailments you inflict with Critical Hits",
+    "formula": "value × ~1.65 + Critical Hit condition added: 17% → 28% (17×1.65=28.0 exactly)",
+    "example": "RARE Desecrated T1 (Woe Vise, Knightly Mitts str): 17(10-20)% increased Magnitude of Ailments you inflict → 28% increased Magnitude of Damaging Ailments you inflict with Critical Hits (CONFIRMED)",
+    "split": false,
+    "note": "DESECRATED MOD. General ailment magnitude → Damaging Ailment magnitude but gated behind Critical Hits. 'Ailments' (all types, including Slow/Chill/Shock) → 'Damaging Ailments' (Poison/Bleed/Ignite — narrower but higher output). Critical condition is added (not in original). Ratio ×5/3=1.667 (17×5/3=28.33, rounds to 28 — or: 17×1.65=28.05≈28). T1 range 10-20%, rolled 17.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 1.65,
+      "round_to": 1,
+      "output_pattern": "~{value}% increased Magnitude of Damaging Ailments with Critical Hits"
+    }
+  },
+
+  "increased area of effect of curses": {
+    "converted_stat": "Mark Skills have X% increased Use Speed",
+    "formula": "value × ~1.67: 15% → 25% (15×1.67=25.0 exactly). Single data point — tier-based also possible.",
+    "example": "RARE Desecrated T1 (Golem Paw, Barbed Bracers dex): 15(12-20)% increased Area of Effect of Curses → Mark Skills have 25% increased Use Speed (CONFIRMED)",
+    "split": false,
+    "note": "DESECRATED MOD. Curse AoE → Mark Skill use speed. Thematic: curse effectiveness → mark casting efficiency (both are 'curse-like' interactions in PoE2). Ratio exactly ×5/3 (15×5/3=25.0). T1 max roll was 15 out of range 12-20. Single data point.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 1.67,
+      "round_to": 1,
+      "output_pattern": "~{value}% increased Use Speed for Mark Skills"
+    }
+  },
+
+  "of leech is instant": {
+    "converted_stat": "Life Leech can Overflow Maximum Life",
+    "formula": "FIXED output (keystone-like) — input % value irrelevant. 15(8-15)% → Life Leech can Overflow Maximum Life.",
+    "example": "RARE Desecrated (Apocalypse Paw, Steelmail Gauntlets str_dex): 15(8-15)% of Leech is Instant → Life Leech can Overflow Maximum Life (CONFIRMED)",
+    "split": false,
+    "note": "DESECRATED MOD. 'X% of Leech is Instant' converts to a FIXED keystone-like output: 'Life Leech can Overflow Maximum Life'. Input value (8-15% range) is irrelevant — any roll gives the same output. Overflow Life Leech is a powerful effect: leech continues above max life, acting as a buffer. Confirmed on STR/DEX base (Steelmail). Tier label in game shows 'D' (Desecrated, not a standard tier number).",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "increased immobilisation buildup": {
+    "converted_stat": "increased Damage against Immobilised Enemies",
+    "formula": "value × ~1.94: 18% → 35% (18×1.94=34.9≈35). Single data point — tier-based also possible.",
+    "example": "RARE Desecrated T1 (Agony Hand, Elegant Wraps dex_int): 18(10-20)% increased Immobilisation buildup → 35% increased Damage against Immobilised Enemies (CONFIRMED)",
+    "split": false,
+    "note": "DESECRATED MOD. Immobilisation buildup chance → Damage against Immobilised enemies. Thematic: building up immobilisation → punish immobilised enemies. Ratio ~×1.94 (≈×2). T1 max roll was 18 (range 10-20). Single data point.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 1.94,
+      "round_to": 1,
+      "output_pattern": "~{value}% increased Damage against Immobilised Enemies"
+    }
+  },
+
+  "base type implicit survival": {
+    "converted_stat": "PRESERVED — original base type implicits are NOT replaced",
+    "formula": "KEEP: all base type implicits survive Way of the Stonefist conversion; Fists of Stone implicits are ADDED on top",
+    "example": "Elegant Wraps implicit (18% increased Armour, Evasion and Energy Shield) SURVIVED on Agony Hand → appeared as first implicit on converted Fists of Stone item, with +3 EVA/level and +1 ES/level added alongside it (3 total implicit lines)",
+    "split": false,
+    "note": "CRITICAL: Way of the Stonefist converts EXPLICIT mods only. IMPLICITS from the original base type remain intact. The Fists of Stone implicits (+3 EVA/level + +1 ES/level, or Runeforged variants) are ADDED as additional implicits. Result: Fists of Stone can have 3+ implicit lines (original base implicit + Fists implicits). Only one confirmed example so far (Elegant Wraps), but likely applies to all base types with implicits.",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "increased cast speed when on full life": {
+    "converted_stat": "increased Attack Speed when on Full Life",
+    "formula": "Cast Speed → Attack Speed (Cast↔Attack swap). 'When on Full Life' condition PRESERVED. Value SCALES UP: 15(8-15)% → 20% (×4/3). Single data point.",
+    "example": "RARE Desecrated T1 (Spirit Claw, War Wraps dex_int): 15(8-15)% increased Cast Speed when on Full Life → 20% increased Attack Speed when on Full Life (CONFIRMED)",
+    "split": false,
+    "note": "DESECRATED MOD. Follows the general Cast↔Attack swap pattern but with 'on Full Life' condition PRESERVED (not stripped or replaced). Value increases: 15→20 (×4/3 ≈ 1.33). CONTRAST with plain 'increased cast speed' → 'increased attack speed' which preserves value exactly. The conditional version scales up the value — possibly because the 'on Full Life' condition is a constraint that rewards higher output, or Desecrated version has its own ratio. T1 range 8-15%, rolled 15 (max roll). Single data point — tier-based possible.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 1.33,
+      "round_to": 1,
+      "output_pattern": "~{value}% increased Attack Speed when on Full Life"
+    }
+  },
+
+  "increased chance to inflict bleeding": {
+    "converted_stat": "Chance to inflict Bleeding is calculated from your base chance to Poison instead",
+    "formula": "FIXED keystone-like output — input % irrelevant. Mirror of 'increased chance to poison'.",
+    "example": "RARE Desecrated T1 (Skull Clutches, Steelmail Gauntlets str_dex): increased chance to inflict Bleeding → 'Chance to inflict Bleeding is calculated from your base chance to Poison instead' (CONFIRMED)",
+    "split": false,
+    "note": "DESECRATED MOD. AILMENT SYMMETRY CONFIRMED: 'increased chance to Poison' → Poison uses Bleed base chance; 'increased chance to Bleed' → Bleed uses Poison base chance. Both are FIXED mechanic outputs — input % roll is irrelevant. The outputs are exact mirrors: they swap the ailment chance calculation directions. If you have 0% Bleed but 40% Poison, your Bleed becomes 40% (and vice versa for the Poison version). T1 range 20-30%. See also: 'increased chance to poison'.",
+    "confirmed": true,
+    "unknown": false
+  },
+
+  "chance to daze on hit": {
+    "converted_stat": "Gain X% of Physical Damage as Extra Cold Damage against Dazed Enemies",
+    "formula": "value × ~0.61: 18% → 11% (18×0.61=10.98≈11). Single data point — may be tier-based.",
+    "example": "RARE Desecrated (Gloom Touch, Grim Gloves INT): 18% chance to Daze Enemies on Hit → Gain 11% of Physical Damage as Extra Cold against Dazed Enemies (CONFIRMED)",
+    "split": false,
+    "note": "DESECRATED MOD. Daze chance → Physical-as-Extra-Cold damage bonus against Dazed enemies. Thematic: Daze → Cold damage synergy. Ratio ~×0.61 (18→11). Single data point — tier-based also possible. Applies to all base types that can roll this Desecrated mod.",
+    "confirmed": true,
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 0.61,
+      "round_to": 1,
+      "output_pattern": "~{value}% of Physical Damage as Extra Cold against Dazed Enemies"
+    }
   }
 }

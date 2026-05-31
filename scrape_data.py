@@ -40,64 +40,81 @@ def clean_stat_html(html_str: str) -> str:
     return " ".join(text.split())
 
 
+def _find_section_title(html: str, modsview_pos: int) -> str:
+    """
+    Search backward from a ModsView(...) call position in raw HTML to find
+    the nearest section heading text (card-header, h5, h6, or similar).
+    Returns the section name or empty string if not found.
+    """
+    # Look at the 2000 chars before the ModsView call
+    window = html[max(0, modsview_pos - 2000): modsview_pos]
+    soup = BeautifulSoup(window, "html.parser")
+
+    # Try card-header first (poedb uses Bootstrap cards)
+    headers = soup.find_all(class_="card-header")
+    if headers:
+        return headers[-1].get_text(strip=True)
+
+    # Try h5, h6 headings
+    for tag in ("h5", "h6", "h4", "h3"):
+        headings = soup.find_all(tag)
+        if headings:
+            return headings[-1].get_text(strip=True)
+
+    # Try any element whose text contains "Modifiers"
+    for el in soup.find_all(True):
+        text = el.get_text(strip=True)
+        if "Modifiers" in text and len(text) < 80:
+            return text
+
+    return ""
+
+
 def extract_modsview(html: str) -> list:
     """
-    Extract modifier dicts from all new ModsView({...}) calls in the page.
-    The page embeds modifier data as JSON arguments to ModsView constructor.
+    Extract modifier dicts from the ModsView({...}) call in the page.
+    The JSON has separate keys per category: 'normal', 'desecrated', 'essence', etc.
+    Tags each mod with '_section' = category name.
     """
     all_mods = []
-    pos = 0
     marker = "new ModsView("
+    start = html.find(marker)
+    if start == -1:
+        return all_mods
 
-    while True:
-        start = html.find(marker, pos)
-        if start == -1:
-            break
+    j_start = start + len(marker)
+    depth = 0
+    end = j_start
 
-        j_start = start + len(marker)
-        depth = 0
-        end = j_start
-
-        for end in range(j_start, len(html)):
-            c = html[end]
-            if c == "{":
-                depth += 1
-            elif c == "}":
-                depth -= 1
-                if depth == 0:
-                    break
-
-        raw = html[j_start : end + 1]
-        try:
-            data = json.loads(raw)
-        except (json.JSONDecodeError, ValueError) as e:
-            print(f"    [warn] ModsView JSON parse failed: {e}")
-            pos = end + 1
-            continue
-
-        # ModsView config can have mods under various keys
-        # Try known patterns
-        mods = None
-        for key in ("normal", "mods", "data", "items"):
-            if key in data and isinstance(data[key], list):
-                mods = data[key]
+    for end in range(j_start, len(html)):
+        c = html[end]
+        if c == "{":
+            depth += 1
+        elif c == "}":
+            depth -= 1
+            if depth == 0:
                 break
 
-        if mods is None:
-            # Check if the data itself is a list (unlikely but handle it)
-            if isinstance(data, list):
-                mods = data
-            else:
-                # Dump all list values
-                for v in data.values():
-                    if isinstance(v, list) and len(v) > 0:
-                        mods = v
-                        break
+    raw = html[j_start : end + 1]
+    try:
+        data = json.loads(raw)
+    except (json.JSONDecodeError, ValueError) as e:
+        print(f"    [warn] ModsView JSON parse failed: {e}")
+        return all_mods
 
-        if mods:
-            all_mods.extend(mods)
-
-        pos = end + 1
+    # Extract mods from each category, tagging with section name
+    categories_of_interest = [
+        "normal", "desecrated", "corrupted", "essence",
+        "socketable", "bonded", "veiled",
+    ]
+    for category in categories_of_interest:
+        mods = data.get(category)
+        if not isinstance(mods, list) or not mods:
+            continue
+        for m in mods:
+            if isinstance(m, dict):
+                m["_section"] = category
+        all_mods.extend(mods)
 
     return all_mods
 
@@ -129,6 +146,9 @@ def scrape_modifiers(glove_type: str) -> list:
         except (ValueError, TypeError):
             pass
 
+        section = m.get("_section", "")
+        is_desecrated = "desecrat" in section.lower()
+
         results.append({
             "code": m.get("Code", ""),
             "name": m.get("Name", ""),
@@ -139,6 +159,8 @@ def scrape_modifiers(glove_type: str) -> list:
             "drop_chance": m.get("DropChance", 0),
             "family": m.get("ModFamilyList", []),
             "glove_type": glove_type,
+            "section": section,
+            "desecrated": is_desecrated,
         })
 
     return results

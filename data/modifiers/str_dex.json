@@ -10,7 +10,9 @@
     "family": [
       "Strength"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -23,7 +25,9 @@
     "family": [
       "Strength"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -36,7 +40,9 @@
     "family": [
       "Strength"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -49,7 +55,9 @@
     "family": [
       "Strength"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -62,7 +70,9 @@
     "family": [
       "Strength"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -75,7 +85,9 @@
     "family": [
       "Strength"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -88,7 +100,9 @@
     "family": [
       "Strength"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -101,7 +115,9 @@
     "family": [
       "Strength"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -114,7 +130,9 @@
     "family": [
       "Dexterity"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -127,7 +145,9 @@
     "family": [
       "Dexterity"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -140,7 +160,9 @@
     "family": [
       "Dexterity"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -153,7 +175,9 @@
     "family": [
       "Dexterity"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -166,7 +190,9 @@
     "family": [
       "Dexterity"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -179,7 +205,9 @@
     "family": [
       "Dexterity"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -192,7 +220,9 @@
     "family": [
       "Dexterity"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -205,7 +235,9 @@
     "family": [
       "Dexterity"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -218,7 +250,9 @@
     "family": [
       "Dexterity"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -231,7 +265,9 @@
     "family": [
       "FireResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -244,7 +280,9 @@
     "family": [
       "FireResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -257,7 +295,9 @@
     "family": [
       "FireResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -270,7 +310,9 @@
     "family": [
       "FireResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -283,7 +325,9 @@
     "family": [
       "FireResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -296,7 +340,9 @@
     "family": [
       "FireResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -309,7 +355,9 @@
     "family": [
       "FireResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -322,7 +370,9 @@
     "family": [
       "FireResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -335,7 +385,9 @@
     "family": [
       "ColdResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -348,7 +400,9 @@
     "family": [
       "ColdResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -361,7 +415,9 @@
     "family": [
       "ColdResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -374,7 +430,9 @@
     "family": [
       "ColdResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -387,7 +445,9 @@
     "family": [
       "ColdResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -400,7 +460,9 @@
     "family": [
       "ColdResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -413,7 +475,9 @@
     "family": [
       "ColdResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -426,7 +490,9 @@
     "family": [
       "ColdResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -439,7 +505,9 @@
     "family": [
       "LightningResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -452,7 +520,9 @@
     "family": [
       "LightningResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -465,7 +535,9 @@
     "family": [
       "LightningResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -478,7 +550,9 @@
     "family": [
       "LightningResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -491,7 +565,9 @@
     "family": [
       "LightningResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -504,7 +580,9 @@
     "family": [
       "LightningResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -517,7 +595,9 @@
     "family": [
       "LightningResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -530,7 +610,9 @@
     "family": [
       "LightningResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -543,7 +625,9 @@
     "family": [
       "ChaosResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -556,7 +640,9 @@
     "family": [
       "ChaosResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -569,7 +655,9 @@
     "family": [
       "ChaosResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -582,7 +670,9 @@
     "family": [
       "ChaosResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -595,7 +685,9 @@
     "family": [
       "ChaosResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -608,7 +700,9 @@
     "family": [
       "ChaosResistance"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -621,7 +715,9 @@
     "family": [
       "IncreasedLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -634,7 +730,9 @@
     "family": [
       "IncreasedLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -647,7 +745,9 @@
     "family": [
       "IncreasedLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -660,7 +760,9 @@
     "family": [
       "IncreasedLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -673,7 +775,9 @@
     "family": [
       "IncreasedLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -686,7 +790,9 @@
     "family": [
       "IncreasedLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -699,7 +805,9 @@
     "family": [
       "IncreasedLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -712,7 +820,9 @@
     "family": [
       "IncreasedLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -725,7 +835,9 @@
     "family": [
       "IncreasedLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -738,7 +850,9 @@
     "family": [
       "IncreasedMana"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -751,7 +865,9 @@
     "family": [
       "IncreasedMana"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -764,7 +880,9 @@
     "family": [
       "IncreasedMana"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -777,7 +895,9 @@
     "family": [
       "IncreasedMana"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -790,7 +910,9 @@
     "family": [
       "IncreasedMana"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -803,7 +925,9 @@
     "family": [
       "IncreasedMana"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -816,7 +940,9 @@
     "family": [
       "IncreasedMana"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -829,7 +955,9 @@
     "family": [
       "IncreasedMana"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -842,12 +970,14 @@
     "family": [
       "IncreasedMana"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
     "name": "Supple",
-    "stat": "+(8-14) to Armour+(6-9) to Evasion Rating",
+    "stat": "+(9-16) to Armour+(6-10) to Evasion Rating",
     "type": "Prefix",
     "level": 1,
     "tier": "",
@@ -855,12 +985,14 @@
     "family": [
       "BaseLocalDefences"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
     "name": "Pliant",
-    "stat": "+(15-35) to Armour+(10-30) to Evasion Rating",
+    "stat": "+(17-46) to Armour+(11-41) to Evasion Rating",
     "type": "Prefix",
     "level": 16,
     "tier": "",
@@ -868,12 +1000,14 @@
     "family": [
       "BaseLocalDefences"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
     "name": "Flexible",
-    "stat": "+(36-53) to Armour+(31-46) to Evasion Rating",
+    "stat": "+(47-71) to Armour+(42-64) to Evasion Rating",
     "type": "Prefix",
     "level": 33,
     "tier": "",
@@ -881,12 +1015,14 @@
     "family": [
       "BaseLocalDefences"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
     "name": "Durable",
-    "stat": "+(54-65) to Armour+(47-57) to Evasion Rating",
+    "stat": "+(72-85) to Armour+(65-78) to Evasion Rating",
     "type": "Prefix",
     "level": 46,
     "tier": "",
@@ -894,7 +1030,9 @@
     "family": [
       "BaseLocalDefences"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -907,7 +1045,9 @@
     "family": [
       "DefencesPercent"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -920,7 +1060,9 @@
     "family": [
       "DefencesPercent"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -933,7 +1075,9 @@
     "family": [
       "DefencesPercent"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -946,7 +1090,9 @@
     "family": [
       "DefencesPercent"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -959,7 +1105,9 @@
     "family": [
       "DefencesPercent"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -972,7 +1120,9 @@
     "family": [
       "DefencesPercent"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -985,7 +1135,9 @@
     "family": [
       "DefencesPercent"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -998,7 +1150,9 @@
     "family": [
       "BaseLocalDefencesAndLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1011,7 +1165,9 @@
     "family": [
       "BaseLocalDefencesAndLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1024,7 +1180,9 @@
     "family": [
       "BaseLocalDefencesAndLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1037,7 +1195,9 @@
     "family": [
       "BaseLocalDefencesAndLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1050,7 +1210,9 @@
     "family": [
       "BaseLocalDefencesAndLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1063,7 +1225,9 @@
     "family": [
       "BaseLocalDefencesAndLife"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1076,7 +1240,9 @@
     "family": [
       "LocalAttributeRequirements"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1089,7 +1255,9 @@
     "family": [
       "LocalAttributeRequirements"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1102,7 +1270,9 @@
     "family": [
       "LocalAttributeRequirements"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1115,7 +1285,9 @@
     "family": [
       "LocalAttributeRequirements"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1128,7 +1300,9 @@
     "family": [
       "LocalAttributeRequirements"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1141,7 +1315,9 @@
     "family": [
       "PhysicalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1154,7 +1330,9 @@
     "family": [
       "PhysicalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1167,7 +1345,9 @@
     "family": [
       "PhysicalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1180,7 +1360,9 @@
     "family": [
       "PhysicalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1193,7 +1375,9 @@
     "family": [
       "PhysicalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1206,7 +1390,9 @@
     "family": [
       "PhysicalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1219,7 +1405,9 @@
     "family": [
       "PhysicalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1232,7 +1420,9 @@
     "family": [
       "PhysicalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1245,7 +1435,9 @@
     "family": [
       "PhysicalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1258,7 +1450,9 @@
     "family": [
       "FireDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1271,7 +1465,9 @@
     "family": [
       "FireDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1284,7 +1480,9 @@
     "family": [
       "FireDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1297,7 +1495,9 @@
     "family": [
       "FireDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1310,7 +1510,9 @@
     "family": [
       "FireDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1323,7 +1525,9 @@
     "family": [
       "FireDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1336,7 +1540,9 @@
     "family": [
       "FireDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1349,7 +1555,9 @@
     "family": [
       "FireDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1362,7 +1570,9 @@
     "family": [
       "FireDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1375,7 +1585,9 @@
     "family": [
       "ColdDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1388,7 +1600,9 @@
     "family": [
       "ColdDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1401,7 +1615,9 @@
     "family": [
       "ColdDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1414,7 +1630,9 @@
     "family": [
       "ColdDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1427,7 +1645,9 @@
     "family": [
       "ColdDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1440,7 +1660,9 @@
     "family": [
       "ColdDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1453,7 +1675,9 @@
     "family": [
       "ColdDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1466,7 +1690,9 @@
     "family": [
       "ColdDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1479,7 +1705,9 @@
     "family": [
       "ColdDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1492,7 +1720,9 @@
     "family": [
       "LightningDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1505,7 +1735,9 @@
     "family": [
       "LightningDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1518,7 +1750,9 @@
     "family": [
       "LightningDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1531,7 +1765,9 @@
     "family": [
       "LightningDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1544,7 +1780,9 @@
     "family": [
       "LightningDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1557,7 +1795,9 @@
     "family": [
       "LightningDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1570,7 +1810,9 @@
     "family": [
       "LightningDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1583,7 +1825,9 @@
     "family": [
       "LightningDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1596,7 +1840,9 @@
     "family": [
       "LightningDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1609,7 +1855,9 @@
     "family": [
       "IncreaseSocketedGemLevel"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1622,38 +1870,44 @@
     "family": [
       "IncreaseSocketedGemLevel"
     ],
-    "glove_type": "str_dex"
-  },
-  {
-    "code": "",
-    "name": "of the Parasite",
-    "stat": "Leech (5-5.9)% of Physical Attack Damage as Life",
-    "type": "Suffix",
-    "level": 21,
-    "tier": "",
-    "drop_chance": "1000",
-    "family": [
-      "LifeLeech"
-    ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
     "name": "of the Locust",
     "stat": "Leech (6-6.9)% of Physical Attack Damage as Life",
     "type": "Suffix",
+    "level": 21,
+    "tier": "",
+    "drop_chance": "1000",
+    "family": [
+      "LifeLeech"
+    ],
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "of the Remora",
+    "stat": "Leech (7-7.9)% of Physical Attack Damage as Life",
+    "type": "Suffix",
     "level": 38,
     "tier": "",
     "drop_chance": "1000",
     "family": [
       "LifeLeech"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
-    "name": "of the Remora",
-    "stat": "Leech (7-7.9)% of Physical Attack Damage as Life",
+    "name": "of the Lamprey",
+    "stat": "Leech (8-8.9)% of Physical Attack Damage as Life",
     "type": "Suffix",
     "level": 54,
     "tier": "",
@@ -1661,38 +1915,29 @@
     "family": [
       "LifeLeech"
     ],
-    "glove_type": "str_dex"
-  },
-  {
-    "code": "",
-    "name": "of the Lamprey",
-    "stat": "Leech (8-8.9)% of Physical Attack Damage as Life",
-    "type": "Suffix",
-    "level": 68,
-    "tier": "",
-    "drop_chance": "1000",
-    "family": [
-      "LifeLeech"
-    ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
     "name": "of the Vampire",
     "stat": "Leech (9-9.9)% of Physical Attack Damage as Life",
     "type": "Suffix",
-    "level": 81,
+    "level": 65,
     "tier": "",
     "drop_chance": "1000",
     "family": [
       "LifeLeech"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
-    "name": "of the Thirsty",
-    "stat": "Leech (4-4.9)% of Physical Attack Damage as Mana",
+    "name": "of the Parched",
+    "stat": "Leech (5-5.9)% of Physical Attack Damage as Mana",
     "type": "Suffix",
     "level": 21,
     "tier": "",
@@ -1700,12 +1945,14 @@
     "family": [
       "ManaLeech"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
-    "name": "of the Parched",
-    "stat": "Leech (5-5.9)% of Physical Attack Damage as Mana",
+    "name": "of the Arid",
+    "stat": "Leech (6-6.9)% of Physical Attack Damage as Mana",
     "type": "Suffix",
     "level": 38,
     "tier": "",
@@ -1713,12 +1960,14 @@
     "family": [
       "ManaLeech"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
-    "name": "of the Arid",
-    "stat": "Leech (6-6.9)% of Physical Attack Damage as Mana",
+    "name": "of the Drought",
+    "stat": "Leech (7-7.9)% of Physical Attack Damage as Mana",
     "type": "Suffix",
     "level": 54,
     "tier": "",
@@ -1726,33 +1975,24 @@
     "family": [
       "ManaLeech"
     ],
-    "glove_type": "str_dex"
-  },
-  {
-    "code": "",
-    "name": "of the Drought",
-    "stat": "Leech (7-7.9)% of Physical Attack Damage as Mana",
-    "type": "Suffix",
-    "level": 68,
-    "tier": "",
-    "drop_chance": "1000",
-    "family": [
-      "ManaLeech"
-    ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
     "name": "of the Desperate",
     "stat": "Leech (8-8.9)% of Physical Attack Damage as Mana",
     "type": "Suffix",
-    "level": 81,
+    "level": 65,
     "tier": "",
     "drop_chance": "1000",
     "family": [
       "ManaLeech"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1765,7 +2005,9 @@
     "family": [
       "LifeGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1778,7 +2020,9 @@
     "family": [
       "LifeGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1791,7 +2035,9 @@
     "family": [
       "LifeGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1804,7 +2050,9 @@
     "family": [
       "LifeGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1817,7 +2065,9 @@
     "family": [
       "LifeGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1830,7 +2080,9 @@
     "family": [
       "LifeGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1843,7 +2095,9 @@
     "family": [
       "LifeGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1856,7 +2110,9 @@
     "family": [
       "LifeGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1869,7 +2125,9 @@
     "family": [
       "ManaGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1882,7 +2140,9 @@
     "family": [
       "ManaGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1895,7 +2155,9 @@
     "family": [
       "ManaGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1908,7 +2170,9 @@
     "family": [
       "ManaGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1921,7 +2185,9 @@
     "family": [
       "ManaGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1934,7 +2200,9 @@
     "family": [
       "ManaGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1947,7 +2215,9 @@
     "family": [
       "ManaGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1960,7 +2230,9 @@
     "family": [
       "ManaGainedFromEnemyDeath"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1973,7 +2245,9 @@
     "family": [
       "LifeGainPerTarget"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1986,7 +2260,9 @@
     "family": [
       "LifeGainPerTarget"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -1999,7 +2275,9 @@
     "family": [
       "LifeGainPerTarget"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2012,7 +2290,9 @@
     "family": [
       "LifeGainPerTarget"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2025,7 +2305,9 @@
     "family": [
       "IncreasedAttackSpeed"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2038,7 +2320,9 @@
     "family": [
       "IncreasedAttackSpeed"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2051,7 +2335,9 @@
     "family": [
       "IncreasedAttackSpeed"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2064,7 +2350,9 @@
     "family": [
       "IncreasedAttackSpeed"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2077,7 +2365,9 @@
     "family": [
       "IncreasedAccuracy"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2090,7 +2380,9 @@
     "family": [
       "IncreasedAccuracy"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2103,7 +2395,9 @@
     "family": [
       "IncreasedAccuracy"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2116,7 +2410,9 @@
     "family": [
       "IncreasedAccuracy"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2129,7 +2425,9 @@
     "family": [
       "IncreasedAccuracy"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2142,7 +2440,9 @@
     "family": [
       "IncreasedAccuracy"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2155,7 +2455,9 @@
     "family": [
       "IncreasedAccuracy"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2168,7 +2470,9 @@
     "family": [
       "IncreasedAccuracy"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2181,7 +2485,9 @@
     "family": [
       "IncreasedAccuracy"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2194,7 +2500,9 @@
     "family": [
       "CriticalStrikeMultiplier"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2207,7 +2515,9 @@
     "family": [
       "CriticalStrikeMultiplier"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2220,7 +2530,9 @@
     "family": [
       "CriticalStrikeMultiplier"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2233,7 +2545,9 @@
     "family": [
       "CriticalStrikeMultiplier"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2246,7 +2560,9 @@
     "family": [
       "CriticalStrikeMultiplier"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2259,7 +2575,9 @@
     "family": [
       "ItemFoundRarityIncrease"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2272,7 +2590,9 @@
     "family": [
       "ItemFoundRarityIncrease"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2285,7 +2605,9 @@
     "family": [
       "ItemFoundRarityIncrease"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2298,7 +2620,9 @@
     "family": [
       "ArmourAppliesToElementalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2311,7 +2635,9 @@
     "family": [
       "ArmourAppliesToElementalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2324,7 +2650,9 @@
     "family": [
       "ArmourAppliesToElementalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2337,7 +2665,9 @@
     "family": [
       "ArmourAppliesToElementalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2350,7 +2680,9 @@
     "family": [
       "ArmourAppliesToElementalDamage"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2363,7 +2695,9 @@
     "family": [
       "EvasionAppliesToDeflection"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2376,7 +2710,9 @@
     "family": [
       "EvasionAppliesToDeflection"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2389,7 +2725,9 @@
     "family": [
       "EvasionAppliesToDeflection"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2402,7 +2740,9 @@
     "family": [
       "EvasionAppliesToDeflection"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
   },
   {
     "code": "",
@@ -2415,6 +2755,4062 @@
     "family": [
       "EvasionAppliesToDeflection"
     ],
-    "glove_type": "str_dex"
+    "glove_type": "str_dex",
+    "section": "normal",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "+(13-17)% to Fire and Chaos Resistances",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "FireAndChaosDamageResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "+(9-15) to Strength and Intelligence",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "Strength",
+      "Intelligence"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(12-20)% increased Area of Effect of Curses",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CurseAreaOfEffect"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(10-20)% chance to Daze on Hit",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DazeBuildup"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(10-20)% increased Immobilisation buildup",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "Immobilise"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "of Amanamu",
+    "stat": "(8-15)% of Leech is Instant",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "InstantLeechPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "+(13-17)% to Cold and Chaos Resistances",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ColdAndChaosDamageResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "+(9-15) to Dexterity and Intelligence",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "Dexterity",
+      "Intelligence"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "of Kurgal",
+    "stat": "(6-10)% increased Mana Cost Efficiency",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ManaCostEfficiency"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "+(13-17)% to Lightning and Chaos Resistances",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "LightningAndChaosDamageResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "+(9-15) to Strength and Dexterity",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "Strength",
+      "Dexterity"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(10-20)% increased Magnitude of Ailments you inflict",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "AilmentEffect"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(20-30)% increased chance to inflict Bleeding",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "BleedChanceIncrease"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "of Ulaman",
+    "stat": "(20-30)% increased chance to Poison",
+    "type": "Suffix",
+    "level": 65,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PoisonChanceIncrease"
+    ],
+    "glove_type": "str_dex",
+    "section": "desecrated",
+    "desecrated": true
+  },
+  {
+    "code": "",
+    "name": "CorruptionLocalIncreasedArmourAndEvasion1",
+    "stat": "(15-25)% increased Armour and Evasion",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1",
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "corrupted",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "CorruptionReducedLocalAttributeRequirements1",
+    "stat": "(10-20)% reduced Attribute Requirements",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1",
+    "family": [
+      "LocalAttributeRequirements"
+    ],
+    "glove_type": "str_dex",
+    "section": "corrupted",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "CorruptionFirePenetration1",
+    "stat": "Damage Penetrates (10-15)% Fire Resistance",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1",
+    "family": [
+      "FireResistancePenetration"
+    ],
+    "glove_type": "str_dex",
+    "section": "corrupted",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "CorruptionColdPenetration1",
+    "stat": "Damage Penetrates (10-15)% Cold Resistance",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1",
+    "family": [
+      "ColdResistancePenetration"
+    ],
+    "glove_type": "str_dex",
+    "section": "corrupted",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "CorruptionLightningPenetration1",
+    "stat": "Damage Penetrates (10-15)% Lightning Resistance",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1",
+    "family": [
+      "LightningResistancePenetration"
+    ],
+    "glove_type": "str_dex",
+    "section": "corrupted",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "CorruptionArmourBreak1",
+    "stat": "Break (10-15)% increased Armour",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1",
+    "family": [
+      "ArmourBreak"
+    ],
+    "glove_type": "str_dex",
+    "section": "corrupted",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "CorruptionGoldFoundIncrease1",
+    "stat": "(5-10)% increased Quantity of Gold Dropped by Slain Enemies",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1",
+    "family": [
+      "ItemFoundRarityIncrease"
+    ],
+    "glove_type": "str_dex",
+    "section": "corrupted",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "CorruptionMaximumFrenzyCharges1",
+    "stat": "+1 to Maximum Frenzy Charges",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1",
+    "family": [
+      "MaximumFrenzyCharges"
+    ],
+    "glove_type": "str_dex",
+    "section": "corrupted",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "CorruptionGlobalMeleeSkillGemsLevel1",
+    "stat": "+1 to Level of all Melee Skills",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": "1",
+    "family": [
+      "IncreaseSocketedGemLevel"
+    ],
+    "glove_type": "str_dex",
+    "section": "corrupted",
+    "desecrated": false
+  },
+  {
+    "code": "IncreasedLife3",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceLife\" href=\"Lesser_Essence_of_the_Body\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LifeEssenceLesser.webp\" alt=\"LifeEssenceLesser\" height=\"16\" />Lesser Essence of the Body</a>",
+    "stat": "+(30-39) to maximum Life",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IncreasedLife"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "IncreasedMana3",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceMana\" href=\"Lesser_Essence_of_the_Mind\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ManaEssenceLesser.webp\" alt=\"ManaEssenceLesser\" height=\"16\" />Lesser Essence of the Mind</a>",
+    "stat": "+(25-34) to maximum Mana",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IncreasedMana"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedPhysicalDamageReductionRatingPercent2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceDefences\" href=\"Lesser_Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssenceLesser.webp\" alt=\"DefencesEssenceLesser\" height=\"16\" />Lesser Essence of Enhancement</a>",
+    "stat": "(27-42)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedEvasionRatingPercent2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceDefences\" href=\"Lesser_Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssenceLesser.webp\" alt=\"DefencesEssenceLesser\" height=\"16\" />Lesser Essence of Enhancement</a>",
+    "stat": "(27-42)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedEnergyShieldPercent2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceDefences\" href=\"Lesser_Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssenceLesser.webp\" alt=\"DefencesEssenceLesser\" height=\"16\" />Lesser Essence of Enhancement</a>",
+    "stat": "(27-42)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedArmourAndEvasion2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceDefences\" href=\"Lesser_Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssenceLesser.webp\" alt=\"DefencesEssenceLesser\" height=\"16\" />Lesser Essence of Enhancement</a>",
+    "stat": "(27-42)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedArmourAndEnergyShield2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceDefences\" href=\"Lesser_Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssenceLesser.webp\" alt=\"DefencesEssenceLesser\" height=\"16\" />Lesser Essence of Enhancement</a>",
+    "stat": "(27-42)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedEvasionAndEnergyShield2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceDefences\" href=\"Lesser_Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssenceLesser.webp\" alt=\"DefencesEssenceLesser\" height=\"16\" />Lesser Essence of Enhancement</a>",
+    "stat": "(27-42)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "ChaosResist1",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceChaos\" href=\"Lesser_Essence_of_Ruin\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ChaosEssenceLesser.webp\" alt=\"ChaosEssenceLesser\" height=\"16\" />Lesser Essence of Ruin</a>",
+    "stat": "+(4-7)% to Chaos Resistance",
+    "type": "Suffix",
+    "level": 16,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ChaosResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "Strength2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceAttribute\" href=\"Lesser_Essence_of_the_Infinite\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AttributeEssenceLesser.webp\" alt=\"AttributeEssenceLesser\" height=\"16\" />Lesser Essence of the Infinite</a>",
+    "stat": "+(9-12) to Strength, Dexterity or Intelligence",
+    "type": "Suffix",
+    "level": 11,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "Strength"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "Dexterity2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceAttribute\" href=\"Lesser_Essence_of_the_Infinite\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AttributeEssenceLesser.webp\" alt=\"AttributeEssenceLesser\" height=\"16\" />Lesser Essence of the Infinite</a>",
+    "stat": "+(9-12) to Strength, Dexterity or Intelligence",
+    "type": "Suffix",
+    "level": 11,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "Dexterity"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "Intelligence2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceAttribute\" href=\"Lesser_Essence_of_the_Infinite\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AttributeEssenceLesser.webp\" alt=\"AttributeEssenceLesser\" height=\"16\" />Lesser Essence of the Infinite</a>",
+    "stat": "+(9-12) to Strength, Dexterity or Intelligence",
+    "type": "Suffix",
+    "level": 11,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "Intelligence"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "IncreasedLife6",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceLife\" href=\"Essence_of_the_Body\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LifeEssence.webp\" alt=\"LifeEssence\" height=\"16\" />Essence of the Body</a>",
+    "stat": "+(70-84) to maximum Life",
+    "type": "Prefix",
+    "level": 38,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IncreasedLife"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "IncreasedMana6",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceMana\" href=\"Essence_of_the_Mind\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ManaEssence.webp\" alt=\"ManaEssence\" height=\"16\" />Essence of the Mind</a>",
+    "stat": "+(65-79) to maximum Mana",
+    "type": "Prefix",
+    "level": 38,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IncreasedMana"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedPhysicalDamageReductionRatingPercent4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceDefences\" href=\"Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssence.webp\" alt=\"DefencesEssence\" height=\"16\" />Essence of Enhancement</a>",
+    "stat": "(56-67)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedEvasionRatingPercent4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceDefences\" href=\"Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssence.webp\" alt=\"DefencesEssence\" height=\"16\" />Essence of Enhancement</a>",
+    "stat": "(56-67)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedEnergyShieldPercent4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceDefences\" href=\"Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssence.webp\" alt=\"DefencesEssence\" height=\"16\" />Essence of Enhancement</a>",
+    "stat": "(56-67)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedArmourAndEvasion4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceDefences\" href=\"Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssence.webp\" alt=\"DefencesEssence\" height=\"16\" />Essence of Enhancement</a>",
+    "stat": "(56-67)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedArmourAndEnergyShield4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceDefences\" href=\"Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssence.webp\" alt=\"DefencesEssence\" height=\"16\" />Essence of Enhancement</a>",
+    "stat": "(56-67)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedEvasionAndEnergyShield4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceDefences\" href=\"Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/DefencesEssence.webp\" alt=\"DefencesEssence\" height=\"16\" />Essence of Enhancement</a>",
+    "stat": "(56-67)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "ChaosResist2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceChaos\" href=\"Essence_of_Ruin\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ChaosEssence.webp\" alt=\"ChaosEssence\" height=\"16\" />Essence of Ruin</a>",
+    "stat": "+(8-11)% to Chaos Resistance",
+    "type": "Suffix",
+    "level": 30,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ChaosResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "Strength4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceAttribute\" href=\"Essence_of_the_Infinite\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AttributeEssence.webp\" alt=\"AttributeEssence\" height=\"16\" />Essence of the Infinite</a>",
+    "stat": "+(17-20) to Strength, Dexterity or Intelligence",
+    "type": "Suffix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "Strength"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "Dexterity4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceAttribute\" href=\"Essence_of_the_Infinite\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AttributeEssence.webp\" alt=\"AttributeEssence\" height=\"16\" />Essence of the Infinite</a>",
+    "stat": "+(17-20) to Strength, Dexterity or Intelligence",
+    "type": "Suffix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "Dexterity"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "Intelligence4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceAttribute\" href=\"Essence_of_the_Infinite\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AttributeEssence.webp\" alt=\"AttributeEssence\" height=\"16\" />Essence of the Infinite</a>",
+    "stat": "+(17-20) to Strength, Dexterity or Intelligence",
+    "type": "Suffix",
+    "level": 33,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "Intelligence"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "IncreasedLife7",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceLife\" href=\"Greater_Essence_of_the_Body\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterLifeEssence.webp\" alt=\"GreaterLifeEssence\" height=\"16\" />Greater Essence of the Body</a>",
+    "stat": "+(85-99) to maximum Life",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IncreasedLife"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "IncreasedMana7",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceMana\" href=\"Greater_Essence_of_the_Mind\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterManaEssence.webp\" alt=\"GreaterManaEssence\" height=\"16\" />Greater Essence of the Mind</a>",
+    "stat": "+(80-89) to maximum Mana",
+    "type": "Prefix",
+    "level": 46,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IncreasedMana"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedPhysicalDamageReductionRatingPercent5",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceDefences\" href=\"Greater_Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterDefencesEssence.webp\" alt=\"GreaterDefencesEssence\" height=\"16\" />Greater Essence of Enhancement</a>",
+    "stat": "(68-79)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedEvasionRatingPercent5",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceDefences\" href=\"Greater_Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterDefencesEssence.webp\" alt=\"GreaterDefencesEssence\" height=\"16\" />Greater Essence of Enhancement</a>",
+    "stat": "(68-79)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedEnergyShieldPercent5",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceDefences\" href=\"Greater_Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterDefencesEssence.webp\" alt=\"GreaterDefencesEssence\" height=\"16\" />Greater Essence of Enhancement</a>",
+    "stat": "(68-79)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedArmourAndEvasion5",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceDefences\" href=\"Greater_Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterDefencesEssence.webp\" alt=\"GreaterDefencesEssence\" height=\"16\" />Greater Essence of Enhancement</a>",
+    "stat": "(68-79)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedArmourAndEnergyShield5",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceDefences\" href=\"Greater_Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterDefencesEssence.webp\" alt=\"GreaterDefencesEssence\" height=\"16\" />Greater Essence of Enhancement</a>",
+    "stat": "(68-79)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedEvasionAndEnergyShield5_",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceDefences\" href=\"Greater_Essence_of_Enhancement\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterDefencesEssence.webp\" alt=\"GreaterDefencesEssence\" height=\"16\" />Greater Essence of Enhancement</a>",
+    "stat": "(68-79)% increased Armour, Evasion and Energy Shield",
+    "type": "Prefix",
+    "level": 54,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DefencesPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "ChaosResist4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceChaos\" href=\"Greater_Essence_of_Ruin\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterChaosEssence.webp\" alt=\"GreaterChaosEssence\" height=\"16\" />Greater Essence of Ruin</a>",
+    "stat": "+(16-19)% to Chaos Resistance",
+    "type": "Suffix",
+    "level": 56,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ChaosResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LocalIncreasedAccuracy7",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceAttack\" href=\"Greater_Essence_of_Battle\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterAttackEssence.webp\" alt=\"GreaterAttackEssence\" height=\"16\" />Greater Essence of Battle</a>",
+    "stat": "+(237-346) to Accuracy Rating",
+    "type": "Prefix",
+    "level": 58,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IncreasedAccuracy"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "IncreasedAccuracy7",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceAttack\" href=\"Greater_Essence_of_Battle\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterAttackEssence.webp\" alt=\"GreaterAttackEssence\" height=\"16\" />Greater Essence of Battle</a>",
+    "stat": "+(237-346) to Accuracy Rating",
+    "type": "Prefix",
+    "level": 58,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IncreasedAccuracy"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "Strength6",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceAttribute\" href=\"Greater_Essence_of_the_Infinite\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterAttributeEssence.webp\" alt=\"GreaterAttributeEssence\" height=\"16\" />Greater Essence of the Infinite</a>",
+    "stat": "+(25-27) to Strength, Dexterity or Intelligence",
+    "type": "Suffix",
+    "level": 55,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "Strength"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "Dexterity6",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceAttribute\" href=\"Greater_Essence_of_the_Infinite\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterAttributeEssence.webp\" alt=\"GreaterAttributeEssence\" height=\"16\" />Greater Essence of the Infinite</a>",
+    "stat": "+(25-27) to Strength, Dexterity or Intelligence",
+    "type": "Suffix",
+    "level": 55,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "Dexterity"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "Intelligence6",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceAttribute\" href=\"Greater_Essence_of_the_Infinite\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterAttributeEssence.webp\" alt=\"GreaterAttributeEssence\" height=\"16\" />Greater Essence of the Infinite</a>",
+    "stat": "+(25-27) to Strength, Dexterity or Intelligence",
+    "type": "Suffix",
+    "level": 55,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "Intelligence"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "CriticalMultiplier4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyCorruptedEssenceHysteria\" href=\"Essence_of_Hysteria\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/CorruptedEssenceHysteria.webp\" alt=\"CorruptedEssenceHysteria\" height=\"16\" />Essence of Hysteria</a>",
+    "stat": "(25-29)% increased Critical Damage Bonus",
+    "type": "Suffix",
+    "level": 45,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CriticalStrikeMultiplier"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "EssenceLocalRuneAndSoulCoreEffect1",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyCorruptedEssenceHorror\" href=\"Essence_of_Horror\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/CorruptedEssenceHorror.webp\" alt=\"CorruptedEssenceHorror\" height=\"16\" />Essence of Horror</a>",
+    "stat": "60% increased effect of Socketed Augment Items",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "SoulCore"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "EssenceAbyssPrefix",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyCorruptedEssenceAbyss\" href=\"Essence_of_the_Abyss\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AbyssalEssence.webp\" alt=\"AbyssalEssence\" height=\"16\" />Essence of the Abyss</a>",
+    "stat": "Mark of the Abyssal Lord",
+    "type": "Prefix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "EssenceAbyss"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "EssenceAbyssSuffix",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyCorruptedEssenceAbyss\" href=\"Essence_of_the_Abyss\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/AbyssalEssence.webp\" alt=\"AbyssalEssence\" height=\"16\" />Essence of the Abyss</a>",
+    "stat": "Mark of the Abyssal Lord",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "EssenceAbyss"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "FireResist2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceFireResist\" href=\"Lesser_Essence_of_Insulation\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/FireResistanceEssenceLesser.webp\" alt=\"FireResistanceEssenceLesser\" height=\"16\" />Lesser Essence of Insulation</a>",
+    "stat": "+(11-15)% to Fire Resistance",
+    "type": "Suffix",
+    "level": 12,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "FireResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "FireResist4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceFireResist\" href=\"Essence_of_Insulation\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/FireResistanceEssence.webp\" alt=\"FireResistanceEssence\" height=\"16\" />Essence of Insulation</a>",
+    "stat": "+(21-25)% to Fire Resistance",
+    "type": "Suffix",
+    "level": 36,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "FireResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "FireResist6",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceFireResist\" href=\"Greater_Essence_of_Insulation\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterFireResistanceEssence.webp\" alt=\"GreaterFireResistanceEssence\" height=\"16\" />Greater Essence of Insulation</a>",
+    "stat": "+(31-35)% to Fire Resistance",
+    "type": "Suffix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "FireResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "ColdResist2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceColdResist\" href=\"Lesser_Essence_of_Thawing\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ColdResistanceEssenceLesser.webp\" alt=\"ColdResistanceEssenceLesser\" height=\"16\" />Lesser Essence of Thawing</a>",
+    "stat": "+(11-15)% to Cold Resistance",
+    "type": "Suffix",
+    "level": 14,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ColdResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "ColdResist4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceColdResist\" href=\"Essence_of_Thawing\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/ColdResistanceEssence.webp\" alt=\"ColdResistanceEssence\" height=\"16\" />Essence of Thawing</a>",
+    "stat": "+(21-25)% to Cold Resistance",
+    "type": "Suffix",
+    "level": 38,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ColdResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "ColdResist6",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceColdResist\" href=\"Greater_Essence_of_Thawing\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterColdResistanceEssence.webp\" alt=\"GreaterColdResistanceEssence\" height=\"16\" />Greater Essence of Thawing</a>",
+    "stat": "+(31-35)% to Cold Resistance",
+    "type": "Suffix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ColdResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LightningResist2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceLightningResist\" href=\"Lesser_Essence_of_Grounding\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LightningResistanceEssenceLesser.webp\" alt=\"LightningResistanceEssenceLesser\" height=\"16\" />Lesser Essence of Grounding</a>",
+    "stat": "+(11-15)% to Lightning Resistance",
+    "type": "Suffix",
+    "level": 13,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "LightningResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LightningResist4",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceLightningResist\" href=\"Essence_of_Grounding\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/LightningResistanceEssence.webp\" alt=\"LightningResistanceEssence\" height=\"16\" />Essence of Grounding</a>",
+    "stat": "+(21-25)% to Lightning Resistance",
+    "type": "Suffix",
+    "level": 37,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "LightningResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "LightningResist6",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceLightningResist\" href=\"Greater_Essence_of_Grounding\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterLightningResistanceEssence.webp\" alt=\"GreaterLightningResistanceEssence\" height=\"16\" />Greater Essence of Grounding</a>",
+    "stat": "+(31-35)% to Lightning Resistance",
+    "type": "Suffix",
+    "level": 60,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "LightningResistance"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "ItemFoundRarityIncrease1",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyLesserEssenceRarity\" href=\"Lesser_Essence_of_Opulence\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/RarityResistanceEssenceLesser.webp\" alt=\"RarityResistanceEssenceLesser\" height=\"16\" />Lesser Essence of Opulence</a>",
+    "stat": "(6-10)% increased Rarity of Items found",
+    "type": "Suffix",
+    "level": 3,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ItemFoundRarityIncrease"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "ItemFoundRarityIncrease2",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyEssenceRarity\" href=\"Essence_of_Opulence\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/RarityResistanceEssence.webp\" alt=\"RarityResistanceEssence\" height=\"16\" />Essence of Opulence</a>",
+    "stat": "(11-14)% increased Rarity of Items found",
+    "type": "Suffix",
+    "level": 24,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ItemFoundRarityIncrease"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "ItemFoundRarityIncrease3",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyGreaterEssenceRarity\" href=\"Greater_Essence_of_Opulence\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Essence/GreaterRarityResistanceEssence.webp\" alt=\"GreaterRarityResistanceEssence\" height=\"16\" />Greater Essence of Opulence</a>",
+    "stat": "(15-18)% increased Rarity of Items found",
+    "type": "Suffix",
+    "level": 40,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ItemFoundRarityIncrease"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "AlloyAttackSpeedIfMissingWardRecently1",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyVerisiumAlloy2\" href=\"Adaptive_Alloy\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Expedition2/ChippedVerisium.webp\" alt=\"ChippedVerisium\" height=\"16\" />Adaptive Alloy</a>",
+    "stat": "(10-15)% increased Attack Speed while missing Runic Ward",
+    "type": "Suffix",
+    "level": 25,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IncreasedAttackSpeed"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "AlloyRemnantPickupRange1",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyVerisiumAlloy4\" href=\"Expansive_Alloy\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Expedition2/StandardVerisium.webp\" alt=\"StandardVerisium\" height=\"16\" />Expansive Alloy</a>",
+    "stat": "Remnants can be collected from (35-50)% further away",
+    "type": "Suffix",
+    "level": 25,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RemnantPickupRadius"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "AlloyCastSpeedGloves1",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyVerisiumAlloy5\" href=\"Swift_Alloy\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Expedition2/PureVerisium.webp\" alt=\"PureVerisium\" height=\"16\" />Swift Alloy</a>",
+    "stat": "(9-12)% increased Cast Speed",
+    "type": "Suffix",
+    "level": 45,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IncreasedCastSpeed",
+      "IncreasedAttackSpeed"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "AlloyDamagingAilmentDuration1",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyVerisiumAlloy6\" href=\"Cyclonic_Alloy\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Expedition2/ImbuedVerisium.webp\" alt=\"ImbuedVerisium\" height=\"16\" />Cyclonic Alloy</a>",
+    "stat": "(20-25)% increased Duration of Damaging Ailments on Enemies",
+    "type": "Suffix",
+    "level": 45,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DamagingAilmentDuration"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "AlloyElementalPenetration1",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyVerisiumAlloy7\" href=\"Prismatic_Alloy\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Expedition2/SovereignVerisium.webp\" alt=\"SovereignVerisium\" height=\"16\" />Prismatic Alloy</a>",
+    "stat": "Damage Penetrates (9-15)% Elemental Resistances",
+    "type": "Prefix",
+    "level": 45,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ElementalPenetration"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "AlloyAttackAreaOfEffect1",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyVerisiumAlloy8\" href=\"Mystic_Alloy\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Expedition2/CelestialVerisium.webp\" alt=\"CelestialVerisium\" height=\"16\" />Mystic Alloy</a>",
+    "stat": "(10-15)% increased Area of Effect for Attacks",
+    "type": "Suffix",
+    "level": 45,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IncreasedAttackAreaOfEffect"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "AlloyLocalWardIncreasePercent1",
+    "name": "<a class=\"item_currency StackableCurrency\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FCurrency%2FCurrencyVerisiumAlloy9\" href=\"Sovereign_Alloy\"><img loading=\"lazy\" src=\"https://cdn.poe2db.tw/image/Art/2DItems/Currency/Expedition2/Alloy1.webp\" alt=\"Alloy1\" height=\"16\" />Sovereign Alloy</a>",
+    "stat": "(24-30)% increased Runic Ward",
+    "type": "Prefix",
+    "level": 25,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "LocalRunicWardPercent"
+    ],
+    "glove_type": "str_dex",
+    "section": "essence",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneFireLesser\" href=\"Lesser_Desert_Rune\">Lesser Desert Rune</a>",
+    "stat": "Gain 6% of Damage as Extra Fire Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DesertRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneFire\" href=\"Desert_Rune\">Desert Rune</a>",
+    "stat": "Gain 8% of Damage as Extra Fire Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DesertRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneFireGreater\" href=\"Greater_Desert_Rune\">Greater Desert Rune</a>",
+    "stat": "Gain 10% of Damage as Extra Fire Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DesertRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneFirePerfect\" href=\"Perfect_Desert_Rune\">Perfect Desert Rune</a>",
+    "stat": "Gain 12% of Damage as Extra Fire Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectDesertRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneColdLesser\" href=\"Lesser_Glacial_Rune\">Lesser Glacial Rune</a>",
+    "stat": "Gain 6% of Damage as Extra Cold Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "GlacialRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneCold\" href=\"Glacial_Rune\">Glacial Rune</a>",
+    "stat": "Gain 8% of Damage as Extra Cold Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "GlacialRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneColdGreater\" href=\"Greater_Glacial_Rune\">Greater Glacial Rune</a>",
+    "stat": "Gain 10% of Damage as Extra Cold Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "GlacialRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneColdPerfect\" href=\"Perfect_Glacial_Rune\">Perfect Glacial Rune</a>",
+    "stat": "Gain 12% of Damage as Extra Cold Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectGlacialRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLightningLesser\" href=\"Lesser_Storm_Rune\">Lesser Storm Rune</a>",
+    "stat": "Gain 6% of Damage as Extra Lightning Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "StormRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLightning\" href=\"Storm_Rune\">Storm Rune</a>",
+    "stat": "Gain 8% of Damage as Extra Lightning Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "StormRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLightningGreater\" href=\"Greater_Storm_Rune\">Greater Storm Rune</a>",
+    "stat": "Gain 10% of Damage as Extra Lightning Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "StormRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLightningPerfect\" href=\"Perfect_Storm_Rune\">Perfect Storm Rune</a>",
+    "stat": "Gain 12% of Damage as Extra Lightning Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectStormRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneEnhanceLesser\" href=\"Lesser_Iron_Rune\">Lesser Iron Rune</a>",
+    "stat": "20% increased Spell Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IronRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneEnhance\" href=\"Iron_Rune\">Iron Rune</a>",
+    "stat": "25% increased Spell Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IronRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneEnhanceGreater\" href=\"Greater_Iron_Rune\">Greater Iron Rune</a>",
+    "stat": "30% increased Spell Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IronRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneEnhancePerfect\" href=\"Perfect_Iron_Rune\">Perfect Iron Rune</a>",
+    "stat": "35% increased Spell Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectIronRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifeLesser\" href=\"Lesser_Body_Rune\">Lesser Body Rune</a>",
+    "stat": "+30 to maximum Energy Shield",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "BodyRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLife\" href=\"Body_Rune\">Body Rune</a>",
+    "stat": "+40 to maximum Energy Shield",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "BodyRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifeGreater\" href=\"Greater_Body_Rune\">Greater Body Rune</a>",
+    "stat": "+50 to maximum Energy Shield",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "BodyRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifePerfect\" href=\"Perfect_Body_Rune\">Perfect Body Rune</a>",
+    "stat": "+60 to maximum Energy Shield",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectBodyRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaLesser\" href=\"Lesser_Mind_Rune\">Lesser Mind Rune</a>",
+    "stat": "+45 to maximum Mana",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "MindRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneMana\" href=\"Mind_Rune\">Mind Rune</a>",
+    "stat": "+60 to maximum Mana",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "MindRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaGreater\" href=\"Greater_Mind_Rune\">Greater Mind Rune</a>",
+    "stat": "+75 to maximum Mana",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "MindRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaPerfect\" href=\"Perfect_Mind_Rune\">Perfect Mind Rune</a>",
+    "stat": "+90 to maximum Mana",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectMindRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifeRecoveryLesser\" href=\"Lesser_Rebirth_Rune\">Lesser Rebirth Rune</a>",
+    "stat": "6% increased Energy Shield Recharge Rate",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RebirthRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifeRecovery\" href=\"Rebirth_Rune\">Rebirth Rune</a>",
+    "stat": "8% increased Energy Shield Recharge Rate",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RebirthRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifeRecoveryGreater\" href=\"Greater_Rebirth_Rune\">Greater Rebirth Rune</a>",
+    "stat": "10% increased Energy Shield Recharge Rate",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RebirthRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifeRecoveryPerfect\" href=\"Perfect_Rebirth_Rune\">Perfect Rebirth Rune</a>",
+    "stat": "12% increased Energy Shield Recharge Rate",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectRebirthRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaRecoveryLesser\" href=\"Lesser_Inspiration_Rune\">Lesser Inspiration Rune</a>",
+    "stat": "20% increased Mana Regeneration Rate",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "InspirationRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaRecovery\" href=\"Inspiration_Rune\">Inspiration Rune</a>",
+    "stat": "25% increased Mana Regeneration Rate",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "InspirationRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaRecoveryGreater\" href=\"Greater_Inspiration_Rune\">Greater Inspiration Rune</a>",
+    "stat": "30% increased Mana Regeneration Rate",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "InspirationRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaRecoveryPerfect\" href=\"Perfect_Inspiration_Rune\">Perfect Inspiration Rune</a>",
+    "stat": "35% increased Mana Regeneration Rate",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectInspirationRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStunLesser\" href=\"Lesser_Stone_Rune\">Lesser Stone Rune</a>",
+    "stat": "Gain additional Stun Threshold equal to 10% of maximum Energy Shield",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "StoneRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStun\" href=\"Stone_Rune\">Stone Rune</a>",
+    "stat": "Gain additional Stun Threshold equal to 12% of maximum Energy Shield",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "StoneRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStunGreater\" href=\"Greater_Stone_Rune\">Greater Stone Rune</a>",
+    "stat": "Gain additional Stun Threshold equal to 14% of maximum Energy Shield",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "StoneRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStunPerfect\" href=\"Perfect_Stone_Rune\">Perfect Stone Rune</a>",
+    "stat": "Gain additional Stun Threshold equal to 16% of maximum Energy Shield",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectStoneRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneAccuracyLesser\" href=\"Lesser_Vision_Rune\">Lesser Vision Rune</a>",
+    "stat": "16% increased Critical Hit Chance for Spells",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "VisionRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneAccuracy\" href=\"Vision_Rune\">Vision Rune</a>",
+    "stat": "20% increased Critical Hit Chance for Spells",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "VisionRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneAccuracyGreater\" href=\"Greater_Vision_Rune\">Greater Vision Rune</a>",
+    "stat": "24% increased Critical Hit Chance for Spells",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "VisionRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneAccuracyPerfect\" href=\"Perfect_Vision_Rune\">Perfect Vision Rune</a>",
+    "stat": "28% increased Critical Hit Chance for Spells",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectVisionRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FSoulCoreIgnite\" href=\"Soul_Core_of_Puhuarte\">Soul Core of Puhuarte</a>",
+    "stat": "+1% to Maximum Fire Resistance",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "SoulCoreofPuhuarte"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FSoulCoreLight\" href=\"Soul_Core_of_Azcapa\">Soul Core of Azcapa</a>",
+    "stat": "10% increased Quantity of Gold Dropped by Slain Enemies",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "SoulCoreofAzcapa"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStrengthLesser\" href=\"Lesser_Robust_Rune\">Lesser Robust Rune</a>",
+    "stat": "+6 to Strength",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RobustRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStrength\" href=\"Robust_Rune\">Robust Rune</a>",
+    "stat": "+9 to Strength",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RobustRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStrengthGreater\" href=\"Greater_Robust_Rune\">Greater Robust Rune</a>",
+    "stat": "+12 to Strength",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RobustRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStrengthPerfect\" href=\"Perfect_Robust_Rune\">Perfect Robust Rune</a>",
+    "stat": "+15 to Strength",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectRobustRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneDexterityLesser\" href=\"Lesser_Adept_Rune\">Lesser Adept Rune</a>",
+    "stat": "+6 to Dexterity",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "AdeptRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneDexterity\" href=\"Adept_Rune\">Adept Rune</a>",
+    "stat": "+9 to Dexterity",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "AdeptRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneDexterityGreater\" href=\"Greater_Adept_Rune\">Greater Adept Rune</a>",
+    "stat": "+12 to Dexterity",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "AdeptRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneDexterityPerfect\" href=\"Perfect_Adept_Rune\">Perfect Adept Rune</a>",
+    "stat": "+15 to Dexterity",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectAdeptRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneIntelligenceLesser\" href=\"Lesser_Resolve_Rune\">Lesser Resolve Rune</a>",
+    "stat": "+6 to Intelligence",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ResolveRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneIntelligence\" href=\"Resolve_Rune\">Resolve Rune</a>",
+    "stat": "+9 to Intelligence",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ResolveRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneIntelligenceGreater\" href=\"Greater_Resolve_Rune\">Greater Resolve Rune</a>",
+    "stat": "+12 to Intelligence",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ResolveRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneIntelligencePerfect\" href=\"Perfect_Resolve_Rune\">Perfect Resolve Rune</a>",
+    "stat": "+15 to Intelligence",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectResolveRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FTalismanSnake\" href=\"Snake_Idol\">Snake Idol</a>",
+    "stat": "8% increased Curse Magnitudes",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "SnakeIdol"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FTalismanCat\" href=\"Cat_Idol\">Cat Idol</a>",
+    "stat": "25% increased Accuracy Rating",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CatIdol"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FTalismanWolf\" href=\"Wolf_Idol\">Wolf Idol</a>",
+    "stat": "15% increased Magnitude of Bleeding you inflict",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "WolfIdol"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FTalismanBoar\" href=\"Boar_Idol\">Boar Idol</a>",
+    "stat": "Gain 1 Rage on Melee Hit",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "BoarIdol"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial5\" href=\"Hedgewitch_Assandras_Rune_of_Wisdom\">Hedgewitch Assandra's Rune of Wisdom</a>",
+    "stat": "+1 to Level of all Spell Skills",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "HedgewitchAssandrasRuneofWisdom"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial6\" href=\"Saqawals_Rune_of_the_Sky\">Saqawal's Rune of the Sky</a>",
+    "stat": "Gain 5% of Damage as Extra Damage of all Elements",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "SaqawalsRuneoftheSky"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial7\" href=\"Fenumus_Rune_of_Agony\">Fenumus' Rune of Agony</a>",
+    "stat": "Gain 13% of Damage as Extra Chaos Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "FenumusRuneofAgony"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial15\" href=\"Courtesan_Mannans_Rune_of_Cruelty\">Courtesan Mannan's Rune of Cruelty</a>",
+    "stat": "20% increased Magnitude of Damaging Ailments you inflict",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CourtesanMannansRuneofCruelty"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial16\" href=\"Thane_Grannells_Rune_of_Mastery\">Thane Grannell's Rune of Mastery</a>",
+    "stat": "30% increased Magnitude of Non-Damaging Ailments you inflict",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ThaneGrannellsRuneofMastery"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial17\" href=\"Fenumus_Rune_of_Spinning\">Fenumus' Rune of Spinning</a>",
+    "stat": "8% increased Cast Speed",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "FenumusRuneofSpinning"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial19\" href=\"Thane_Girts_Rune_of_Wildness\">Thane Girt's Rune of Wildness</a>",
+    "stat": "25% chance for Spell Skills to fire 2 additional Projectiles",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ThaneGirtsRuneofWildness"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial20\" href=\"Fenumus_Rune_of_Draining\">Fenumus' Rune of Draining</a>",
+    "stat": "20% increased Withered Magnitude",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "FenumusRuneofDraining"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial24\" href=\"The_Greatwolfs_Rune_of_Claws\">The Greatwolf's Rune of Claws</a>",
+    "stat": "Adds 5 to 12 Physical Damage to Attacks",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "TheGreatwolfsRuneofClaws"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FTalismanSpecial1\" href=\"Idol_of_Sirrius\">Idol of Sirrius</a>",
+    "stat": "8% increased Attack Speed",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IdolofSirrius"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FIdolSpecial6\" href=\"Idol_of_Kraityn\">Idol of Kraityn</a>",
+    "stat": "15% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IdolofKraityn"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FSoulCoreSpecial3\" href=\"Topotantes_Soul_Core_of_Dampening\">Topotante's Soul Core of Dampening</a>",
+    "stat": "+40% of Armour also applies to Fire Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "TopotantesSoulCoreofDampening"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FSoulCoreSpecial8\" href=\"Opilotis_Soul_Core_of_Assault\">Opiloti's Soul Core of Assault</a>",
+    "stat": "50% chance when you gain a Frenzy Charge to gain an additional Frenzy Charge",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "OpilotisSoulCoreofAssault"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FSoulCoreSpecial9\" href=\"Guatelitzis_Soul_Core_of_Endurance\">Guatelitzi's Soul Core of Endurance</a>",
+    "stat": "50% chance when you gain an Endurance Charge to gain an additional Endurance Charge",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "GuatelitzisSoulCoreofEndurance"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FSoulCoreSpecial10\" href=\"Xopecs_Soul_Core_of_Power\">Xopec's Soul Core of Power</a>",
+    "stat": "50% chance when you gain a Power Charge to gain an additional Power Charge",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "XopecsSoulCoreofPower"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FSoulCoreSpecial15\" href=\"Xipocados_Soul_Core_of_Dominion\">Xipocado's Soul Core of Dominion</a>",
+    "stat": "Minions deal 40% increased Damage with Command Skills",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "XipocadosSoulCoreofDominion"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FTecrodsGaze\" href=\"Tecrods_Gaze\">Tecrod's Gaze</a>",
+    "stat": "25% increased Life Cost Efficiency",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "TecrodsGaze"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FKurgalsGaze\" href=\"Kurgals_Gaze\">Kurgal's Gaze</a>",
+    "stat": "40% increased effect of Arcane Surge on you",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "KurgalsGaze"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FUlamansGaze\" href=\"Ulamans_Gaze\">Ulaman's Gaze</a>",
+    "stat": "Critical Hit chance is Lucky against Parried enemies",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "UlamansGaze"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FThesisOfSacrifice\" href=\"Citaqualotls_Thesis\">Citaqualotl's Thesis</a>",
+    "stat": "One of your Persistent Minions revives when an Offering expires",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CitaqualotlsThesis"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FThesisOfSouls\" href=\"Jiquanis_Thesis\">Jiquani's Thesis</a>",
+    "stat": "Energy Shield Recharge starts after spending a total of 2000 Mana, no more than once every 2 seconds",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "JiquanisThesis"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FThesisOfExperiments\" href=\"Quipolatls_Thesis\">Quipolatl's Thesis</a>",
+    "stat": "Your Energy Shield Recharge starts when your Minions are Reformed",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "QuipolatlsThesis"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FEmergentPossibility\" href=\"Emergent_Possibility\">Emergent Possibility</a>",
+    "stat": "Gain 1% of Damage as Extra Damage of a random Element perRune Socketed in Equipped Items",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "EmergentPossibility"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FEmergentProtection\" href=\"Emergent_Protection\">Emergent Protection</a>",
+    "stat": "Banners also grant 2% of Life Regenerated per second to affected targets",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "EmergentProtection"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FEmergentInstinct\" href=\"Emergent_Instinct\">Emergent Instinct</a>",
+    "stat": "Recover 10% of maximum Life over 2 Seconds when you use a Command Skill",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "EmergentInstinct"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FCarvedMajesty\" href=\"Carved_Majesty\">Carved Majesty</a>",
+    "stat": "Companions gain Onslaught for 4 seconds on Hitting your Marked targets",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CarvedMajesty"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FCarvedMischief\" href=\"Carved_Mischief\">Carved Mischief</a>",
+    "stat": "+5% to maximum Block chance if you've Blocked with a raised Shield Recently",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CarvedMischief"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FCarvedTenacity\" href=\"Carved_Tenacity\">Carved Tenacity</a>",
+    "stat": "Enemies you Critically Hit get 100% reduced Life Regeneration Rate for 4 seconds",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CarvedTenacity"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneUpgrade\" href=\"Masterwork_Rune\">Masterwork Rune</a>",
+    "stat": "Upgrades a socketed Rune",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "MasterworkRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneWardSpecial4\" href=\"Warding_Rune_of_Desperation\">Warding Rune of Desperation</a>",
+    "stat": "Spell damage Penetrates 25% of enemy Elemental Resistances while on Low Runic Ward",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "WardingRuneofDesperation"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOfTheAncients17\" href=\"Rune_of_Culmination\">Rune of Culmination</a>",
+    "stat": "50% chance to build an additional Combo on Hit",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RuneofCulmination"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOfTheAncients18\" href=\"Rune_of_Renown\">Rune of Renown</a>",
+    "stat": "50% increased Glory generation",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RuneofRenown"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOfTheAncients19\" href=\"Rune_of_Accumulation\">Rune of Accumulation</a>",
+    "stat": "Gain 3 Life per Enemy Hit with AttacksGain 1 Mana per Enemy Hit with Attacks",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RuneofAccumulation"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOfTheAncients24\" href=\"Rune_of_Reach\">Rune of Reach</a>",
+    "stat": "Remnants you create have 25% reduced effectRemnants can be collected from 50% further away",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RuneofReach"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneWarpingAdditionalSuffix\" href=\"Serles_Triumph\">Serle's Triumph</a>",
+    "stat": "+1 Suffix Modifier allowedlocal maximum mods allowed + [1]",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "SerlesTriumph"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneWarpingCreateJewelSocket\" href=\"Cadigans_Epiphany\">Cadigan's Epiphany</a>",
+    "stat": "Destroys all Augment Sockets on the item to create a Jewel Socket",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CadigansEpiphany"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneWarpingAdditionalCraftedMod\" href=\"Astrids_Creativity\">Astrid's Creativity</a>",
+    "stat": "Can have 1 additional Crafted Modifier",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "AstridsCreativity"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneWarpingMarksmanInfluence\" href=\"Kolrs_Hunt\">Kolr's Hunt</a>",
+    "stat": "Can roll Marksman modifiers",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "KolrsHunt"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneWarpingDecayInfluence\" href=\"Katlas_Gloom\">Katla's Gloom</a>",
+    "stat": "Can roll Decay modifiers",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "KatlasGloom"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneWarpingOlrothsLegacy\" href=\"Aldurs_Legacy\">Aldur's Legacy</a>",
+    "stat": "When socketed into a Unique Kalguuran or Ezomyte item, destroys the item to create a Rune imbued with that item's power",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "AldursLegacy"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOlrothsLegacyNorthpaw\" href=\"Legacy_of_Northpaw\">Legacy of Northpaw</a>",
+    "stat": "Base Critical Hit Chance for Attacks with Weapons is 7%",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "LegacyofNorthpaw"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOlrothsLegacyCandlemaker\" href=\"Legacy_of_Candlemaker\">Legacy of Candlemaker</a>",
+    "stat": "40% increased Fire DamageFlammability Magnitude is doubled",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "LegacyofCandlemaker"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOlrothsLegacyDeathblow\" href=\"Legacy_of_Deathblow\">Legacy of Deathblow</a>",
+    "stat": "Culling Strike",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "LegacyofDeathblow"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOlrothsLegacyFacebreaker\" href=\"Legacy_of_Facebreaker\">Legacy of Facebreaker</a>",
+    "stat": "+1 to Armour per Strength",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "LegacyofFacebreaker"
+    ],
+    "glove_type": "str_dex",
+    "section": "socketable",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneFireLesser\" href=\"Lesser_Desert_Rune\">Lesser Desert Rune</a>",
+    "stat": "30% increased Ignite Magnitude",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DesertRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneFire\" href=\"Desert_Rune\">Desert Rune</a>",
+    "stat": "30% increased Ignite Magnitude",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DesertRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneFireGreater\" href=\"Greater_Desert_Rune\">Greater Desert Rune</a>",
+    "stat": "30% increased Ignite Magnitude",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "DesertRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneFirePerfect\" href=\"Perfect_Desert_Rune\">Perfect Desert Rune</a>",
+    "stat": "30% increased Ignite Magnitude",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectDesertRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneColdLesser\" href=\"Lesser_Glacial_Rune\">Lesser Glacial Rune</a>",
+    "stat": "30% increased Freeze Buildup",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "GlacialRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneCold\" href=\"Glacial_Rune\">Glacial Rune</a>",
+    "stat": "30% increased Freeze Buildup",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "GlacialRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneColdGreater\" href=\"Greater_Glacial_Rune\">Greater Glacial Rune</a>",
+    "stat": "30% increased Freeze Buildup",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "GlacialRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneColdPerfect\" href=\"Perfect_Glacial_Rune\">Perfect Glacial Rune</a>",
+    "stat": "30% increased Freeze Buildup",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectGlacialRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLightningLesser\" href=\"Lesser_Storm_Rune\">Lesser Storm Rune</a>",
+    "stat": "30% increased Magnitude of Shock you inflict",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "StormRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLightning\" href=\"Storm_Rune\">Storm Rune</a>",
+    "stat": "30% increased Magnitude of Shock you inflict",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "StormRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLightningGreater\" href=\"Greater_Storm_Rune\">Greater Storm Rune</a>",
+    "stat": "30% increased Magnitude of Shock you inflict",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "StormRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLightningPerfect\" href=\"Perfect_Storm_Rune\">Perfect Storm Rune</a>",
+    "stat": "30% increased Magnitude of Shock you inflict",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectStormRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneEnhanceLesser\" href=\"Lesser_Iron_Rune\">Lesser Iron Rune</a>",
+    "stat": "Break Armour on Critical Hit with Spells equal to 12% of Physical Damage dealt",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IronRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneEnhance\" href=\"Iron_Rune\">Iron Rune</a>",
+    "stat": "Break Armour on Critical Hit with Spells equal to 12% of Physical Damage dealt",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IronRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneEnhanceGreater\" href=\"Greater_Iron_Rune\">Greater Iron Rune</a>",
+    "stat": "Break Armour on Critical Hit with Spells equal to 12% of Physical Damage dealt",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IronRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneEnhancePerfect\" href=\"Perfect_Iron_Rune\">Perfect Iron Rune</a>",
+    "stat": "Break Armour on Critical Hit with Spells equal to 12% of Physical Damage dealt",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectIronRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifeLesser\" href=\"Lesser_Body_Rune\">Lesser Body Rune</a>",
+    "stat": "5% increased maximum Life",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "BodyRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLife\" href=\"Body_Rune\">Body Rune</a>",
+    "stat": "5% increased maximum Life",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "BodyRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifeGreater\" href=\"Greater_Body_Rune\">Greater Body Rune</a>",
+    "stat": "5% increased maximum Life",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "BodyRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifePerfect\" href=\"Perfect_Body_Rune\">Perfect Body Rune</a>",
+    "stat": "5% increased maximum Life",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectBodyRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaLesser\" href=\"Lesser_Mind_Rune\">Lesser Mind Rune</a>",
+    "stat": "5% increased maximum Mana",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "MindRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneMana\" href=\"Mind_Rune\">Mind Rune</a>",
+    "stat": "5% increased maximum Mana",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "MindRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaGreater\" href=\"Greater_Mind_Rune\">Greater Mind Rune</a>",
+    "stat": "5% increased maximum Mana",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "MindRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaPerfect\" href=\"Perfect_Mind_Rune\">Perfect Mind Rune</a>",
+    "stat": "5% increased maximum Mana",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectMindRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifeRecoveryLesser\" href=\"Lesser_Rebirth_Rune\">Lesser Rebirth Rune</a>",
+    "stat": "8% of Damage taken Recouped as Life",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RebirthRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifeRecovery\" href=\"Rebirth_Rune\">Rebirth Rune</a>",
+    "stat": "8% of Damage taken Recouped as Life",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RebirthRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifeRecoveryGreater\" href=\"Greater_Rebirth_Rune\">Greater Rebirth Rune</a>",
+    "stat": "8% of Damage taken Recouped as Life",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RebirthRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneLifeRecoveryPerfect\" href=\"Perfect_Rebirth_Rune\">Perfect Rebirth Rune</a>",
+    "stat": "8% of Damage taken Recouped as Life",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectRebirthRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaRecoveryLesser\" href=\"Lesser_Inspiration_Rune\">Lesser Inspiration Rune</a>",
+    "stat": "16% increased Mana Cost Efficiency",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "InspirationRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaRecovery\" href=\"Inspiration_Rune\">Inspiration Rune</a>",
+    "stat": "16% increased Mana Cost Efficiency",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "InspirationRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaRecoveryGreater\" href=\"Greater_Inspiration_Rune\">Greater Inspiration Rune</a>",
+    "stat": "16% increased Mana Cost Efficiency",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "InspirationRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneManaRecoveryPerfect\" href=\"Perfect_Inspiration_Rune\">Perfect Inspiration Rune</a>",
+    "stat": "16% increased Mana Cost Efficiency",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectInspirationRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStunLesser\" href=\"Lesser_Stone_Rune\">Lesser Stone Rune</a>",
+    "stat": "30% increased Immobilisation buildup",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "StoneRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStun\" href=\"Stone_Rune\">Stone Rune</a>",
+    "stat": "30% increased Immobilisation buildup",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "StoneRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStunGreater\" href=\"Greater_Stone_Rune\">Greater Stone Rune</a>",
+    "stat": "30% increased Immobilisation buildup",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "StoneRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStunPerfect\" href=\"Perfect_Stone_Rune\">Perfect Stone Rune</a>",
+    "stat": "30% increased Immobilisation buildup",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectStoneRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneAccuracyLesser\" href=\"Lesser_Vision_Rune\">Lesser Vision Rune</a>",
+    "stat": "25% increased Critical Damage Bonus",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "VisionRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneAccuracy\" href=\"Vision_Rune\">Vision Rune</a>",
+    "stat": "25% increased Critical Damage Bonus",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "VisionRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneAccuracyGreater\" href=\"Greater_Vision_Rune\">Greater Vision Rune</a>",
+    "stat": "25% increased Critical Damage Bonus",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "VisionRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneAccuracyPerfect\" href=\"Perfect_Vision_Rune\">Perfect Vision Rune</a>",
+    "stat": "25% increased Critical Damage Bonus",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectVisionRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStrengthLesser\" href=\"Lesser_Robust_Rune\">Lesser Robust Rune</a>",
+    "stat": "+100 to Armour",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RobustRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStrength\" href=\"Robust_Rune\">Robust Rune</a>",
+    "stat": "+100 to Armour",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RobustRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStrengthGreater\" href=\"Greater_Robust_Rune\">Greater Robust Rune</a>",
+    "stat": "+100 to Armour",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RobustRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneStrengthPerfect\" href=\"Perfect_Robust_Rune\">Perfect Robust Rune</a>",
+    "stat": "+100 to Armour",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectRobustRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneDexterityLesser\" href=\"Lesser_Adept_Rune\">Lesser Adept Rune</a>",
+    "stat": "+80 to Evasion Rating",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "AdeptRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneDexterity\" href=\"Adept_Rune\">Adept Rune</a>",
+    "stat": "+80 to Evasion Rating",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "AdeptRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneDexterityGreater\" href=\"Greater_Adept_Rune\">Greater Adept Rune</a>",
+    "stat": "+80 to Evasion Rating",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "AdeptRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneDexterityPerfect\" href=\"Perfect_Adept_Rune\">Perfect Adept Rune</a>",
+    "stat": "+80 to Evasion Rating",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectAdeptRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneIntelligenceLesser\" href=\"Lesser_Resolve_Rune\">Lesser Resolve Rune</a>",
+    "stat": "+50 to maximum Energy Shield",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ResolveRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneIntelligence\" href=\"Resolve_Rune\">Resolve Rune</a>",
+    "stat": "+50 to maximum Energy Shield",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ResolveRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneIntelligenceGreater\" href=\"Greater_Resolve_Rune\">Greater Resolve Rune</a>",
+    "stat": "+50 to maximum Energy Shield",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ResolveRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneIntelligencePerfect\" href=\"Perfect_Resolve_Rune\">Perfect Resolve Rune</a>",
+    "stat": "+50 to maximum Energy Shield",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "PerfectResolveRune"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FTalismanSnake\" href=\"Snake_Idol\">Snake Idol</a>",
+    "stat": "Remnants you create have 15% increased effect",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "SnakeIdol"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FTalismanCat\" href=\"Cat_Idol\">Cat Idol</a>",
+    "stat": "30% increased Charm Charges gained",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CatIdol"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FTalismanWolf\" href=\"Wolf_Idol\">Wolf Idol</a>",
+    "stat": "25% reduced Magnitude of Bleeding on You",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "WolfIdol"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FTalismanBoar\" href=\"Boar_Idol\">Boar Idol</a>",
+    "stat": "25% increased Warcry Cooldown Recovery Rate",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "BoarIdol"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial5\" href=\"Hedgewitch_Assandras_Rune_of_Wisdom\">Hedgewitch Assandra's Rune of Wisdom</a>",
+    "stat": "Archon recovery period expires 30% faster",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "HedgewitchAssandrasRuneofWisdom"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial6\" href=\"Saqawals_Rune_of_the_Sky\">Saqawal's Rune of the Sky</a>",
+    "stat": "12% chance when collecting an Elemental Infusion to gain anadditional Elemental Infusion of the same type",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "SaqawalsRuneoftheSky"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial7\" href=\"Fenumus_Rune_of_Agony\">Fenumus' Rune of Agony</a>",
+    "stat": "Gain 8% of Damage as Extra Physical Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "FenumusRuneofAgony"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial15\" href=\"Courtesan_Mannans_Rune_of_Cruelty\">Courtesan Mannan's Rune of Cruelty</a>",
+    "stat": "15% increased Duration of Damaging Ailments on Enemies",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CourtesanMannansRuneofCruelty"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial16\" href=\"Thane_Grannells_Rune_of_Mastery\">Thane Grannell's Rune of Mastery</a>",
+    "stat": "15% increased Duration of Elemental Ailments on Enemies",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ThaneGrannellsRuneofMastery"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial17\" href=\"Fenumus_Rune_of_Spinning\">Fenumus' Rune of Spinning</a>",
+    "stat": "20% increased Mana Cost Efficiency while on Low Mana",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "FenumusRuneofSpinning"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial19\" href=\"Thane_Girts_Rune_of_Wildness\">Thane Girt's Rune of Wildness</a>",
+    "stat": "Every Rage also grants 1% increased Spell Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "ThaneGirtsRuneofWildness"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial20\" href=\"Fenumus_Rune_of_Draining\">Fenumus' Rune of Draining</a>",
+    "stat": "+7% to Chaos Resistance",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "FenumusRuneofDraining"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneSpecial24\" href=\"The_Greatwolfs_Rune_of_Claws\">The Greatwolf's Rune of Claws</a>",
+    "stat": "Fissure Skills have +2 to Limit",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "TheGreatwolfsRuneofClaws"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FTalismanSpecial1\" href=\"Idol_of_Sirrius\">Idol of Sirrius</a>",
+    "stat": "20% reduced Slowing Potency of Debuffs on You",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IdolofSirrius"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FIdolSpecial6\" href=\"Idol_of_Kraityn\">Idol of Kraityn</a>",
+    "stat": "+1 to Maximum Frenzy Charges",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "IdolofKraityn"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FEmergentPossibility\" href=\"Emergent_Possibility\">Emergent Possibility</a>",
+    "stat": "20% increased Elemental Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "EmergentPossibility"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FEmergentProtection\" href=\"Emergent_Protection\">Emergent Protection</a>",
+    "stat": "Regenerate 0.5% of maximum Life per second",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "EmergentProtection"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FEmergentInstinct\" href=\"Emergent_Instinct\">Emergent Instinct</a>",
+    "stat": "20% increased Life Regeneration rate",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "EmergentInstinct"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FCarvedMajesty\" href=\"Carved_Majesty\">Carved Majesty</a>",
+    "stat": "Companions deal 30% increased Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CarvedMajesty"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FCarvedMischief\" href=\"Carved_Mischief\">Carved Mischief</a>",
+    "stat": "20% increased Block chance",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CarvedMischief"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FCarvedTenacity\" href=\"Carved_Tenacity\">Carved Tenacity</a>",
+    "stat": "15% increased Critical Hit Chance",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "CarvedTenacity"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneWardSpecial4\" href=\"Warding_Rune_of_Desperation\">Warding Rune of Desperation</a>",
+    "stat": "12% increased Elemental Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "WardingRuneofDesperation"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOfTheAncients17\" href=\"Rune_of_Culmination\">Rune of Culmination</a>",
+    "stat": "5% increased Attack Speed",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RuneofCulmination"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOfTheAncients18\" href=\"Rune_of_Renown\">Rune of Renown</a>",
+    "stat": "Banner Skills have 20% increased Aura Magnitudes",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RuneofRenown"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOfTheAncients19\" href=\"Rune_of_Accumulation\">Rune of Accumulation</a>",
+    "stat": "+30 to maximum Life+30 to maximum Mana",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RuneofAccumulation"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOfTheAncients24\" href=\"Rune_of_Reach\">Rune of Reach</a>",
+    "stat": "20% increased Exposure Effect",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "RuneofReach"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneWarpingMarksmanInfluence\" href=\"Kolrs_Hunt\">Kolr's Hunt</a>",
+    "stat": "20% increased Projectile Damage",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "KolrsHunt"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneWarpingDecayInfluence\" href=\"Katlas_Gloom\">Katla's Gloom</a>",
+    "stat": "25% reduced Effect of Non-Damaging Ailments on you",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "KatlasGloom"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOlrothsLegacyNorthpaw\" href=\"Legacy_of_Northpaw\">Legacy of Northpaw</a>",
+    "stat": "15% increased Critical Damage Bonus",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "LegacyofNorthpaw"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOlrothsLegacyCandlemaker\" href=\"Legacy_of_Candlemaker\">Legacy of Candlemaker</a>",
+    "stat": "20% increased Ignite Duration on Enemies",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "LegacyofCandlemaker"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOlrothsLegacyDeathblow\" href=\"Legacy_of_Deathblow\">Legacy of Deathblow</a>",
+    "stat": "Gain 30 Life per enemy killed",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "LegacyofDeathblow"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
+  },
+  {
+    "code": "",
+    "name": "<a class=\"whiteitem SoulCore\" data-hover=\"?s=Data%5CBaseItemTypes%2FMetadata%2FItems%2FSoulCores%2FRuneOlrothsLegacyFacebreaker\" href=\"Legacy_of_Facebreaker\">Legacy of Facebreaker</a>",
+    "stat": "1% increased Damage per 15 Strength",
+    "type": "Suffix",
+    "level": 1,
+    "tier": "",
+    "drop_chance": 0,
+    "family": [
+      "LegacyofFacebreaker"
+    ],
+    "glove_type": "str_dex",
+    "section": "bonded",
+    "desecrated": false
   }
 ]
