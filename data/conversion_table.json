@@ -52,7 +52,12 @@
     "example": "75% increased Evasion Rating → 15% more Global Evasion Rating and Energy Shield",
     "split": false,
     "confirmed": true,
-    "unknown": false
+    "unknown": false,
+    "predict_formula": {
+      "ratio": 0.2,
+      "round_to": 1,
+      "output_pattern": "{value}% more Global Evasion Rating and Energy Shield"
+    }
   },
 
   "increased armour": {
@@ -225,13 +230,18 @@
   },
 
   "attack speed": {
-    "converted_stat": "cast speed (same % value, attack → cast)",
+    "converted_stat": "Cast Speed",
     "formula": "value preserved exactly",
     "example": "5% reduced Attack Speed → 5% reduced Cast Speed",
     "split": false,
     "note": "Attack Speed converts to Cast Speed preserving the exact % value. Pattern: attack stat → cast stat.",
     "confirmed": true,
-    "unknown": false
+    "unknown": false,
+    "predict_formula": {
+      "ratio": 1.0,
+      "round_to": 1,
+      "output_pattern": "{value}% increased Cast Speed"
+    }
   },
 
   "stun buildup": {
@@ -241,11 +251,16 @@
     "split": false,
     "note": "CC buildup stat → different CC buildup stat. Stun is a form of Immobilisation.",
     "confirmed": true,
-    "unknown": true
+    "unknown": true,
+    "predict_formula": {
+      "ratio": 0.72,
+      "round_to": 1,
+      "output_pattern": "~{value}% increased Immobilisation buildup"
+    }
   },
 
   "gain arcane surge": {
-    "converted_stat": "chance to gain a Power Charge on Critical Hit",
+    "converted_stat": "10% chance to gain a Power Charge on Critical Hit",
     "formula": "Output is FIXED at 10% regardless of input. Normal mod (10%) → 10%; Desecrated T1 (12%, range 10-15%) → 10%.",
     "example": "NORMAL (Knightly Mitts, str): 10% Arcane Surge on Crit → 10% Power Charge on Crit. DESECRATED T1 (Sorrow Fingers, dex_int): 12(10-15)% → 10% Power Charge on Crit (higher input, same output).",
     "split": false,
@@ -281,7 +296,12 @@
     "split": false,
     "note": "CONFIRMED ÷5 same as increased Evasion Rating. INT base (pure Energy Shield stat) converts to EVA+ES combined output at same ÷5 ratio. Round half-up: 38/5=7.6→8.",
     "confirmed": true,
-    "unknown": false
+    "unknown": false,
+    "predict_formula": {
+      "ratio": 0.2,
+      "round_to": 1,
+      "output_pattern": "{value}% more Global Evasion Rating and Energy Shield"
+    }
   },
 
   "adds fire damage to attacks": {
@@ -346,11 +366,22 @@
     "split": false,
     "note": "Cast Speed ↔ Attack Speed swap is BIDIRECTIONAL. Attack Speed → Cast Speed on Treefingers (confirmed); Cast Speed → Attack Speed confirmed on Demon Stitcher. Value preserved in both directions.",
     "confirmed": true,
-    "unknown": false
+    "unknown": false,
+    "predict_formula": {
+      "ratio": 1.0,
+      "round_to": 1,
+      "output_pattern": "{value}% increased Attack Speed"
+    }
   },
 
   "increased evasion and energy shield": {
     "converted_stat": "more Global Evasion Rating and Energy Shield",
+    "predict_formula": {
+      "ratio": 0.2,
+      "round_mode": "ceil",
+      "round_to": 1,
+      "output_pattern": "~{value}% more Global Evasion Rating and Energy Shield"
+    },
     "formula": "VALUE-BASED (ceil(value/5)): 67%→14% (ceil 13.4=14 ✓); 75%→15% (ceil 15.0=15 ✓); 98%→20% (ceil 19.6=20 ✓). UNCERTAIN: 91%→17% (ceil 18.2=19 ≠17 — may be misread). LOW TIERS (≤35%) → NO visible output CONFIRMED.",
     "example": "RARE T4 (Agony Hand, dex_int): 67(56-67)% → 14% (ceil(67/5)=14 ✓). RARE T1 (Sorrow Fingers, Secured Wraps dex_int): 98(92-100)% → 20% (ceil(98/5)=20 ✓). UNIQUE (Thunderfist) ~75% → 15% (75/5=15 exact ✓). UNCERTAIN: Agony Mitts 91% → 17% (doesn't fit ceil formula — possible misread of roll). LOW TIER CONFIRMED NO OUTPUT: Spirit Claw (War Wraps, dex_int) 31(27-32)% → NO explicit output (the mod simply vanishes in the conversion).",
     "split": false,
@@ -366,7 +397,12 @@
     "split": false,
     "note": "Tri-hybrid defence stat (STR/DEX/INT). Different ratio from single stats (÷5 for Evasion, ÷4 for Armour). Confirmed on Sine Aequo at max roll 150% → 19%. Ratio ÷8.",
     "confirmed": true,
-    "unknown": false
+    "unknown": false,
+    "predict_formula": {
+      "ratio": 0.125,
+      "round_to": 1,
+      "output_pattern": "{value}% more Global Evasion Rating and Energy Shield"
+    }
   },
 
   "chance to poison": {

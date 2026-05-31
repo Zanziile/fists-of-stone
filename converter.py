@@ -1,5 +1,6 @@
 """Conversion logic for Way of the Stonefist."""
 import json
+import math
 import re
 import sys
 from pathlib import Path
@@ -99,7 +100,10 @@ def _predict_value(stat: str, conversion: dict) -> str | None:
     def _apply(n: float) -> int:
         v = n * ratio
         if round_to:
-            v = round(v / round_to) * round_to
+            if pf.get("round_mode") == "ceil":
+                v = math.ceil(v / round_to) * round_to
+            else:
+                v = round(v / round_to) * round_to
         return int(round(v))
 
     # Look for a range like (10-20) or (10–20)
@@ -158,20 +162,18 @@ def convert_mod(mod: dict) -> dict:
     unknown = conversion.get("unknown", True)
     confirmed = conversion.get("confirmed", False)
 
-    # Try to compute a predicted value for unknown-formula entries
-    predicted_str = None
-    is_predicted = False
-    if unknown:
-        predicted_str = _predict_value(stat, conversion)
-        if predicted_str:
-            is_predicted = True
+    # Always try predict_formula if available — works for both confirmed and estimated entries.
+    # is_predicted=True only for uncertain (unknown) entries; confirmed entries apply the
+    # formula silently and keep their "confirmed" (green) status.
+    predicted_str = _predict_value(stat, conversion)
+    is_predicted = predicted_str is not None and unknown
 
     base = {
         "original": stat,
-        "converted": predicted_str if is_predicted else conversion.get("converted_stat", "?"),
+        "converted": predicted_str if predicted_str is not None else conversion.get("converted_stat", "?"),
         "split": conversion.get("split", False),
         "split_outputs": conversion.get("split_outputs", []),
-        "unknown": unknown and not is_predicted,
+        "unknown": unknown and predicted_str is None,
         "predicted": is_predicted,
         "confirmed": confirmed,
         "formula": conversion.get("formula", ""),
